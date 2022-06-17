@@ -1,0 +1,21 @@
+{
+    "name": "softcon-themes-darkokai",
+    "displayName": "Darkokai",
+    "description": "Clean dark monokai inspired theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "SoftCon Darkokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/SoftCon Darkokai-color-theme.json"
+            }
+        ]
+    }
+}
