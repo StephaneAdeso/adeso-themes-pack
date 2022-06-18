@@ -1,13 +1,11 @@
-# README
-## This is the README for your extension "softcon-themes-darkokai"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Darkokai
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+This dark theme for [Visual Studio Code](http://code.visualstudio.com) is based on the monokai color palette. It aims to give the user a clean interface without so many lines.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Maintainers
 
-**Enjoy!**
+This theme is maintained by Stephane Margini from North of Spain ( Asturias)
+
+## License
+
+[MIT License](./LICENSE)
