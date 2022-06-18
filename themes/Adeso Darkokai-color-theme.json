@@ -16,10 +16,17 @@
   },
   "categories": ["Themes"],
   "colors": {
-    "editor.background": "#263238",
-    "editor.foreground": "#eeffff",
-    "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "editor.background": "#272727",
+    "editor.foreground": "#e6e6e6",
+    "sideBar.background": "#272727",
+    "sideBarTitle.foreground": "#e6e6e6",
+    "activityBar.background": "#272727",
+    "activityBar.activeBorder": "#2cc3f0",
+    "activityBar.foreground": "#2cc3f0",
+    "activityBar.inactiveForeground": "#e6e6e67c",
+    "activityBarBadge.foreground": "#e6e6e6",
+    "activityBarBadge.background": "#ff006c",
+    "statusBar.background": "#a245ff"    
   },
   "tokenColors": [
     {
