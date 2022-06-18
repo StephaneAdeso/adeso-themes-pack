@@ -2,9 +2,9 @@
   "name": "Darkokai",
   "displayName": "Darkokai",
   "description": "Clean dark theme inspired in Monokai colors.",
-  "publisher": "SoftCon",
+  "publisher": "Adeso",
   "version": "0.0.1",
-  "repository": "https://github.com/Osolemio44/softcon-themes-darkokai",
+  "repository": "https://github.com/Osolemio44/adeso-themes-darkokai",
   "engines": {
     "vscode": "^1.68.1"
   },

@@ -1,5 +1,5 @@
 {
-    "name": "softcon-themes-darkokai",
+    "name": "adeso-themes-darkokai",
     "displayName": "Darkokai",
     "description": "Clean dark monokai inspired theme.",
     "version": "0.0.1",
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "SoftCon Darkokai",
+                "label": "Adeso Darkokai",
                 "uiTheme": "vs-dark",
-                "path": "./themes/SoftCon Darkokai-color-theme.json"
+                "path": "./themes/Adeso Darkokai-color-theme.json"
             }
         ]
     }
