@@ -17,7 +17,7 @@
   "categories": ["Themes"],
   "colors": {
     "editor.background": "#272727",
-    "editor.foreground": "#e6e6e6",
+    "editor.foreground": "#dbdbdb",
     "editorLineNumber.activeForeground": "#a245ff",
     "editorLineNumber.foreground": "#444444",
     "editorIndentGuide.background": "#444444",
@@ -36,12 +36,12 @@
     "sideBar.background": "#272727",
     "sideBarSectionHeader.background": "#272727",
     "sideBarSectionHeader.border": "#272727",
-    "sideBarTitle.foreground": "#e6e6e6",
+    "sideBarTitle.foreground": "#dbdbdb",
     "activityBar.background": "#272727",
     "activityBar.activeBorder": "#2cc3f0",
     "activityBar.foreground": "#2cc3f0",
-    "activityBar.inactiveForeground": "#e6e6e67c",
-    "activityBarBadge.foreground": "#e6e6e6",
+    "activityBar.inactiveForeground": "#dbdbdb7c",
+    "activityBarBadge.foreground": "#dbdbdb",
     "activityBarBadge.background": "#ff006c",
     "tree.indentGuidesStroke": "#2cc3f0",
     "list.activeSelectionBackground": "#2cc2f04b",
@@ -60,7 +60,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#dbdbdb"
       }
     },
     {
@@ -146,7 +146,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#dbdbdb"
       }
     },
     {
@@ -168,7 +168,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#e6e6e6"
+        "foreground": "#dbdbdb"
       }
     },
     {
@@ -206,7 +206,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#dbdbdb"
       }
     },
     {
@@ -272,6 +272,13 @@
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#2cc3f0"
+      }
+    },
+    {
+      "name": "HTML Attribute name",
+      "scope": ["entity.other.attribute-name.html"],
+      "settings": {
+        "foreground": "#a245ff"
       }
     },
     {
