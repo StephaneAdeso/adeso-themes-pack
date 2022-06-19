@@ -227,7 +227,15 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#2cc3f0"
+      }
+    },
+    {
+      "name": "CSS attributes name id",
+      "scope": [
+        "entity.other.attribute-name.id.css"],
+      "settings": {
+        "foreground": "#a245ff"
       }
     },
     {
