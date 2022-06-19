@@ -484,7 +484,14 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#ff006c"
+      }
+    },
+    {
+      "name": "Markdown - entity name",
+      "scope": ["entity.name.section.markdown"],
+      "settings": {
+        "foreground": "#2cc3f0"
       }
     },
     {
