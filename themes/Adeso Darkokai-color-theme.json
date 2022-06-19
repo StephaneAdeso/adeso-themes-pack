@@ -4,10 +4,22 @@
   "description": "Clean dark theme inspired in Monokai colors.",
   "publisher": "Adeso",
   "version": "0.0.1",
-  "repository": "https://github.com/Osolemio44/adeso-themes-darkokai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Osolemio44/adeso-themes-darkokai"
+  },
   "engines": {
     "vscode": "^1.68.1"
   },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "monokai",
+    "dark",
+    "free theme",
+    "colorfull",
+    "adeso"
+  ],
   "icon": "icon/darkokai_icon.png",
   "author": {
     "name": "Stephane Margini",
