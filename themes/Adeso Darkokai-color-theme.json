@@ -232,10 +232,42 @@
     },
     {
       "name": "CSS attributes name id",
-      "scope": [
-        "entity.other.attribute-name.id.css"],
+      "scope": ["entity.other.attribute-name.id.css"],
       "settings": {
         "foreground": "#a245ff"
+      }
+    },
+    {
+      "name": "CSS string quoted",
+      "scope": ["string.quoted.double.css", "string.quoted.single.css"],
+      "settings": {
+        "foreground": "#dbdbdb"
+      }
+    },
+    {
+      "name": "CSS rgb value hex",
+      "scope": ["constant.other.color.rgb-value.hex.css"],
+      "settings": {
+        "foreground": "#dbdbdb"
+      }
+    },
+    {
+      "name": "CSS variable",
+      "scope": ["variable.css"],
+      "settings": {
+        "foreground": "#a245ff"
+      }
+    },
+    {
+      "name": "CSS names ",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.id.css",
+        "keyword.control.at-rule.font-face.css"
+      ],
+      "settings": {
+        "foreground": "#ff006c"
       }
     },
     {
