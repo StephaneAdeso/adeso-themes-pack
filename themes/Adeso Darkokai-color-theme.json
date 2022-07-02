@@ -705,10 +705,20 @@
       }
     },
     {
-      "name": "JAVA storage modifier import",
-      "scope": ["storage.modifier.import.java"],
+      "name": "JAVA storage modifiers",
+      "scope": [
+        "storage.modifier.import.java",
+        "storage.modifier.package.java"
+      ],
       "settings": {
         "foreground": "#dbdbdb"
+      }
+    },
+    {
+      "name": "JAVA keyword.other.package",
+      "scope": ["keyword.other.package.java"],
+      "settings": {
+        "foreground": "#ff006c"
       }
     },
     {
