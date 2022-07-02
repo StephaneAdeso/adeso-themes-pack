@@ -81,13 +81,21 @@
       "name": "Keyword",
       "scope": ["keyword"],
       "settings": {
-        "foreground": "#a245ff"
+        "foreground": "#ffbf00"
+      }
+    },    
+    {
+      "name": "keyword control",
+      "scope": [
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#ff006c"
       }
     },
     {
       "name": "Operator, Misc",
       "scope": [
-        "keyword.control",
         "constant.other.color",
         "punctuation",
         "meta.tag",
@@ -125,7 +133,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#49e800"
+        "foreground": "#2cc3f0"
       }
     },
     {
@@ -140,6 +148,13 @@
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
         "foreground": "#f07178"
+      }
+    },
+    {
+      "name": "Variable other property",
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#a245ff"
       }
     },
     {
@@ -161,7 +176,7 @@
       "name": "Number, numeric",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#006fff"
+        "foreground": "#49e800"
       }
     },
     {
@@ -176,7 +191,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#2cc3f0"
+        "foreground": "#dbdbdb"
       }
     },
     {
@@ -272,7 +287,7 @@
       "scope": ["variable.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#a245ff"
+        "foreground": "#ff006c"
       }
     },
     {
@@ -297,7 +312,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#2cc3f0"
+        "foreground": "#a245ff"
       }
     },
     {
