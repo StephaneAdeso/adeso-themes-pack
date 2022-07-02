@@ -11,6 +11,7 @@
     "editorOverviewRuler.border": "#272727",
     "editorGutter.background": "#272727",
     "editorIndentGuide.activeBackground": "#2cc3f0",
+    "editorInlayHint.parameterForeground": "#6e6e6e",
     "focusBorder": "#2cc3f0",
     "titleBar.activeBackground": "#272727",
     "menu.selectionBackground": "#2cc3f0",
@@ -67,14 +68,14 @@
       "name": " Storage modifier",
       "scope": ["storage.modifier"],
       "settings": {
-        "foreground": "#2cc3f0"
+        "foreground": "#ffbf00"
       }
     },
     {
       "name": "Storage type",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#ff006c"
+        "foreground": "#2cc3f0"
       }
     },
     {
@@ -83,12 +84,10 @@
       "settings": {
         "foreground": "#ffbf00"
       }
-    },    
+    },
     {
       "name": "keyword control",
-      "scope": [
-        "keyword.control"
-      ],
+      "scope": ["keyword.control"],
       "settings": {
         "foreground": "#ff006c"
       }
@@ -164,10 +163,16 @@
         "support.constant",
         "constant.character",
         "constant.escape",
-        "variable.parameter",
         "keyword.other.unit",
         "keyword.other"
       ],
+      "settings": {
+        "foreground": "#dbdbdb"
+      }
+    },
+    {
+      "name": "Variable parameter",
+      "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#dbdbdb"
       }
@@ -272,7 +277,15 @@
       }
     },
     {
-      "name": "Sub-methods",
+      "name": "Language methods",
+      "scope": ["variable.language"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff006c"
+      }
+    },
+    {
+      "name": " JS Sub-methods",
       "scope": [
         "entity.name.module.js",
         "variable.import.parameter.js",
@@ -283,15 +296,14 @@
       }
     },
     {
-      "name": "Language methods",
-      "scope": ["variable.language"],
+      "name": " JS object-literal key",
+      "scope": ["meta.object-literal.key.js"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#ff006c"
+        "foreground": "#ffbf00"
       }
     },
     {
-      "name": "entity.name.method.js",
+      "name": " JS entity name method",
       "scope": ["entity.name.method.js"],
       "settings": {
         "fontStyle": "italic",
@@ -299,7 +311,7 @@
       }
     },
     {
-      "name": "meta.method.js",
+      "name": "JS meta method",
       "scope": [
         "meta.class-method.js entity.name.function.js",
         "variable.function.constructor"
@@ -390,18 +402,22 @@
       }
     },
     {
-      "name": "Decorators",
-      "scope": [
-        "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js punctuation.definition.tag.js"
-      ],
+      "name": "JS Decorators",
+      "scope": ["tag.decorator.js entity.name.tag.js"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#82AAFF"
       }
     },
     {
-      "name": "ES7 Bind Operator",
+      "name": "JS async",
+      "scope": ["storage.modifier.async.js"],
+      "settings": {
+        "foreground": "#ff006c"
+      }
+    },
+    {
+      "name": "JS ES7 Bind Operator",
       "scope": [
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
@@ -668,6 +684,29 @@
       "scope": ["markup.table"],
       "settings": {
         "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "CS keywords",
+      "scope": ["keyword.other.var.cs", "keyword.other.class.cs"],
+      "settings": {
+        "foreground": "#ff006c"
+      }
+    },
+    {
+      "name": "JAVA storage modifier",
+      "scope": ["storage.modifier.java"],
+      "settings": {
+        "foreground": "#ffbf00"
+      }
+    },
+    {
+      "name": "JAVA meta class",
+      "scope": [
+        "meta.class.java meta.class.identifier.java storage.modifier.java"
+      ],
+      "settings": {
+        "foreground": "#2cc3f0"
       }
     }
   ]
