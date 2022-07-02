@@ -688,7 +688,11 @@
     },
     {
       "name": "CS keywords",
-      "scope": ["keyword.other.var.cs", "keyword.other.class.cs"],
+      "scope": [
+        "keyword.other.var.cs",
+        "keyword.other.class.cs",
+        "keyword.other.import.java"
+      ],
       "settings": {
         "foreground": "#ff006c"
       }
@@ -698,6 +702,20 @@
       "scope": ["storage.modifier.java"],
       "settings": {
         "foreground": "#ffbf00"
+      }
+    },
+    {
+      "name": "JAVA storage modifier import",
+      "scope": ["storage.modifier.import.java"],
+      "settings": {
+        "foreground": "#dbdbdb"
+      }
+    },
+    {
+      "name": "JAVA keyword other documentation javadoc",
+      "scope": ["keyword.other.documentation.javadoc.java"],
+      "settings": {
+        "foreground": "#a245ff"
       }
     },
     {

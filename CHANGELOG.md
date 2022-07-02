@@ -10,11 +10,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Added
 Initial release
-### Changed
-### Removed
 
 --- 
-## [0.0.2] 02-07-2022
+## [0.1.0] 02-07-2022
 
 ### Added
 - Documentation folder
@@ -22,3 +20,9 @@ Initial release
 - A lot of colors combination
 ### Removed
 - Marine color
+
+---
+## [0.1.1] 02-07-2022
+
+### Changed
+- Java colors keywords

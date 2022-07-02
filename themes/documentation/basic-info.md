@@ -11,5 +11,5 @@
 | ![Electric pink](./assets/ff006c.png) | **Hex**: #ff006c, **Used**: entity.name.tag, etc.|
 | ![Fluo green](./assets/49e800.png) | **Hex**: #49e800, **Used**: numerics |
 | ![Warm yellow](./assets/ffbf00.png) | **Hex**: #ffbf00, **Used**: punctuation, storage modifier |
-| ![Violet](./assets/a245ff.png) | **Hex**: #a245ff, **Used**: properties | 
+| ![Violet](./assets/a245ff.png) | **Hex**: #a245ff, **Used**: properties, documentation keywords | 
 
