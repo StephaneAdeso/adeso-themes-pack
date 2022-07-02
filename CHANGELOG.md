@@ -14,10 +14,11 @@ Initial release
 ### Removed
 
 --- 
-## [0.0.2]
+## [0.0.2] 02-07-2022
 
 ### Added
 - Documentation folder
 ### Changed
-- Readme.md
+- A lot of colors combination
 ### Removed
+- Marine color
