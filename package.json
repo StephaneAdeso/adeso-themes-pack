@@ -1,51 +1,41 @@
 {
-    "name": "adeso-themes-darkokai",
-    "displayName": "Darkokai",
-    "description": "Clean dark monokai inspired theme.",
-    "publisher": "Adeso",
-    "version": "0.0.1",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Osolemio44/adeso-themes-darkokai"
-      },
-    "engines": {
-        "vscode": "^1.68.0"
-    },
-    "keywords": [
-        "theme",
-        "dark theme",
-        "monokai",
-        "dark",
-        "free theme",
-        "colorfull",
-        "adeso"
-      ],
-      "icon": "themes/assets/icon/darkokai_icon.png",
-    "categories": [
-        "Themes"
-    ],
-    "author": {
-        "name": "Stephane Margini",
-        "email": "fsmargini@gmail.com",
-        "url": "https://www.linkedin.com/in/stephane-fabrizio-margini-bonilla-4618792b"
-      },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Adeso Darkokai",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Adeso Darkokai-color-theme.json"
-            }
-        ]
-    }
+  "name": "adeso-themes-darkokai",
+  "displayName": "Darkokai",
+  "description": "Clean dark monokai inspired theme.",
+  "publisher": "Adeso",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Osolemio44/adeso-themes-darkokai"
+  },
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "monokai",
+    "dark",
+    "free theme",
+    "colorfull",
+    "adeso"
+  ],
+  "icon": "themes/assets/icon/darkokai_icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "author": {
+    "name": "Stephane Margini",
+    "email": "fsmargini@gmail.com",
+    "url": "https://www.linkedin.com/in/stephane-fabrizio-margini-bonilla-4618792b"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Adeso Darkokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Adeso Darkokai-color-theme.json"
+      }
+    ]
+  }
 }
-
-
-
-
-
-
-
-
-
-
