@@ -4,6 +4,20 @@ All notable changes to the "adeso-themes-darkokai" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+---
+## [0.0.1] 18-06-2022
 
-- Initial release
+
+### Added
+Initial release
+### Changed
+### Removed
+
+--- 
+## [0.0.2]
+
+### Added
+- Documentation folder
+### Changed
+- Readme.md
+### Removed
