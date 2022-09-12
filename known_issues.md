@@ -4,3 +4,4 @@
 - check for yaml colors on different levels
 - check for markdown colors
 - reorganize assets folder and delete duplicated
+- Improove and update marketplace description

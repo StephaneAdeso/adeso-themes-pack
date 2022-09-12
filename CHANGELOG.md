@@ -44,3 +44,9 @@ Initial release
 
 ### Changed
 - string colors
+
+---
+## [0.4.0] 12-09-2022
+
+### Added
+- screenshot on documentation
