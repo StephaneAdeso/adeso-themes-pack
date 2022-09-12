@@ -38,3 +38,9 @@ Initial release
 - basic-info.md
 ### Removed
 - colors png assets
+
+---
+## [0.3.0] 12-09-2022
+
+### Changed
+- string colors

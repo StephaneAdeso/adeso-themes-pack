@@ -1,5 +1,4 @@
 # issues and changes
 
-check strings and punctuations needs to be separated
-
-check compatinility with file extention: kt, md, scala, sml, cs, dart, ex.
+- check for string colors in json files on property values
+- check for yaml colors on different levels
