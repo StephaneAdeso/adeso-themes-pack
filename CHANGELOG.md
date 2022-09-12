@@ -28,7 +28,7 @@ Initial release
 - Java colors keywords
 
 --- 
-## [0.1.2] 12-09-2022
+## [0.2.0] 12-09-2022
 
 ### Added
 - tab bottom line
