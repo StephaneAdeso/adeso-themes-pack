@@ -247,10 +247,17 @@
       }
     },
     {
-      "name": "CSS string quoted",
+      "name": "CSS property names",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": "#a0e7fd"
+      }
+    },
+    {
+      "name": "CSS string",
       "scope": ["string.quoted.double.css", "string.quoted.single.css"],
       "settings": {
-        "foreground": "#dbdbdb"
+        "foreground": "#ffe7a0"
       }
     },
     {
@@ -302,7 +309,7 @@
       "name": " JS object-literal key",
       "scope": ["meta.object-literal.key.js"],
       "settings": {
-        "foreground": "#ffbf00"
+        "foreground": "#a0e7fd"
       }
     },
     {
@@ -324,6 +331,42 @@
       }
     },
     {
+      "name": "JS string",
+      "scope": [
+        "string.quoted.single.js",
+        "string.quoted.double.js",
+        "string.template.js"
+      ],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "JS Decorators",
+      "scope": ["tag.decorator.js entity.name.tag.js"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "JS async",
+      "scope": ["storage.modifier.async.js"],
+      "settings": {
+        "foreground": "#ff006c"
+      }
+    },
+    {
+      "name": "JS ES7 Bind Operator",
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#FF5370"
+      }
+    },
+    {
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
@@ -334,7 +377,14 @@
       "name": "HTML Attribute name",
       "scope": ["entity.other.attribute-name.html"],
       "settings": {
-        "foreground": "#a245ff"
+        "foreground": "#2cc3f0"
+      }
+    },
+    {
+      "name": "HTML string",
+      "scope": ["string.quoted.double.html", "string.quoted.single.html"],
+      "settings": {
+        "foreground": "#ffe7a0"
       }
     },
     {
@@ -402,31 +452,6 @@
       "scope": ["*url*", "*link*", "*uri*"],
       "settings": {
         "fontStyle": "underline"
-      }
-    },
-    {
-      "name": "JS Decorators",
-      "scope": ["tag.decorator.js entity.name.tag.js"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "JS async",
-      "scope": ["storage.modifier.async.js"],
-      "settings": {
-        "foreground": "#ff006c"
-      }
-    },
-    {
-      "name": "JS ES7 Bind Operator",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FF5370"
       }
     },
     {
@@ -708,6 +733,13 @@
       }
     },
     {
+      "name": "JAVA string",
+      "scope": ["string.quoted.double.java"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
       "name": "JAVA storage modifiers",
       "scope": [
         "storage.modifier.import.java",
@@ -752,6 +784,100 @@
       "scope": ["storage.type.class.jsdoc"],
       "settings": {
         "foreground": "#a245ff"
+      }
+    },
+    {
+      "name": "TS string",
+      "scope": [
+        "string.quoted.double.ts",
+        "string.quoted.single.ts",
+        "string.template.ts"
+      ],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "C string",
+      "scope": ["string.quoted.double.c", "string.quoted.single.c"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "C++ string",
+      "scope": ["string.quoted.double.cpp", "string.quoted.single.cpp"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "C# string",
+      "scope": ["string.quoted.double.cs", "string.quoted.single.cs"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "DART string",
+      "scope": [
+        "string.interpolated.single.dart",
+        "string.interpolated.double.dart"
+      ],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "GO string",
+      "scope": ["string.quoted.double.go", "string.quoted.single.go"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "PHP string",
+      "scope": ["string.quoted.double.php", "string.quoted.single.php"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "PYTHON string",
+      "scope": ["string.quoted.double.python", "string.quoted.single.python"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "RUBY string",
+      "scope": ["string.quoted.double.ruby", "string.quoted.single.ruby"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "RUST string",
+      "scope": ["string.quoted.double.rust", "string.quoted.single.rust"],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "SWIFT string",
+      "scope": [
+        "string.quoted.double.single-line.swift",
+        "string.quoted.single.swift"
+      ],
+      "settings": {
+        "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "YAML string",
+      "scope": ["string.quoted.double.yaml", "string.quoted.single.yaml"],
+      "settings": {
+        "foreground": "#ffe7a0"
       }
     }
   ]

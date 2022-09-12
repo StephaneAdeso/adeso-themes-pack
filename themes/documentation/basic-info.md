@@ -18,6 +18,8 @@ Secondary color:
 | Sample | Information |
 |----|---|
 | <span style="background:#343434;" class="color" >&shy;</span> | **Hex**: #343434, **Used**: lines separator in editor UI |
+| <span style="background:#ffe7a0;" class="color" >&shy;</span> | **Hex**: #ffe7a0, **Used**: string |
+| <span style="background:#a0e7fd;" class="color" >&shy;</span> | **Hex**: #a0e7fd, **Used**: property names |
 
 
 <style>
