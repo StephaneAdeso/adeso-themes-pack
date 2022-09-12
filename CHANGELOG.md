@@ -26,3 +26,15 @@ Initial release
 
 ### Changed
 - Java colors keywords
+
+--- 
+## [0.1.2] 12-09-2022
+
+### Added
+- tab bottom line
+- sidebar borders
+### Changed
+- tab background
+- basic-info.md
+### Removed
+- colors png assets
