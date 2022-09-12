@@ -13,3 +13,6 @@ This theme is maintained by Stephane Margini from North of Spain ( Asturias)
 ## License
 
 [MIT License](./LICENSE)
+
+## Screenshot
+![js and html sample](./themes/documentation/assets/screenshot1.png)
