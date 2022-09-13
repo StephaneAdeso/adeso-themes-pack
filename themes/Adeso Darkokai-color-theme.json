@@ -456,9 +456,9 @@
     },
     {
       "name": "JSON Key - string double quoted",
-      "scope": ["string.quoted.double.json"],
+      "scope": ["string.quoted.double.json", "string.quoted.single.json"],
       "settings": {
-        "foreground": "#dbdbdb"
+        "foreground": "#ffe7a0"
       }
     },
     {
