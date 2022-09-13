@@ -50,3 +50,9 @@ Initial release
 
 ### Added
 - screenshot on documentation
+---
+## [0.5.0] 12-09-2022
+
+### Changed
+- markdown colors
+- json string colors
