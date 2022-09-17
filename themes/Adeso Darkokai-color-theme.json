@@ -283,7 +283,7 @@
       "name": "CSS property names",
       "scope": ["support.type.property-name.css"],
       "settings": {
-        "foreground": "#a0e7fd"
+        "foreground": "#a245ff"
       }
     },
     {
@@ -302,9 +302,9 @@
     },
     {
       "name": "CSS variable",
-      "scope": ["variable.css"],
+      "scope": ["variable.css", "variable.argument.css"],
       "settings": {
-        "foreground": "#a245ff"
+        "foreground": "#2cc3f0"
       }
     },
     {
@@ -317,6 +317,13 @@
       ],
       "settings": {
         "foreground": "#ff006c"
+      }
+    },
+    {
+      "name": "SCSS variable",
+      "scope": ["variable.scss"],
+      "settings": {
+        "foreground": "#2cc3f0"
       }
     },
     {
@@ -342,7 +349,7 @@
       "name": " JS object-literal key",
       "scope": ["meta.object-literal.key.js"],
       "settings": {
-        "foreground": "#a0e7fd"
+        "foreground": "#dbdbdb"
       }
     },
     {
@@ -872,10 +879,24 @@
       }
     },
     {
+      "name": "C primitives",
+      "scope": ["storage.type.built-in.primitive"],
+      "settings": {
+        "foreground": "#0050fe"
+      }
+    },
+    {
       "name": "C string",
       "scope": ["string.quoted.double.c", "string.quoted.single.c"],
       "settings": {
         "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "C properties",
+      "scope": ["variable.other.member.c"],
+      "settings": {
+        "foreground": "#a245ff"
       }
     },
     {
@@ -893,6 +914,13 @@
       }
     },
     {
+      "name": "C# primitives",
+      "scope": ["keyword.type.cs"],
+      "settings": {
+        "foreground": "#0050fe"
+      }
+    },
+    {
       "name": "DART string",
       "scope": [
         "string.interpolated.single.dart",
@@ -900,6 +928,13 @@
       ],
       "settings": {
         "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "DART primitives",
+      "scope": ["support.class.dart"],
+      "settings": {
+        "foreground": "#0050fe"
       }
     },
     {
@@ -917,10 +952,38 @@
       }
     },
     {
+      "name": "PHP types",
+      "scope": ["keyword.other.type.php"],
+      "settings": {
+        "foreground": "#0050fe"
+      }
+    },
+    {
       "name": "PYTHON string",
       "scope": ["string.quoted.double.python", "string.quoted.single.python"],
       "settings": {
         "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "PYTHON meta attributes",
+      "scope": ["meta.attribute.python"],
+      "settings": {
+        "foreground": "#a245ff"
+      }
+    },
+    {
+      "name": "PYTHON special keys",
+      "scope": ["variable.parameter.function.language.special"],
+      "settings": {
+        "foreground": "#ff006c"
+      }
+    },
+    {
+      "name": "PYTHON constant language (booleans)",
+      "scope": ["constant.language.python"],
+      "settings": {
+        "foreground": "#c09ad9"
       }
     },
     {
