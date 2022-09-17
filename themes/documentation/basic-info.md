@@ -4,7 +4,6 @@
 | Sample | Information |
 |----|---|
 | <span style="background:#2cc3f0;" class="color" >&shy;</span> | **Hex**: #2cc3f0, **Used**: functions |
-| <span style="background:#006fff;" class="color" >&shy;</span> | **Hex**: #006fff, **Used**: Unused |
 | <span style="background:#dbdbdb;" class="color" >&shy;</span> | **Hex**: #dbdbdb, **Used**: plain text |
 | <span style="background:#272727;" class="color" >&shy;</span> | **Hex**: #272727, **Used**: In background |
 | <span style="background:#6e6e6e;" class="color" >&shy;</span> | **Hex**: #6e6e6e, **Used**: Comments |

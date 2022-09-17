@@ -820,6 +820,14 @@
         "foreground": "#a245ff"
       }
     },
+
+    {
+      "name": "TS entity name type",
+      "scope": ["entity.name.type.ts"],
+      "settings": {
+        "foreground": "#a245ff"
+      }
+    },
     {
       "name": "TS string",
       "scope": [
