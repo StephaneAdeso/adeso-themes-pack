@@ -56,3 +56,10 @@ Initial release
 ### Changed
 - markdown colors
 - json string colors
+
+## [0.6.0] 17-09-2022
+
+### Changed
+- boolean  
+- numeric 
+- functions

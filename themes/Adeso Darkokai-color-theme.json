@@ -135,7 +135,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#2cc3f0"
+        "foreground": "#49e800"
       }
     },
     {
@@ -184,7 +184,14 @@
       "name": "Number, numeric",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#49e800"
+        "foreground": "#a0e7fd"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": ["constant.language.boolean"],
+      "settings": {
+        "foreground": "#c09ad9"
       }
     },
     {
@@ -206,7 +213,6 @@
       "name": "Class, Support",
       "scope": [
         "entity.name",
-        "support.type",
         "support.class",
         "support.other.namespace.use.php",
         "meta.use.php",
@@ -222,7 +228,7 @@
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#2cc3f0"
+        "foreground": "#2365f4"
       }
     },
     {
@@ -814,18 +820,15 @@
       }
     },
     {
-      "name": "TS storage type class jsdoc",
-      "scope": ["storage.type.class.jsdoc"],
-      "settings": {
-        "foreground": "#a245ff"
-      }
-    },
-
-    {
       "name": "TS entity name type",
-      "scope": ["entity.name.type.ts"],
+      "scope": [
+        "entity.name.type.ts",
+        "entity.name.type.interface.ts",
+        "entity.name.type.class.ts",
+        "entity.name.type.enum.ts"
+      ],
       "settings": {
-        "foreground": "#a245ff"
+        "foreground": "#2cc3f0"
       }
     },
     {
