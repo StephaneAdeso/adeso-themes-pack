@@ -800,8 +800,8 @@
       }
     },
     {
-      "name": "JAVA classes",
-      "scope": ["storage.type.java"],
+      "name": "JAVA Types",
+      "scope": ["storage.type.java", "entity.other.inherited-class.java"],
       "settings": {
         "foreground": "#2cc3f0"
       }
@@ -857,7 +857,7 @@
       "name": "JAVA storage type anotation",
       "scope": ["storage.type.annotation.java"],
       "settings": {
-        "foreground": "#a245ff"
+        "foreground": "#ffbf00"
       }
     },
     {

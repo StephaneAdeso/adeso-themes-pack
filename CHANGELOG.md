@@ -57,6 +57,7 @@ Initial release
 - markdown colors
 - json string colors
 
+---
 ## [0.6.0] 17-09-2022
 
 ### Changed
@@ -64,3 +65,8 @@ Initial release
 - numeric 
 - functions
 - a lot of changes
+
+---
+## [0.6.1] 17-09-2022
+### Changed
+- Java minor fixes  
