@@ -233,10 +233,29 @@
       }
     },
     {
+      "name": "Entity name type",
+      "scope": [
+        "entity.name.type",
+        "entity.name.type",
+        "entity.name.type",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#2cc3f0"
+      }
+    },
+    {
       "name": "Entity Types",
-      "scope": ["support.type"],
+      "scope": ["support.type", "storage.type.primitive"],
       "settings": {
         "foreground": "#2365f4"
+      }
+    },
+    {
+      "name": "Storage Type object",
+      "scope": ["storage.type.object"],
+      "settings": {
+        "foreground": "#2cc3f0"
       }
     },
     {
@@ -774,10 +793,10 @@
       }
     },
     {
-      "name": "JAVA storage modifier",
-      "scope": ["storage.modifier.java"],
+      "name": "JAVA classes",
+      "scope": ["storage.type.java"],
       "settings": {
-        "foreground": "#ffbf00"
+        "foreground": "#2cc3f0"
       }
     },
     {
@@ -785,6 +804,13 @@
       "scope": ["string.quoted.double.java"],
       "settings": {
         "foreground": "#ffe7a0"
+      }
+    },
+    {
+      "name": "JAVA boolean",
+      "scope": ["constant.language.java"],
+      "settings": {
+        "foreground": "#c09ad9"
       }
     },
     {
@@ -812,7 +838,7 @@
       }
     },
     {
-      "name": "JAVA meta class",
+      "name": "JAVA class key",
       "scope": [
         "meta.class.java meta.class.identifier.java storage.modifier.java"
       ],
@@ -828,15 +854,10 @@
       }
     },
     {
-      "name": "TS entity name type",
-      "scope": [
-        "entity.name.type.ts",
-        "entity.name.type.interface.ts",
-        "entity.name.type.class.ts",
-        "entity.name.type.enum.ts"
-      ],
+      "name": "JAVA property block",
+      "scope": ["variable.other.object.property.java"],
       "settings": {
-        "foreground": "#2cc3f0"
+        "foreground": "#a245ff"
       }
     },
     {
