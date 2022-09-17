@@ -54,6 +54,48 @@
       }
     },
     {
+      "name": "Block Level Variables",
+      "scope": ["meta.block variable.other"],
+      "settings": {
+        "foreground": "#dbdbdb"
+      }
+    },
+    {
+      "name": "Other Variable, String Link",
+      "scope": ["support.other.variable", "string.other.link"],
+      "settings": {
+        "foreground": "#f07178"
+      }
+    },
+    {
+      "name": "Variable other property",
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#a245ff"
+      }
+    },
+    {
+      "name": "Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#dbdbdb"
+      }
+    },
+    {
+      "name": "Variable parameter",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#dbdbdb"
+      }
+    },
+    {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
@@ -71,7 +113,7 @@
       "name": " Storage modifier",
       "scope": ["storage.modifier"],
       "settings": {
-        "foreground": "#ffbf00"
+        "foreground": "#ff006c"
       }
     },
     {
@@ -83,11 +125,19 @@
     },
     {
       "name": "Keyword",
-      "scope": ["keyword"],
+      "scope": ["keyword", "keyword.operator.new"],
+      "settings": {
+        "foreground": "#ff006c"
+      }
+    },
+    {
+      "name": "Keyword operators",
+      "scope": ["keyword.operator"],
       "settings": {
         "foreground": "#ffbf00"
       }
     },
+
     {
       "name": "keyword control",
       "scope": ["keyword.control"],
@@ -136,48 +186,6 @@
       ],
       "settings": {
         "foreground": "#49e800"
-      }
-    },
-    {
-      "name": "Block Level Variables",
-      "scope": ["meta.block variable.other"],
-      "settings": {
-        "foreground": "#dbdbdb"
-      }
-    },
-    {
-      "name": "Other Variable, String Link",
-      "scope": ["support.other.variable", "string.other.link"],
-      "settings": {
-        "foreground": "#f07178"
-      }
-    },
-    {
-      "name": "Variable other property",
-      "scope": ["variable.other.property"],
-      "settings": {
-        "foreground": "#a245ff"
-      }
-    },
-    {
-      "name": "Constant, Function Argument, Tag Attribute, Embedded",
-      "scope": [
-        "constant.language",
-        "support.constant",
-        "constant.character",
-        "constant.escape",
-        "keyword.other.unit",
-        "keyword.other"
-      ],
-      "settings": {
-        "foreground": "#dbdbdb"
-      }
-    },
-    {
-      "name": "Variable parameter",
-      "scope": ["variable.parameter"],
-      "settings": {
-        "foreground": "#dbdbdb"
       }
     },
     {

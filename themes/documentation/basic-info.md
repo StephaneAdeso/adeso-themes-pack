@@ -10,8 +10,8 @@
 | <span style="background:#2365f4;" class="color" >&shy;</span> | **Hex**: #0050fe, **Used**: Primitive types |
 | <span style="background:#49e800;" class="color" >&shy;</span> | **Hex**: #49e800, **Used**: functions, methods |
 | <span style="background:#ff006c;" class="color" >&shy;</span> | **Hex**: #ff006c, **Used**: modifiers, reserved key words|
-| <span style="background:#ffbf00;" class="color" >&shy;</span> | **Hex**: #ffbf00, **Used**: punctuation, storage modifier |
-| <span style="background:#a245ff;" class="color" >&shy;</span> | **Hex**: #a245ff, **Used**: variables, properties | 
+| <span style="background:#ffbf00;" class="color" >&shy;</span> | **Hex**: #ffbf00, **Used**: punctuation |
+| <span style="background:#a245ff;" class="color" >&shy;</span> | **Hex**: #a245ff, **Used**: variables, properties (block level) | 
 
 Secondary color: 
 
