@@ -4,30 +4,51 @@ All notable changes to the "adeso-themes-darkokai" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
----
-## [0.0.1] 18-06-2022
-
-
-### Added
-Initial release
-
---- 
-## [0.1.0] 02-07-2022
-
-### Added
-- Documentation folder
-### Changed
-- A lot of colors combination
-### Removed
-- Marine color
 
 ---
-## [0.1.1] 02-07-2022
+
+## [0.6.1] - 15-10-2022
 
 ### Changed
-- Java colors keywords
+- Changelog inverted to improove readability.
 
---- 
+---
+
+## [0.6.1] - 17-09-2022
+### Changed
+- Java minor fixes  
+
+---
+## [0.6.0] 17-09-2022
+
+### Changed
+- boolean  
+- numeric 
+- functions
+- a lot of changes
+
+---
+## [0.5.0] 12-09-2022
+
+### Changed
+- markdown colors
+- json string colors
+
+---
+
+## [0.4.0] 12-09-2022
+
+### Added
+- screenshot on documentation
+---
+
+## [0.3.0] 12-09-2022
+
+### Changed
+- string colors
+
+---
+
 ## [0.2.0] 12-09-2022
 
 ### Added
@@ -40,33 +61,40 @@ Initial release
 - colors png assets
 
 ---
-## [0.3.0] 12-09-2022
+
+## [0.1.1] 02-07-2022
 
 ### Changed
-- string colors
+- Java colors keywords
 
----
-## [0.4.0] 12-09-2022
+--- 
+
+## [0.1.0] 02-07-2022
 
 ### Added
-- screenshot on documentation
----
-## [0.5.0] 12-09-2022
-
+- Documentation folder
 ### Changed
-- markdown colors
-- json string colors
+- A lot of colors combination
+### Removed
+- Marine color
 
 ---
-## [0.6.0] 17-09-2022
 
-### Changed
-- boolean  
-- numeric 
-- functions
-- a lot of changes
+## [0.0.1] 18-06-2022
 
----
-## [0.6.1] 17-09-2022
-### Changed
-- Java minor fixes  
+
+### Added
+Initial release
+
+--- 
+
+
+
+
+
+
+
+
+
+
+
