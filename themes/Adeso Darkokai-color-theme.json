@@ -1001,6 +1001,20 @@
       }
     },
     {
+      "name": "RUST boolean",
+      "scope": ["constant.language.bool.rust"],
+      "settings": {
+        "foreground": "#c09ad9"
+      }
+    },
+    {
+      "name": "RUST keywords",
+      "scope": ["keyword.other.rust", "keyword.other.fn.rust"],
+      "settings": {
+        "foreground": "#ff006c"
+      }
+    },
+    {
       "name": "SWIFT string",
       "scope": [
         "string.quoted.double.single-line.swift",
