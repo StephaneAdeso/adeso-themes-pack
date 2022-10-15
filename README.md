@@ -7,13 +7,16 @@ Special thanks to [Darcula theme](https://draculatheme.com/) for inspiring and s
 
 ## Features:
 
-Colors in tabs to indicate more clearly which is the active window
+Colors in tabs to indicate more clearly which is the active window.
+
 ![tab sample image](./themes/documentation/assets/tabs.png)
 
-Interface with fewer lines, or more discrete lines
+Interface with fewer lines, or more discrete lines.
+
 ![window and javascript code sample](./themes/documentation/assets/javascriptSample.png)
 
-Support for different languages
+Support for different languages.
+
 ![java code sample](./themes/documentation/assets/javaSample.png)
 
 ## Maintainers
@@ -23,6 +26,3 @@ This theme is maintained by Stephane Margini from North of Spain ( Asturias)
 ## License
 
 [MIT License](./LICENSE)
-
-## Screenshot
-![js and html sample](./themes/documentation/assets/screenshot1.png)

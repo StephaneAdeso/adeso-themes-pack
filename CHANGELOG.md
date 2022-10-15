@@ -4,10 +4,15 @@ All notable changes to the "adeso-themes-darkokai" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-
 ---
 
-## [0.6.1] - 15-10-2022
+## [0.7.1] - 15-10-2022
+
+### Fixed
+- Readme indentation and info.
+---
+
+## [0.7.0] - 15-10-2022
 
 ### Changed
 - Changelog inverted to improove readability.
