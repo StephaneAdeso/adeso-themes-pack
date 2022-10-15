@@ -14,5 +14,3 @@ review schemas for:
 - scala
 - sml
 - swift
-
-update marketplace screenshot and description.

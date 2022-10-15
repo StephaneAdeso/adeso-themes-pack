@@ -11,6 +11,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changed
 - Changelog inverted to improove readability.
+- Readme updated.
+-  Rust lang - some colors added.
 
 ---
 
