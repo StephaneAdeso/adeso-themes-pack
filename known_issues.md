@@ -10,7 +10,8 @@ review schemas for:
 - kt
 - php
 - rb
-- rs
+- rs *
 - scala
 - sml
 - swift
+- toml *
