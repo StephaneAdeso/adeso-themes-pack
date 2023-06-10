@@ -4,7 +4,7 @@ export enum Palette {
   ----------------------------- */
 
   /** Used for background */
-  Dire_wolf = "#1e1e1e",
+  Dire_wolf = "#252525",
   /** Used for line separator */
   Jet = "#343434",
   /** Used for inactive options like icons of the activity bar */
