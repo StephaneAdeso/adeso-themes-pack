@@ -23,6 +23,7 @@ fs.writeFileSync(
 export interface IntIlsaTicketSummaryDataPair {
   label: string;
   value: string;
+  address: String;
 }
 
 export interface IntTravelLabels {
