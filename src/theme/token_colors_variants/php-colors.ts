@@ -2,17 +2,24 @@ import { Palette } from "../palette.enum";
 
 export default [
   {
-    name: "PHP string",
-    scope: ["string.quoted.double.php", "string.quoted.single.php"],
+    name: "PHP primitives",
+    scope: ["keyword.other.type.php"],
     settings: {
-      foreground: Palette.Yello_light,
+      foreground: Palette.Type_Primitive,
     },
   },
   {
-    name: "PHP types",
-    scope: ["keyword.other.type.php"],
+    name: "PHP boolean",
+    scope: ["constant.language.php"],
     settings: {
-      foreground: Palette.Blue_navy,
+      foreground: Palette.Boolean,
+    },
+  },
+  {
+    name: "PHP functions",
+    scope: ["source.php support.function", "support.class.php"],
+    settings: {
+      foreground: Palette.Function,
     },
   },
 ];

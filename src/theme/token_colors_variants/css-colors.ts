@@ -1,79 +1,41 @@
 import { Palette } from "../palette.enum";
 
+/** SASS files inherit 99% of CSS configs */
 export default [
   {
-    name: "CSS Class and Support",
-    scope: [
-      "source.css support.type.property-name",
-      "source.sass support.type.property-name",
-      "source.scss support.type.property-name",
-      "source.less support.type.property-name",
-      "source.stylus support.type.property-name",
-      "source.postcss support.type.property-name",
-    ],
+    name: "CSS functions",
+    scope: ["source.css support.function"],
     settings: {
-      foreground: Palette.Blue_turquoise,
+      foreground: Palette.Function,
     },
   },
   {
-    name: "CSS attributes name id",
-    scope: ["entity.other.attribute-name.id.css"],
+    name: "CSS properties",
+    scope: ["source.css variable"],
     settings: {
-      foreground: Palette.Violet_dark,
+      foreground: Palette.Used_properties,
     },
   },
   {
-    name: "CSS property names",
-    scope: ["support.type.property-name.css"],
+    name: "CSS Entity name ",
+    scope: ["entity.name.tag.css"],
     settings: {
-      foreground: Palette.Violet_dark,
+      foreground: Palette.Type,
     },
   },
   {
-    name: "CSS string",
-    scope: ["string.quoted.double.css", "string.quoted.single.css"],
+    name: "CSS keyword ",
+    scope: ["source.css keyword.operator"],
     settings: {
-      foreground: Palette.Yello_light,
+      foreground: Palette.Keyword,
     },
   },
+  /* for Sass files */
   {
-    name: "CSS rgb value hex",
-    scope: ["constant.other.color.rgb-value.hex.css"],
+    name: "CSS attribute string ",
+    scope: ["meta.attribute-selector"],
     settings: {
-      foreground: Palette.White_regular,
-    },
-  },
-  {
-    name: "CSS variable",
-    scope: ["variable.css", "variable.argument.css"],
-    settings: {
-      foreground: Palette.Blue_turquoise,
-    },
-  },
-  {
-    name: "CSS names ",
-    scope: [
-      "entity.other.attribute-name.class.css",
-      "entity.other.attribute-name.pseudo-class.css",
-      "entity.other.attribute-name.id.css",
-      "keyword.control.at-rule.font-face.css",
-    ],
-    settings: {
-      foreground: Palette.Pink_bright,
-    },
-  },
-  {
-    name: "CSS Classes",
-    scope: ["entity.other.attribute-name.class"],
-    settings: {
-      foreground: "#FFCB6B",
-    },
-  },
-  {
-    name: "CSS ID's",
-    scope: ["source.sass keyword.control"],
-    settings: {
-      foreground: "#82AAFF",
+      foreground: Palette.String,
     },
   },
 ];

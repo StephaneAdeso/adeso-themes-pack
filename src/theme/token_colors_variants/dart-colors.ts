@@ -2,20 +2,17 @@ import { Palette } from "../palette.enum";
 
 export default [
   {
-    name: "DART string",
-    scope: [
-      "string.interpolated.single.dart",
-      "string.interpolated.double.dart",
-    ],
+    name: "DART entities",
+    scope: ["support.class.dart"],
     settings: {
-      foreground: Palette.Yello_light,
+      foreground: Palette.Type,
     },
   },
   {
-    name: "DART primitives",
-    scope: ["support.class.dart"],
+    name: "DART boolean",
+    scope: ["constant.language.dart"],
     settings: {
-      foreground: Palette.Blue_navy,
+      foreground: Palette.Boolean,
     },
   },
 ];

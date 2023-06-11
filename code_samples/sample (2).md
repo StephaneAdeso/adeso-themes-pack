@@ -20,6 +20,14 @@ how are you doing
 babies
 ```
 
+```Typescript
+export interface IntIlsaTicketSummaryDataPair {
+  label: string;
+  value: string;
+}
+```
+## More examples
+
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
@@ -37,5 +45,6 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 3. option 3
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.pdf "Logo Title Text 1")
 
-[alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+[alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48 "Logo Title Text 1")

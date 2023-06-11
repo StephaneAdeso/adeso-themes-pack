@@ -26,9 +26,84 @@ body {
   background: #ff0000 !important;
 }
 
+body {
+  background: linear-gradient(to bottom right, lightblue, lightgreen);
+  color: white;
+}
+
+/* Estilo para el encabezado */
+h1 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Estilo para el botón */
+button {
+  background-color: lightgreen;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Estilo para el enlace */
+a {
+  color: lightgreen;
+}
+
+/* Estilo para la imagen */
+img {
+  box-shadow: 10px 10px lightgreen;
+}
+img[role="main"] {
+  box-shadow: 10px 10px lightgreen;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__element {
+  margin: 10px;
+  padding: 10px;
+}
+
+.block__element--modifier {
+  background-color: #f0f0f0;
+}
+
+
 @font-face {
   font-family: "Transylvania";
   src: url("/location/Transylvania.woff2") format("woff2");
-  font-weight: 700;
+  font-weight: 200%;
   font-style: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: lightgreen;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+}
+
+@keyframes example {
+  from {background-color: lightblue;}
+  to {background-color: lightgreen;}
 }
