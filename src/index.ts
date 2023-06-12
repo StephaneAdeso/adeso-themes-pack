@@ -1,18 +1,8 @@
 import * as fs from "fs";
-import * as genericConfig from "./theme/generic-config";
-import * as colors from "./theme/colors";
-import * as tokenColors from "./theme/token-colors";
-
-const jsonThemeFile = Object.assign(
-  {},
-  genericConfig.default,
-  colors.default,
-  tokenColors.default
-);
-
-const jsonString = JSON.stringify(jsonThemeFile, null, 2);
+import { jsonString as monodark } from "./themes/monodark/index";
+import { jsonString as monolight } from "./themes/monolight/index";
 
 fs.writeFileSync(
-  `${__dirname}\\..\\themes\\Adeso-Darkokai-color-theme.json`,
-  jsonString
+  `${__dirname}\\..\\themes\\Adeso-Monodark-color-theme.json`,
+  monodark
 );

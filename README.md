@@ -6,7 +6,7 @@ Special thanks to [Darcula theme](https://draculatheme.com/) for inspiring and s
 
 ## Snapshot
 
-![code samples](themes/documentation/assets/screenshot.png)
+![code samples](./assets/screenshot.png)
 
 
 ## Main colors
