@@ -26,5 +26,6 @@ const Dracula = new Vampire({
   birthDate: 1428,
   deathDate: 1476,
   mygod:`holy doly`,
+  adult: true,
   weaknesses: ['Sunlight', 'Garlic']
 });

@@ -2,10 +2,10 @@ import { Palette } from "../palette.enum";
 
 export default [
   {
-    name: "JSON Key - string double quoted",
-    scope: ["string.quoted.double.json", "string.quoted.single.json"],
+    name: "JSON boolean",
+    scope: ["constant.language.json"],
     settings: {
-      foreground: Palette.Yello_light,
+      foreground: Palette.Boolean,
     },
   },
   {
@@ -14,7 +14,7 @@ export default [
       "source.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: Palette.Pink_bright,
+      foreground: Palette.Keyword,
     },
   },
   {
@@ -23,7 +23,7 @@ export default [
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: Palette.Blue_turquoise,
+      foreground: Palette.Used_properties,
     },
   },
   {
@@ -32,7 +32,7 @@ export default [
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: Palette.Violet_dark,
+      foreground: Palette.Type_Primitive,
     },
   },
   {
@@ -41,7 +41,7 @@ export default [
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: Palette.Green_bright,
+      foreground: Palette.Type,
     },
   },
   {
@@ -50,7 +50,7 @@ export default [
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: "#006fff",
+      foreground: Palette.Function,
     },
   },
   {
@@ -59,7 +59,7 @@ export default [
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: Palette.Pink_bright,
+      foreground: Palette.Keyword,
     },
   },
   {
@@ -68,7 +68,7 @@ export default [
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: Palette.Blue_turquoise,
+      foreground: Palette.Used_properties,
     },
   },
   {
@@ -77,7 +77,7 @@ export default [
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: Palette.Violet_dark,
+      foreground: Palette.Type_Primitive,
     },
   },
   {
@@ -86,7 +86,16 @@ export default [
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
     ],
     settings: {
-      foreground: Palette.Green_bright,
+      foreground: Palette.Type,
+    },
+  },
+  {
+    name: "JSON Key - Level 9",
+    scope: [
+      "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json",
+    ],
+    settings: {
+      foreground: Palette.Function,
     },
   },
 ];

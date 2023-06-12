@@ -8,7 +8,8 @@ class Vampire {
   private String location;
   public int birthDate = 1902;
   private int deathDate;
-  private String[] weaknesses;
+  private int[] deathDates;
+  private String[] weaknesses = "Hello";
   private boolean alive = true;
   private Boolean hungry = false;
 
@@ -31,16 +32,17 @@ class Vampire {
 // ...there was a guy named Vlad
 public class dracula {
 
-  boolean mybool = true;
+  private boolean mybool = true;
   Vampire vampire = new Vampire(
       "Transylvania",
       1428,
       1476,
       new String[] { "Sunlight", "Garlic" });
 
+  private date = vampire.birthDate;
+
   private doSomething(){
-        vampire.calcAge();
-        vampire.birthDate;
+        vampire.calcAge();        
       }
 
 }

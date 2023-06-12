@@ -2,20 +2,31 @@ import { Palette } from "../palette.enum";
 
 export default [
   {
-    name: "SWIFT string",
-    scope: [
-      "string.quoted.double.single-line.swift",
-      "string.quoted.single.swift",
-    ],
+    name: "SWIFT functions",
+    scope: ["support.function.any-method.swift"],
     settings: {
-      foreground: Palette.Yello_light,
+      foreground: Palette.Function,
     },
   },
   {
-    name: "SWIFT string",
-    scope: ["keyword.other.declaration-specifier.swift "],
+    name: "SWIFT variable",
+    scope: ["variable.other.swift"],
     settings: {
-      foreground: Palette.Pink_bright,
+      foreground: Palette.Used_properties,
+    },
+  },
+  {
+    name: "SWIFT variable  function parameter",
+    scope: ["variable.parameter.function.swift entity.name.function.swift"],
+    settings: {
+      foreground: Palette.Variable,
+    },
+  },
+  {
+    name: "SWIFT object properties",
+    scope: ["support.variable.swift"],
+    settings: {
+      foreground: Palette.Used_properties,
     },
   },
 ];

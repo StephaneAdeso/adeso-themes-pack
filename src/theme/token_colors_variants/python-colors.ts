@@ -2,31 +2,56 @@ import { Palette } from "../palette.enum";
 
 export default [
   {
-    name: "PYTHON string",
-    scope: ["string.quoted.double.python", "string.quoted.single.python"],
-    settings: {
-      foreground: Palette.Yello_light,
-    },
-  },
-  {
-    name: "PYTHON meta attributes",
-    scope: ["meta.attribute.python"],
-    settings: {
-      foreground: Palette.Violet_dark,
-    },
-  },
-  {
-    name: "PYTHON special keys",
-    scope: ["variable.parameter.function.language.special"], // TODO: check if need to move to generic
-    settings: {
-      foreground: Palette.Pink_bright,
-    },
-  },
-  {
-    name: "PYTHON constant language (booleans)",
+    name: "PYTHON boolean",
     scope: ["constant.language.python"],
     settings: {
-      foreground: Palette.Violet_light,
+      foreground: Palette.Boolean,
+    },
+  },
+  {
+    name: "PYTHON keywords. self, etc",
+    scope: [
+      "variable.parameter.function.language.special.self.python",
+      "keyword.operator.logical.python",
+    ],
+    settings: {
+      foreground: Palette.Keyword,
+    },
+  },
+
+  {
+    name: "PYTHON functions",
+    scope: [
+      "meta.function-call.generic.python",
+      "support.function.magic.python",
+      "support.function.builtin.python",
+    ],
+    settings: {
+      foreground: Palette.Function,
+    },
+  },
+  {
+    name: "PYTHON interpolated punctuation",
+    scope: [
+      "meta.fstring.python punctuation.definition.string string.interpolated.python string.quoted.single.python",
+    ],
+    settings: {
+      foreground: Palette.Punctuation,
+    },
+  },
+
+  {
+    name: "PYTHON strings",
+    scope: ["meta.fstring.python"],
+    settings: {
+      foreground: Palette.String,
+    },
+  }, // TODO: Check if this one is correct
+  {
+    name: "PYTHON used property",
+    scope: ["meta.attribute.python"],
+    settings: {
+      foreground: Palette.Used_properties,
     },
   },
 ];

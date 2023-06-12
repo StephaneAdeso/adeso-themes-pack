@@ -31,4 +31,40 @@ $Dracula = new Vampire([
   'deathDate' => 1476,
   'weaknesses' => ['Sunlight', 'Garlic']
 ]);
+
+
+    // Definir una constante
+    define("PI", 3.14159265359);
+
+    // Definir una clase
+    class Persona {
+        public $nombre;
+        public $edad;
+        public $sexo;
+
+        function __construct($nombre, $edad, $sexo) {
+            $this->nombre = $nombre;
+            $this->edad = $edad;
+            $this->sexo = $sexo;
+        }
+
+        function presentarse() {
+            echo "Hola, mi nombre es " . $this->nombre . ", tengo " . $this->edad . " años y soy " . $this->sexo . ".";
+        }
+    }
+
+    // Crear una instancia de la clase Persona
+    $persona1 = new Persona("Juan", 25, "hombre");
+
+    // Imprimir el resultado de la función presentarse()
+    echo $persona1->presentarse();
+
+    // Definir un booleano
+    $esMayorDeEdad = true;
+
+    if ($esMayorDeEdad) {
+        echo "Es mayor de edad.";
+    } else {
+        echo "No es mayor de edad.";
+    }
 ?>
