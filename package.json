@@ -1,7 +1,7 @@
 {
-  "name": "adeso-themes-darkokai",
-  "displayName": "Darkokai",
-  "description": "Clean dark monokai inspired theme.",
+  "name": "adeso-themes-pack",
+  "displayName": "Adeso Themes Pack",
+  "description": "Pack of various dark and light themes. We even have one for people with visual problems.",
   "publisher": "Adeso",
   "version": "0.7.1",
   "repository": {
@@ -14,13 +14,16 @@
   "keywords": [
     "theme",
     "dark theme",
+    "light theme",
+    "theme pack",
     "monokai",
     "dark",
+    "light",
     "free theme",
     "colorfull",
     "adeso"
   ],
-  "icon": "themes/assets/icon/darkokai_icon.png",
+  "icon": "assets/icon/darkokai_icon.png",
   "categories": [
     "Themes"
   ],
@@ -32,9 +35,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Adeso Darkokai",
+        "label": "Adeso Monodark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Adeso-Darkokai-color-theme.json"
+        "path": "./themes/Adeso-Monodark-color-theme.json"
       }
     ]
   },
