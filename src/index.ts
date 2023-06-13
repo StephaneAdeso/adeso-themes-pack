@@ -12,6 +12,8 @@ fs.writeFileSync(
   monolight
 );
 
+//TODO: Simplify Boolean
+//TODO: Learn how to debug different themes in the same Theme pack
 //TODO: change github account name to "adeso"
 //TODO: change github project and change in package
 //TODO: Change documentation and colors
