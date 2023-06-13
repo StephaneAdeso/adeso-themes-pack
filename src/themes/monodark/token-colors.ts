@@ -1,16 +1,16 @@
 import * as generic_colors from "./token_colors_variants/generic-colors";
-import * as markdown_colors from "./token_colors_variants/markdown_colors";
-import * as html_colors from "./token_colors_variants/html-colors";
-import * as java_colors from "./token_colors_variants/java-colors";
-import * as json_colors from "./token_colors_variants/json-colors";
-import * as python_colors from "./token_colors_variants/python-colors";
-import * as css_colors from "./token_colors_variants/css-colors";
-import * as sass_colors from "./token_colors_variants/sass-colors";
-import * as yaml_colors from "./token_colors_variants/yaml-colors";
+import * as markdown_colors from "../../models/editor_colors_fragments/markdown-colors";
+import * as html_colors from "../../models/editor_colors_fragments/html-colors";
+import * as java_colors from "../../models/editor_colors_fragments/java-colors";
+import * as json_colors from "../../models/editor_colors_fragments/json-colors";
+import * as python_colors from "../../models/editor_colors_fragments/python-colors";
+import * as css_colors from "../../models/editor_colors_fragments/css-colors";
+import * as sass_colors from "../../models/editor_colors_fragments/sass-colors";
+import * as yaml_colors from "../../models/editor_colors_fragments/yaml-colors";
 import * as swift_colors from "./token_colors_variants/swift-colors";
-import * as php_colors from "./token_colors_variants/php-colors";
-import * as dart_colors from "./token_colors_variants/dart-colors";
-import * as go_colors from "./token_colors_variants/go-colors";
+import * as php_colors from "../../models/editor_colors_fragments/php-colors";
+import * as dart_colors from "../../models/editor_colors_fragments/dart-colors";
+import * as go_colors from "../../models/editor_colors_fragments/go-colors";
 
 const tokenColors = [
   ...generic_colors.default,
