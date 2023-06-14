@@ -3,7 +3,7 @@ import { themesList } from "./themes-list";
 
 themesList.forEach((theme) => {
   fs.writeFileSync(
-    `${__dirname}\\..\\themes\\Adeso-${theme.nameValue}-color-theme.json`,
+    `${__dirname}\\..\\themes\\${theme.nameValue}-color-theme.json`,
     theme.getJsonTheme()
   );
 });

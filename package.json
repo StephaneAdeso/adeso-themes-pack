@@ -37,7 +37,12 @@
       {
         "label": "Adeso Monodark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Adeso-Monodark-color-theme.json"
+        "path": "./themes/Monodark-color-theme.json"
+      },
+      {
+        "label": "Adeso Monolight",
+        "uiTheme": "vs",
+        "path": "./themes/Monolight-color-theme.json"
       }
     ]
   },
