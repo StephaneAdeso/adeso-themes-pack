@@ -41,9 +41,9 @@ export const themesList: Theme[] = [
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */
-    Background: "#252525",
-    Line_separator: "#343434",
-    Activity_bar_icon: "#dbdbdb7c",
+    Background: "#EDEDED",
+    Line_separator: "#CECECE",
+    Activity_bar_icon: "#939393",
     Line_numbers_rulers: "#444444",
     Active_list_item: "#2cc2f04b",
     Tabs_background: "#ff006a17",
@@ -52,8 +52,8 @@ export const themesList: Theme[] = [
     -       Primary colors    -
     ----------------------------- */
 
-    Variable: "#d3d3d3",
-    Comment: "#6e6e6e",
+    Variable: "#2D2D2D",
+    Comment: "#5B5B5B",
     Type: "#22c0f0",
     Type_Primitive: "#437fff",
     Function: "#56cc1f",
@@ -65,7 +65,7 @@ export const themesList: Theme[] = [
     -       Secondary colors    -
     ----------------------------- */
 
-    String: "#e6d08e",
+    String: "#5B5B5B",
     Numeric: "#a9dff0",
     Boolean: "#c09ad9",
   }),
