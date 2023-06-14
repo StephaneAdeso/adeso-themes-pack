@@ -20,3 +20,4 @@ themesList.forEach((theme) => {
 //TODO: Create Github page
 // TODO: look in documentation where to use publisher and organization in package.json
 //TODO: check how i establish the backgroud and foreground generic color https://www.youtube.com/watch?v=QCqWzb-9Sy8 10:48
+// Try to make parameters looks good like in the image of https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula 

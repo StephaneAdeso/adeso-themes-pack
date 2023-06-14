@@ -26,6 +26,7 @@ export function getColors(palette: Palette): any {
     "editorOverviewRuler.border": palette.Line_separator,
     "editorRuler.foreground": palette.Line_numbers_rulers,
     "list.activeSelectionBackground": palette.Active_list_item,
+    "list.activeSelectionForeground": palette.Variable,
     "menu.selectionBackground": palette.Type,
     "scrollbar.shadow": palette.Background,
     "sideBar.background": palette.Background,

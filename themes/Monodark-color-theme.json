@@ -23,6 +23,7 @@
     "editorOverviewRuler.border": "#343434",
     "editorRuler.foreground": "#444444",
     "list.activeSelectionBackground": "#2cc2f04b",
+    "list.activeSelectionForeground": "#d3d3d3",
     "menu.selectionBackground": "#22c0f0",
     "scrollbar.shadow": "#252525",
     "sideBar.background": "#252525",
