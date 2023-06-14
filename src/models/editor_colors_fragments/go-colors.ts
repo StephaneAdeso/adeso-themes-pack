@@ -1,6 +1,6 @@
 import { Palette } from "../interfaces/palette-int";
 
-export function getGoColors(Palette: Palette) {
+export function getGoColors(palette: Palette) {
   return [
     {
       name: "GO primitives",
@@ -10,21 +10,21 @@ export function getGoColors(Palette: Palette) {
         "storage.type.string.go",
       ],
       settings: {
-        foreground: Palette.Type_Primitive,
+        foreground: palette.Type_Primitive,
       },
     },
     {
       name: "GO primitives",
       scope: ["support.function.go"],
       settings: {
-        foreground: Palette.Function,
+        foreground: palette.Function,
       },
     },
     {
       name: "GO boolean",
       scope: ["constant.language.go"],
       settings: {
-        foreground: Palette.Boolean,
+        foreground: palette.Boolean,
       },
     },
   ];

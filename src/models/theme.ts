@@ -3,12 +3,16 @@ import { ThemeTypes } from "./enums/themeTypes.enum";
 import { Palette } from "./interfaces/palette-int";
 import { getColors } from "./ui-colors";
 
-export class theme {
+export class Theme {
   constructor(
     private name: string,
     private type: ThemeTypes,
     private palette: Palette
   ) {}
+
+  get nameValue() {
+    return this.name;
+  }
 
   getJsonTheme() {
     return {

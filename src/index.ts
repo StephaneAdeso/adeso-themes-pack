@@ -1,10 +1,13 @@
 import * as fs from "fs";
 import { jsonString as monodark } from "./themes/monodark/index";
+import { themesList } from "./themes-list";
 
-fs.writeFileSync(
-  `${__dirname}\\..\\themes\\Adeso-Monodark-color-theme.json`,
-  monodark
-);
+themesList.forEach((theme) => {
+  fs.writeFileSync(
+    `${__dirname}\\..\\themes\\Adeso-${theme.nameValue}-color-theme.json`,
+    theme.getJsonTheme()
+  );
+});
 
 //TODO: Simplify Boolean
 //TODO: Learn how to debug different themes in the same Theme pack
