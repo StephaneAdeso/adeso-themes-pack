@@ -55,5 +55,8 @@
   "scripts": {
     "build": "tsc && node dist/index.js",
     "watch": "nodemon"
+  },
+  "dependencies": {
+    "color": "^4.2.3"
   }
 }
