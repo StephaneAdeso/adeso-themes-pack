@@ -26,12 +26,5 @@ export function getJavaColors(palette: Palette) {
         foreground: palette.Type_Primitive,
       },
     },
-    {
-      name: "JAVA boolean",
-      scope: ["constant.language.java"],
-      settings: {
-        foreground: palette.Boolean,
-      },
-    },
   ];
 }

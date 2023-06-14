@@ -20,12 +20,5 @@ export function getGoColors(palette: Palette) {
         foreground: palette.Function,
       },
     },
-    {
-      name: "GO boolean",
-      scope: ["constant.language.go"],
-      settings: {
-        foreground: palette.Boolean,
-      },
-    },
   ];
 }

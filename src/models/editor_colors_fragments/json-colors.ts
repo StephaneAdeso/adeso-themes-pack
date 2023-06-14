@@ -3,13 +3,6 @@ import { Palette } from "../interfaces/palette-int";
 export function getJsonColors(palette: Palette) {
   return [
     {
-      name: "JSON boolean",
-      scope: ["constant.language.json"],
-      settings: {
-        foreground: palette.Boolean,
-      },
-    },
-    {
       name: "JSON Key - Level 0",
       scope: [
         "source.json meta.structure.dictionary.json support.type.property-name.json",

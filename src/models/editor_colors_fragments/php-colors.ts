@@ -10,13 +10,6 @@ export function getPhpColors(palette: Palette) {
       },
     },
     {
-      name: "PHP boolean",
-      scope: ["constant.language.php"],
-      settings: {
-        foreground: palette.Boolean,
-      },
-    },
-    {
       name: "PHP functions",
       scope: ["source.php support.function", "support.class.php"],
       settings: {

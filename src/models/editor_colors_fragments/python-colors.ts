@@ -3,13 +3,6 @@ import { Palette } from "../interfaces/palette-int";
 export function getPythonColors(palette: Palette) {
   return [
     {
-      name: "PYTHON boolean",
-      scope: ["constant.language.python"],
-      settings: {
-        foreground: palette.Boolean,
-      },
-    },
-    {
       name: "PYTHON keywords. self, etc",
       scope: [
         "variable.parameter.function.language.special.self.python",

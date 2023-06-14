@@ -9,12 +9,5 @@ export function getDartColors(palette: Palette) {
         foreground: palette.Type,
       },
     },
-    {
-      name: "DART boolean",
-      scope: ["constant.language.dart"],
-      settings: {
-        foreground: palette.Boolean,
-      },
-    },
   ];
 }

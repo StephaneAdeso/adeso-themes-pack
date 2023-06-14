@@ -106,7 +106,7 @@ export function getGenericColors(palette: Palette) {
     },
     {
       name: "boolean",
-      scope: ["constant.language.boolean"],
+      scope: ["constant.language.boolean", "constant.language"],
       settings: {
         foreground: palette.Boolean,
       },

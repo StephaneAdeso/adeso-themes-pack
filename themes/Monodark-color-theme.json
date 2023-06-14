@@ -176,7 +176,8 @@
     {
       "name": "boolean",
       "scope": [
-        "constant.language.boolean"
+        "constant.language.boolean",
+        "constant.language"
       ],
       "settings": {
         "foreground": "#c09ad9"
@@ -256,15 +257,6 @@
       }
     },
     {
-      "name": "DART boolean",
-      "scope": [
-        "constant.language.dart"
-      ],
-      "settings": {
-        "foreground": "#c09ad9"
-      }
-    },
-    {
       "name": "GO primitives",
       "scope": [
         "storage.type.numeric.go",
@@ -282,15 +274,6 @@
       ],
       "settings": {
         "foreground": "#56cc1f"
-      }
-    },
-    {
-      "name": "GO boolean",
-      "scope": [
-        "constant.language.go"
-      ],
-      "settings": {
-        "foreground": "#c09ad9"
       }
     },
     {
@@ -330,24 +313,6 @@
       ],
       "settings": {
         "foreground": "#437fff"
-      }
-    },
-    {
-      "name": "JAVA boolean",
-      "scope": [
-        "constant.language.java"
-      ],
-      "settings": {
-        "foreground": "#c09ad9"
-      }
-    },
-    {
-      "name": "JSON boolean",
-      "scope": [
-        "constant.language.json"
-      ],
-      "settings": {
-        "foreground": "#c09ad9"
       }
     },
     {
@@ -489,15 +454,6 @@
       }
     },
     {
-      "name": "PHP boolean",
-      "scope": [
-        "constant.language.php"
-      ],
-      "settings": {
-        "foreground": "#c09ad9"
-      }
-    },
-    {
       "name": "PHP functions",
       "scope": [
         "source.php support.function",
@@ -505,15 +461,6 @@
       ],
       "settings": {
         "foreground": "#56cc1f"
-      }
-    },
-    {
-      "name": "PYTHON boolean",
-      "scope": [
-        "constant.language.python"
-      ],
-      "settings": {
-        "foreground": "#c09ad9"
       }
     },
     {
