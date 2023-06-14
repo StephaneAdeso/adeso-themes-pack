@@ -18,7 +18,9 @@ export function getColors(palette: Palette): any {
     "editorGutter.background": palette.Background,
     "editorIndentGuide.activeBackground": palette.Type,
     "editorIndentGuide.background": palette.Line_separator,
-    "editorInlayHint.parameterForeground": palette.Comment,
+    "editorInlayHint.parameterForeground": palette.Comment, //Inline Hints
+    "editorInlayHint.foreground": palette.Comment,
+    "editorInlayHint.background": palette.Line_separator,
     "editorLineNumber.activeForeground": palette.Used_properties,
     "editorLineNumber.foreground": palette.Line_numbers_rulers,
     "editorOverviewRuler.border": palette.Line_separator,
