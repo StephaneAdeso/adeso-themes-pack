@@ -37,7 +37,7 @@ export const themesList: Theme[] = [
     Numeric: "#a9dff0",
     Boolean: "#c09ad9",
   }),
-  new Theme("Monolight", ThemeTypes.DARK, {
+  new Theme("Monolight", ThemeTypes.LIGHT, {
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */

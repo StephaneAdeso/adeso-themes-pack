@@ -14,12 +14,16 @@ export class Theme {
     return this.name;
   }
 
-  getJsonTheme() {
-    return {
-      name: this.name,
-      type: this.type,
-      colors: getTokenColors(this.palette),
-      tokenColors: getColors(this.palette),
-    };
+  getJsonTheme(): string {
+    return JSON.stringify(
+      {
+        name: this.name,
+        type: this.type,
+        colors: getColors(this.palette),
+        tokenColors: getTokenColors(this.palette),
+      },
+      null,
+      2
+    );
   }
 }

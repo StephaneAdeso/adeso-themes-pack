@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import { jsonString as monodark } from "./themes/monodark/index";
 import { themesList } from "./themes-list";
 
 themesList.forEach((theme) => {
@@ -20,3 +19,4 @@ themesList.forEach((theme) => {
 //TODO: Create Wiki
 //TODO: Create Github page
 // TODO: look in documentation where to use publisher and organization in package.json
+//TODO: check how i establish the backgroud and foreground generic color https://www.youtube.com/watch?v=QCqWzb-9Sy8 10:48
