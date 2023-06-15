@@ -23,7 +23,11 @@
     "colorfull",
     "adeso"
   ],
-  "icon": "assets/icon/darkokai_icon.png",
+  "icon": "assets/icon/Market_logo.png",
+  "galleryBanner": {
+    "color": "#ae5dff",
+    "theme": "dark"
+  },
   "categories": [
     "Themes"
   ],
