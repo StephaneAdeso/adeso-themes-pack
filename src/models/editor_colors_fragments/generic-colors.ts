@@ -71,7 +71,11 @@ export function getGenericColors(palette: Palette) {
     },
     {
       name: "functions",
-      scope: ["entity.name.function"],
+      scope: [
+        "entity.name.function",
+        "meta.method.declaration storage.type",
+        "meta.method.declaration meta.block meta.function-call	variable.language.super",
+      ],
       settings: {
         foreground: palette.Function,
       },

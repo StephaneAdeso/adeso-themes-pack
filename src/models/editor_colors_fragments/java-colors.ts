@@ -26,5 +26,12 @@ export function getJavaColors(palette: Palette) {
         foreground: palette.Type_Primitive,
       },
     },
+    {
+      name: "JAVA functions",
+      scope: ["variable.language.java "],
+      settings: {
+        foreground: palette.Function,
+      },
+    },
   ];
 }

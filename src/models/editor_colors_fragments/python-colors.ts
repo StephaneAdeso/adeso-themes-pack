@@ -17,6 +17,7 @@ export function getPythonColors(palette: Palette) {
       name: "PYTHON functions",
       scope: [
         "meta.function-call.generic.python",
+        "meta.function-call.python support.type.python",
         "support.function.magic.python",
         "support.function.builtin.python",
       ],

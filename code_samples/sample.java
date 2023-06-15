@@ -31,6 +31,9 @@ class Vampire {
 
 // ...there was a guy named Vlad
 public class dracula {
+  dracula() {
+    super();
+  }
 
   private boolean mybool = true;
   Vampire vampire = new Vampire(

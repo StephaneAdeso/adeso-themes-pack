@@ -12,6 +12,7 @@ import { getPythonColors } from "./editor_colors_fragments/python-colors";
 import { getSassColors } from "./editor_colors_fragments/sass-colors";
 import { getYamlColors } from "./editor_colors_fragments/yaml-colors";
 import { getSwiftColors } from "./editor_colors_fragments/swift-colors";
+import { getTypescriptColors } from "./editor_colors_fragments/typescript-colors";
 
 /** this function returns the JSON TokenColors array. Used for configuring the colors of the editor */
 export function getTokenColors(palette: Palette): any[] {
@@ -29,5 +30,6 @@ export function getTokenColors(palette: Palette): any[] {
     ...getSassColors(palette),
     ...getYamlColors(palette),
     ...getSwiftColors(palette),
+    ...getTypescriptColors(palette),
   ];
 }

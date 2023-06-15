@@ -17,7 +17,7 @@
     "editorIndentGuide.background": "#343434",
     "editorInlayHint.parameterForeground": "#6e6e6e",
     "editorInlayHint.foreground": "#6e6e6e",
-    "editorInlayHint.background": "#343434",
+    "editorInlayHint.background": "#2C2C2CFF",
     "editorLineNumber.activeForeground": "#ae5dff",
     "editorLineNumber.foreground": "#444444",
     "editorOverviewRuler.border": "#343434",
@@ -131,7 +131,9 @@
     {
       "name": "functions",
       "scope": [
-        "entity.name.function"
+        "entity.name.function",
+        "meta.method.declaration storage.type",
+        "meta.method.declaration meta.block meta.function-call\tvariable.language.super"
       ],
       "settings": {
         "foreground": "#56cc1f"
@@ -316,6 +318,15 @@
       }
     },
     {
+      "name": "JAVA functions",
+      "scope": [
+        "variable.language.java "
+      ],
+      "settings": {
+        "foreground": "#56cc1f"
+      }
+    },
+    {
       "name": "JSON Key - Level 0",
       "scope": [
         "source.json meta.structure.dictionary.json support.type.property-name.json"
@@ -477,6 +488,7 @@
       "name": "PYTHON functions",
       "scope": [
         "meta.function-call.generic.python",
+        "meta.function-call.python support.type.python",
         "support.function.magic.python",
         "support.function.builtin.python"
       ],
@@ -572,6 +584,15 @@
       ],
       "settings": {
         "foreground": "#ae5dff"
+      }
+    },
+    {
+      "name": "functions",
+      "scope": [
+        "variable.language.super.ts"
+      ],
+      "settings": {
+        "foreground": "#56cc1f"
       }
     }
   ]

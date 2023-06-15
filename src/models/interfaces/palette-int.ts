@@ -1,6 +1,7 @@
 export interface Palette {
   Background: string;
   Line_separator: string;
+  InlineHint_Background: string;
   Activity_bar_icon: string;
   Line_numbers_rulers: string;
   Active_list_item: string;

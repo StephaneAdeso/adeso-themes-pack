@@ -11,6 +11,7 @@ export const themesList: Theme[] = [
     -       Exclusive UI Colors    -
     ----------------------------- */
     Background: "#252525",
+    InlineHint_Background: Color("#252525").lighten(0.2).hexa(),
     Line_separator: "#343434",
     Activity_bar_icon: "#dbdbdb7c",
     Line_numbers_rulers: "#444444",
@@ -43,6 +44,7 @@ export const themesList: Theme[] = [
     -       Exclusive UI Colors    -
     ----------------------------- */
     Background: "#F4F2F2",
+    InlineHint_Background: Color("#F4F2F2").darken(0.04).hexa(),
     Line_separator: "#CECECE",
     Activity_bar_icon: "#939393",
     Line_numbers_rulers: "#B5B5B5",
@@ -57,17 +59,17 @@ export const themesList: Theme[] = [
     Comment: "#7C7C7C",
     Type: "#00AFE4",
     Type_Primitive: "#0048E2",
-    Function: "#56cc1f",
+    Function: Color("#56cc1f").blacken(0.4).hexa(),
     Keyword: "#f1438c",
-    Punctuation: "#f69608",
+    Punctuation: Color("#f69608").saturate(0.9).darken(0.1).hexa(),
     Used_properties: "#ae5dff",
 
     /* -----------------------------
     -       Secondary colors    -
     ----------------------------- */
 
-    String: "#BAAB00",
-    Numeric: "#62A5F1",
-    Boolean: "#c09ad9",
+    String: "#8C7300",
+    Numeric: "#9C00A6",
+    Boolean: "#0091A6",
   }),
 ];

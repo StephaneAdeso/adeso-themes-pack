@@ -125,6 +125,10 @@ export const myObj = {
   getAge:(age)=>{age}
 }
 class CreateFileDropProvider implements vscode.DocumentDropEditProvider {
+  constructor() {
+    super();
+    
+  }
   async provideDocumentDropEdits(_document: vscode.textDocument, _position: vscode.Position.dataTranfer:any){
     const pngFile = _document.get('image/png')?.asFile();
     if(!pngFile && _document){
