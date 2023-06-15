@@ -57,6 +57,7 @@
     "watch": "nodemon"
   },
   "dependencies": {
+    "@types/color": "^3.0.3",
     "color": "^4.2.3"
   }
 }

@@ -1,5 +1,6 @@
 import { ThemeTypes } from "./models/enums/themeTypes.enum";
 import { Theme } from "./models/theme";
+import Color = require("color");
 
 /**
  * This is the list where you create youre themes
