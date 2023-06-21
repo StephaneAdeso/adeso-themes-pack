@@ -45,6 +45,7 @@ public class dracula {
   private date = vampire.birthDate;
 
   private doSomething(){
+      if (13>=5)
         vampire.calcAge();        
       }
 
