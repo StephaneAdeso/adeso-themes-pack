@@ -15,9 +15,36 @@ export function getSassColors(palette: Palette) {
     },
     {
       name: "SASS entities",
-      scope: ["punctuation.definition.entity.css"],
+      scope: [
+        "punctuation.definition.entity.css",
+        "meta.at-rule.keyframes.scss entity.name.function.scss",
+        "meta.at-rule.media.scss meta.property-list.media-query.scss meta.property-name.media-query.scss",
+      ],
       settings: {
         foreground: palette.Type,
+      },
+    },
+    {
+      name: "SASS mediaqueries variables",
+      scope: [
+        "meta.at-rule.media.scss meta.property-list.media-query.scss meta.property-name.media-query.scss",
+      ],
+      settings: {
+        foreground: palette.Used_properties,
+      },
+    },
+    {
+      name: "SASS mediaqueries punctuation",
+      scope: ["meta.at-rule.media.scss meta.property-list.media-query.scss"],
+      settings: {
+        foreground: palette.Punctuation,
+      },
+    },
+    {
+      name: "SASS mediaqueries operators",
+      scope: ["meta.at-rule.media.scss keyword.control.operator.css.scss"],
+      settings: {
+        foreground: palette.Punctuation,
       },
     },
   ];

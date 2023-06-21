@@ -28,7 +28,7 @@ export const themesList: Theme[] = [
     Type_Primitive: "#437fff",
     Function: "#56cc1f",
     Keyword: "#f1438c",
-    Punctuation: "#f69608",
+    Punctuation: "#f69608", // And operators
     Used_properties: "#ae5dff",
 
     /* -----------------------------
@@ -61,7 +61,7 @@ export const themesList: Theme[] = [
     Type_Primitive: "#0048E2",
     Function: Color("#56cc1f").blacken(0.4).hexa(),
     Keyword: "#f1438c",
-    Punctuation: Color("#f69608").saturate(0.9).darken(0.1).hexa(),
+    Punctuation: Color("#f69608").saturate(0.9).darken(0.1).hexa(), // And operators
     Used_properties: "#ae5dff",
 
     /* -----------------------------

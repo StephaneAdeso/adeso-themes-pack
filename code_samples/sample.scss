@@ -1,40 +1,42 @@
 body {
-    text-align: center;
-    > #container {
-      text-align:left;
-      margin:0 auto;
-      width:500px;
-    }
+  text-align: center;
+  > #container {
+    text-align: left;
+    margin: 0 auto;
+    width: 500px;
   }
-  
-  
-  header {
-    h1 {
-      font-size:26px; margin-bottom:26px;
-    }
-  }
-  div[role="main"] {
-    @include background-image(linear-gradient(lighten($color1, 30%), lighten($color2, 30%)));
-    @include border-radius($border-radius * 3.5, $border-radius * 3.5 ); 
-    border:3px solid $color2;
-    padding:$border-radius;
-    margin-bottom:25px; 
-    
-    ul {
-      padding-top:14px;
-    }
-    li {
-      color:$fontcolor1;
-      margin-bottom:12px;
-    }
-  }
-  
-  button {
-    //leverages the buttons mixin
-    @include buttons();
-  }
+}
 
-  // Definir variables
+header {
+  h1 {
+    font-size: 26px;
+    margin-bottom: 26px;
+  }
+}
+div[role="main"] {
+  @include background-image(
+    linear-gradient(lighten($color1, 30%), lighten($color2, 30%))
+  );
+  @include border-radius($border-radius * 3.5, $border-radius * 3.5);
+  border: 3px solid $color2;
+  padding: $border-radius;
+  margin-bottom: 25px;
+
+  ul {
+    padding-top: 14px;
+  }
+  li {
+    color: $fontcolor1;
+    margin-bottom: 12px;
+  }
+}
+
+button {
+  //leverages the buttons mixin
+  @include buttons();
+}
+
+// Definir variables
 $primary-color: #007bff;
 $secondary-color: #6c757d;
 
@@ -48,51 +50,83 @@ $breakpoint-large: 992px;
   // Estilo para el bloque en sí
   background-color: $primary-color;
   color: white;
-  
+
   // Estilo para los elementos del bloque
   &__element {
     color: $secondary-color;
-    
+
     // Estilo para los modificadores del elemento
     &--modifier {
       font-weight: bold;
     }
   }
-  
+
   // Media query para pantallas pequeñas
   @media (max-width: $breakpoint-small) {
     background-color: $secondary-color;
-    
+
     &__element {
       font-size: 1.2rem;
     }
   }
-  
+
   // Media query para pantallas medianas
   @media (min-width: $breakpoint-medium) and (max-width: $breakpoint-large) {
     background-color: white;
-    
+
     &__element {
       font-size: 1.5rem;
     }
   }
-  
+
   // Media query para pantallas grandes
   @media (min-width: $breakpoint-large) {
     background-color: $primary-color;
-    
+
     &__element {
       font-size: 2rem;
-      
+
       // Animación para el elemento
       animation-name: example;
       animation-duration: 3s;
       animation-iteration-count: infinite;
-      
+
       @keyframes example {
-        from {color: $primary-color;}
-        to {color: $secondary-color;}
+        from {
+          color: $primary-color;
+        }
+        to {
+          color: $secondary-color;
+        }
       }
     }
+  }
+}
+
+@media not only screen and (max-width: 767px) {
+  body {
+    background-color: lightgreen;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+}
+
+@media (width >= $size-desktop) {
+  #tabs-tab-passbook {
+    order: 2;
+  }
+
+  #tabs-tab-pdf {
+    order: 1;
+  }
+}
+
+@media (width < $size-desktop) {
+  #tabs-tab-passbook {
+    order: 1;
+  }
+
+  #tabs-tab-pdf {
+    order: 2;
   }
 }

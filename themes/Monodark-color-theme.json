@@ -234,10 +234,19 @@
     {
       "name": "CSS keyword ",
       "scope": [
-        "source.css keyword.operator"
+        "support.constant.media.css"
       ],
       "settings": {
         "foreground": "#f1438c"
+      }
+    },
+    {
+      "name": "CSS keyword operator ",
+      "scope": [
+        "source.css keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#f69608"
       }
     },
     {
@@ -535,10 +544,39 @@
     {
       "name": "SASS entities",
       "scope": [
-        "punctuation.definition.entity.css"
+        "punctuation.definition.entity.css",
+        "meta.at-rule.keyframes.scss entity.name.function.scss",
+        "meta.at-rule.media.scss meta.property-list.media-query.scss meta.property-name.media-query.scss"
       ],
       "settings": {
         "foreground": "#22c0f0"
+      }
+    },
+    {
+      "name": "SASS mediaqueries variables",
+      "scope": [
+        "meta.at-rule.media.scss meta.property-list.media-query.scss meta.property-name.media-query.scss"
+      ],
+      "settings": {
+        "foreground": "#ae5dff"
+      }
+    },
+    {
+      "name": "SASS mediaqueries punctuation",
+      "scope": [
+        "meta.at-rule.media.scss meta.property-list.media-query.scss"
+      ],
+      "settings": {
+        "foreground": "#f69608"
+      }
+    },
+    {
+      "name": "SASS mediaqueries operators",
+      "scope": [
+        "meta.at-rule.media.scss keyword.control.operator.css.scss"
+      ],
+      "settings": {
+        "foreground": "#f69608"
       }
     },
     {

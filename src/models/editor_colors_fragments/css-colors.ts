@@ -28,9 +28,16 @@ export function getCssColors(palette: Palette) {
     },
     {
       name: "CSS keyword ",
-      scope: ["source.css keyword.operator"],
+      scope: ["support.constant.media.css"],
       settings: {
         foreground: palette.Keyword,
+      },
+    },
+    {
+      name: "CSS keyword operator ",
+      scope: ["source.css keyword.operator"],
+      settings: {
+        foreground: palette.Punctuation,
       },
     },
     /* for Sass files */

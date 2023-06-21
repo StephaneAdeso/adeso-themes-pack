@@ -146,6 +146,9 @@ let age=34;
 var regex = /^[1-9]\d{0,2}$/g
 regex.test('2') // outputs true
 
+if(18>=37){
+  
+}
 var trigger = "2",
     regexp = new RegExp('^[1-9]\d{0,2}$'),
     test = regexp.test(trigger);
