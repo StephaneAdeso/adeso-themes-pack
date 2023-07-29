@@ -1,7 +1,8 @@
-import { Palette } from "./interfaces/palette-int";
+import { Palette } from "./interfaces/palette.interface";
 
-/** this function returns the JSON Colors object. Used for configuring the colors of the
- * vscode user interface
+/**
+ * this function returns the JSON Colors object. Used for configuring
+ * the colors of the vscode user interface
  */
 export function getColors(palette: Palette): any {
   return {

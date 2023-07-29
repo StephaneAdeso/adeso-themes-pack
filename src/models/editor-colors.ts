@@ -1,4 +1,4 @@
-import { Palette } from "./interfaces/palette-int";
+import { Palette } from "./interfaces/palette.interface";
 import { getCssColors } from "./editor_colors_fragments/css-colors";
 import { getDartColors } from "./editor_colors_fragments/dart-colors";
 import { getGenericColors } from "./editor_colors_fragments/generic-colors";

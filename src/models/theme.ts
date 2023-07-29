@@ -1,6 +1,6 @@
 import { getTokenColors } from "./editor-colors";
 import { ThemeTypes } from "./enums/themeTypes.enum";
-import { Palette } from "./interfaces/palette-int";
+import { Palette } from "./interfaces/palette.interface";
 import { getColors } from "./ui-colors";
 
 export class Theme {

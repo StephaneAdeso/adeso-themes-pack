@@ -1,4 +1,4 @@
-import { Palette } from "../interfaces/palette-int";
+import { Palette } from "../interfaces/palette.interface";
 
 /** SASS files inherit 99% of CSS configs.
  * Try first fixing colos in CSS file.

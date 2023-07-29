@@ -1,4 +1,4 @@
-import { Palette } from "../interfaces/palette-int";
+import { Palette } from "../interfaces/palette.interface";
 
 /** colors that affects more than 1 language. Based and checked on
  * typescript files.

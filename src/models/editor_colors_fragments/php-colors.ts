@@ -1,4 +1,4 @@
-import { Palette } from "../interfaces/palette-int";
+import { Palette } from "../interfaces/palette.interface";
 
 export function getPhpColors(palette: Palette) {
   return [

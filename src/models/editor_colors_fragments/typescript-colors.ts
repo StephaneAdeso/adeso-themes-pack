@@ -1,4 +1,4 @@
-import { Palette } from "../interfaces/palette-int";
+import { Palette } from "../interfaces/palette.interface";
 
 /** SASS files inherit 99% of CSS configs. So check this file before
  * altering the sass-colors.ts file
