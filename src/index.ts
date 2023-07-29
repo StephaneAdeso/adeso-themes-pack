@@ -11,10 +11,8 @@ themesList.forEach((theme) => {
 //TODO: change github account name to "adeso"
 //TODO: change github project and change in package
 //TODO: Change documentation and colors
-//TODO: Create new logo
 //TODO: Update Readme
 //TODO: Create Wiki
-//TODO: Create Github page
 //TODO: separate inline hint background color. make special color for him.
 //TODO: check if we need to create specific color for list item selected
 //TODO: configure color library in project.
