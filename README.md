@@ -11,7 +11,7 @@ MICROSOFT MARKET SUPPORT ASKED ME A PROOF THAT THIS REPO IS MINE.
 
 
 
-# Darkokai
+# Monodark
 
 
 This dark theme for [Visual Studio Code](http://code.visualstudio.com) is based on the monokai color palette. It aims to give the user a colorful clean interface without so many lines.
