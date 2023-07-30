@@ -6,7 +6,7 @@ export function getYamlColors(palette: Palette) {
       name: "YAML entities",
       scope: ["entity.name.tag.yaml"],
       settings: {
-        foreground: palette.Type,
+        foreground: palette.type,
       },
     },
   ];

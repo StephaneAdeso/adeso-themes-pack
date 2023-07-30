@@ -10,7 +10,7 @@ export function getSassColors(palette: Palette) {
       name: "SASS punctuation",
       scope: ["entity.name.tag.reference.scss"],
       settings: {
-        foreground: palette.Punctuation,
+        foreground: palette.punctuation,
       },
     },
     {
@@ -21,7 +21,7 @@ export function getSassColors(palette: Palette) {
         "meta.at-rule.media.scss meta.property-list.media-query.scss meta.property-name.media-query.scss",
       ],
       settings: {
-        foreground: palette.Type,
+        foreground: palette.type,
       },
     },
     {
@@ -30,21 +30,21 @@ export function getSassColors(palette: Palette) {
         "meta.at-rule.media.scss meta.property-list.media-query.scss meta.property-name.media-query.scss",
       ],
       settings: {
-        foreground: palette.Used_properties,
+        foreground: palette.usedProperties,
       },
     },
     {
       name: "SASS mediaqueries punctuation",
       scope: ["meta.at-rule.media.scss meta.property-list.media-query.scss"],
       settings: {
-        foreground: palette.Punctuation,
+        foreground: palette.punctuation,
       },
     },
     {
       name: "SASS mediaqueries operators",
       scope: ["meta.at-rule.media.scss keyword.control.operator.css.scss"],
       settings: {
-        foreground: palette.Punctuation,
+        foreground: palette.punctuation,
       },
     },
   ];

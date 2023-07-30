@@ -18,7 +18,11 @@
     "pack",
     "monokai",
     "free",
-    "adeso"
+    "adeso",
+    "Color blind",
+    "Protanopia",
+    "tritanopia",
+    "deuteranopia"
   ],
   "icon": "assets/icon/adeso_themepack_logo.png",
   "galleryBanner": {
@@ -44,6 +48,11 @@
         "label": "Adeso Universal Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Universaldark-color-theme.json"
+      },
+      {
+        "label": "Adeso Golden Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Goldendark-color-theme.json"
       },
       {
         "label": "Adeso Monolight",

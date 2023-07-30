@@ -42,7 +42,7 @@ This theme tries to bring the colors of Monokai to the light side. If you like l
 
 ### Universal Dark
 
-This theme tries to fit in all types of vision. Whether you are color blind or not. Protanopia, deuteranopia, and tritanopia compatible.
+This theme is designed so that everyone will feel comfortable using it. Whether you are color blind or not. Protanopia  (people that don't see red colors)  , deuteranopia (people that don't see green colors), and tritanopia (people that don't see blue colors)compatible. 
 
 <span style="background:#313131;" class="color" >&shy;</span> 
 <span style="background:#FBBED4;" class="color" >&shy;</span>

@@ -10,105 +10,140 @@ export const themesList: Theme[] = [
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */
-    Background: "#252525",
-    InlineHint_Background: Color("#252525").lighten(0.2).hexa(),
-    Line_separator: "#343434",
-    Activity_bar_icon: "#dbdbdb7c",
-    Line_numbers_rulers: "#444444",
-    Line_active_number: "#ae5dff",
-    Active_list_item: "#2cc2f04b",
-    Tabs_background: "#ff006a17",
-    Tabs_borders: "#f1438c",
+    background: "#252525",
+    inlineHintBackground: Color("#252525").lighten(0.2).hexa(),
+    lineSeparator: "#343434",
+    activityBarIcon: "#dbdbdb7c",
+    lineNumbersRulers: "#444444",
+    lineActiveNumber: "#ae5dff",
+    listActiveItem: "#2cc2f04b",
+    tabsBackground: "#ff006a17",
+    tabsBorders: "#f1438c",
 
     /* -----------------------------
     -       Primary colors    -
     ----------------------------- */
 
-    Variable: "#d3d3d3",
-    Comment: "#6e6e6e",
-    Type: "#22c0f0",
-    Type_Primitive: "#437fff",
-    Function: "#56cc1f",
-    Keyword: "#f1438c",
-    Punctuation: "#f69608", // And operators
-    Used_properties: "#ae5dff",
+    variable: "#d3d3d3",
+    comment: "#6e6e6e",
+    type: "#22c0f0",
+    typePrimitive: "#437fff",
+    function: "#56cc1f",
+    keyword: "#f1438c",
+    punctuation: "#f69608", // And operators
+    usedProperties: "#ae5dff",
 
     /* -----------------------------
     -       Secondary colors    -
     ----------------------------- */
 
-    String: "#e6d08e",
-    Numeric: "#a9dff0",
-    Boolean: "#c09ad9",
+    string: "#e6d08e",
+    numeric: "#a9dff0",
+    boolean: "#c09ad9",
   }),
   new Theme("Monolight", ThemeTypes.LIGHT, {
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */
-    Background: "#F4F2F2",
-    InlineHint_Background: Color("#F4F2F2").darken(0.04).hexa(),
-    Line_separator: "#CECECE",
-    Activity_bar_icon: "#939393",
-    Line_numbers_rulers: "#B5B5B5",
-    Line_active_number: "#ae5dff",
-    Active_list_item: "#2cc2f04b",
-    Tabs_background: "#ff006a17",
-    Tabs_borders: "#f1438c",
+    background: "#F4F2F2",
+    inlineHintBackground: Color("#F4F2F2").darken(0.04).hexa(),
+    lineSeparator: "#CECECE",
+    activityBarIcon: "#939393",
+    lineNumbersRulers: "#B5B5B5",
+    lineActiveNumber: "#ae5dff",
+    listActiveItem: "#2cc2f04b",
+    tabsBackground: "#ff006a17",
+    tabsBorders: "#f1438c",
 
     /* -----------------------------
     -       Primary colors    -
     ----------------------------- */
 
-    Variable: "#2D2D2D",
-    Comment: "#7C7C7C",
-    Type: "#00AFE4",
-    Type_Primitive: "#0048E2",
-    Function: "#50b81f",
-    Keyword: "#f1438c",
-    Punctuation: "#e58800", // And operators
-    Used_properties: "#ae5dff",
+    variable: "#2D2D2D",
+    comment: "#7C7C7C",
+    type: "#00AFE4",
+    typePrimitive: "#0048E2",
+    function: "#50b81f",
+    keyword: "#f1438c",
+    punctuation: "#e58800", // And operators
+    usedProperties: "#ae5dff",
 
     /* -----------------------------
     -       Secondary colors    -
     ----------------------------- */
 
-    String: "#8C7300",
-    Numeric: "#9C00A6",
-    Boolean: "#0091A6",
+    string: "#8C7300",
+    numeric: "#9C00A6",
+    boolean: "#0091A6",
   }),
   new Theme("Universaldark", ThemeTypes.DARK, {
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */
-    Background: "#313131",
-    InlineHint_Background: Color("#313131").lighten(0.2).hexa(),
-    Line_separator: "#525252",
-    Activity_bar_icon: "#dbdbdb7c",
-    Line_active_number: "#BEE7FB",
-    Line_numbers_rulers: "#525252",
-    Active_list_item: "#2cc2f04b",
-    Tabs_background: "#BEE7FB17",
-    Tabs_borders: "#BEE7FB",
+    background: "#313131",
+    inlineHintBackground: Color("#313131").lighten(0.2).hexa(),
+    lineSeparator: "#525252",
+    activityBarIcon: "#dbdbdb7c",
+    lineActiveNumber: "#BEE7FB",
+    lineNumbersRulers: "#525252",
+    listActiveItem: "#2cc2f04b",
+    tabsBackground: "#BEE7FB17",
+    tabsBorders: "#BEE7FB",
 
     /* -----------------------------
     -       Primary colors    -
     ----------------------------- */
 
-    Variable: "#ebebeb",
-    Comment: "#6e6e6e",
-    Type: "#BEE7FB",
-    Type_Primitive: "#C1AF35",
-    Function: "#BEC5FB",
-    Keyword: "#FBBED4",
-    Punctuation: "#FBE7BE", // And operators
-    Used_properties: "#7676ED",
+    variable: "#ebebeb",
+    comment: "#6e6e6e",
+    type: "#BEE7FB",
+    typePrimitive: "#C1AF35",
+    function: "#BEC5FB",
+    keyword: "#FBBED4",
+    punctuation: "#FBE7BE", // And operators
+    usedProperties: "#7676ED",
 
     /* -----------------------------
     -       Secondary colors    -
     ----------------------------- */
 
-    String: "#d0efff",
-    Numeric: "#F18686",
-    Boolean: "#4CDA87",
+    string: "#d0efff",
+    numeric: "#F18686",
+    boolean: "#4CDA87",
+  }),
+  new Theme("Goldendark", ThemeTypes.DARK, {
+    /* -----------------------------
+    -       Exclusive UI Colors    -
+    ----------------------------- */
+    background: "#313131",
+    inlineHintBackground: Color("#313131").lighten(0.2).hexa(),
+    lineSeparator: "#525252",
+    activityBarIcon: "#dbdbdb7c",
+    lineActiveNumber: "#BEE7FB",
+    lineNumbersRulers: "#525252",
+    listActiveItem: "#2cc2f04b",
+    tabsBackground: "#BEE7FB17",
+    tabsBorders: "#BEE7FB",
+
+    /* -----------------------------
+    -       Primary colors    -
+    ----------------------------- */
+
+    variable: "#ebebeb",
+    comment: "#6e6e6e",
+    type: "#BEE7FB",
+    typePrimitive: "#C1AF35",
+    function: "#BEC5FB",
+    keyword: "#FBBED4",
+    punctuation: "#FBE7BE", // And operators
+    usedProperties: "#7676ED",
+
+    /* -----------------------------
+    -       Secondary colors    -
+    ----------------------------- */
+
+    string: "#d0efff",
+    numeric: "#F18686",
+    boolean: "#4CDA87",
   }),
 ];
