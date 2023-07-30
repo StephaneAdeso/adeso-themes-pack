@@ -59,9 +59,9 @@ export const themesList: Theme[] = [
     Comment: "#7C7C7C",
     Type: "#00AFE4",
     Type_Primitive: "#0048E2",
-    Function: Color("#56cc1f").blacken(0.4).hexa(),
+    Function: "#50b81f",
     Keyword: "#f1438c",
-    Punctuation: Color("#f69608").saturate(0.9).darken(0.1).hexa(), // And operators
+    Punctuation: "#e58800", // And operators
     Used_properties: "#ae5dff",
 
     /* -----------------------------
@@ -71,5 +71,38 @@ export const themesList: Theme[] = [
     String: "#8C7300",
     Numeric: "#9C00A6",
     Boolean: "#0091A6",
+  }),
+  new Theme("Universaldark", ThemeTypes.DARK, {
+    /* -----------------------------
+    -       Exclusive UI Colors    -
+    ----------------------------- */
+    Background: "#2c2c2c",
+    InlineHint_Background: Color("#2c2c2c").lighten(0.2).hexa(),
+    Line_separator: "#414141",
+    Activity_bar_icon: "#dbdbdb7c",
+    Line_numbers_rulers: "#444444",
+    Active_list_item: "#2cc2f04b",
+    Tabs_background: "#ff006a17",
+
+    /* -----------------------------
+    -       Primary colors    -
+    ----------------------------- */
+
+    Variable: "#ebebeb",
+    Comment: "#6e6e6e",
+    Type: "#BEE7FB",
+    Type_Primitive: "#C1AF35",
+    Function: "#BEC5FB",
+    Keyword: "#FBBED4",
+    Punctuation: "#FBE7BE", // And operators
+    Used_properties: "#7676ED",
+
+    /* -----------------------------
+    -       Secondary colors    -
+    ----------------------------- */
+
+    String: "#BEE7FB",
+    Numeric: "#F18686",
+    Boolean: "#4CDA87",
   }),
 ];

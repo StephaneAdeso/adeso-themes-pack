@@ -2,7 +2,7 @@
   "name": "adeso-themes-pack",
   "displayName": "Adeso Themes Pack",
   "description": "Pack of various dark and light themes. Including some for people with visual problems.",
-  "publisher": "Adeso",
+  "publisher": "StephaneAdeso",
   "version": "0.7.1",
   "repository": {
     "type": "git",
@@ -29,8 +29,8 @@
     "Themes"
   ],
   "author": {
-    "name": "Stephane Margini",
-    "email": "fsmargini@gmail.com",
+    "name": "Stephane Marini",
+    "email": "stephaneadeso@gmail.com",
     "url": "www.linkedin.com/in/stephane-margini"
   },
   "contributes": {
@@ -39,6 +39,11 @@
         "label": "Adeso Monodark",
         "uiTheme": "vs-dark",
         "path": "./themes/Monodark-color-theme.json"
+      },
+      {
+        "label": "Adeso Universal Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Universaldark-color-theme.json"
       },
       {
         "label": "Adeso Monolight",

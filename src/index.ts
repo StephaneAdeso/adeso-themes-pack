@@ -14,8 +14,10 @@ themesList.forEach((theme) => {
 });
 
 //TODO: Change documentation and colors
+//TODO: Delete all todo's
 //TODO: Update Readme
 //TODO: Create Wiki
 //TODO: check if we need to create specific color for list item selected
 //TODO: configure color library in project.
+//TODO: Add script to clean dist and theme folders after each build.
 //TODO: Try to make parameters looks good like in the image of https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula
