@@ -17,6 +17,8 @@ themesList.forEach((theme) => {
 //TODO: Delete all todo's
 //TODO: Update Readme
 //TODO: Create Wiki
+//TODO: Finish eyesafe theme
+//TODO: Migrate themes to independent files.
 //TODO: check if we need to create specific color for list item selected
 //TODO: configure color library in project.
 //TODO: Add script to clean dist and theme folders after each build.

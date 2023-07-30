@@ -13,10 +13,12 @@ export const themesList: Theme[] = [
     background: "#252525",
     inlineHintBackground: Color("#252525").lighten(0.2).hexa(),
     lineSeparator: "#343434",
-    activityBarIcon: "#dbdbdb7c",
+    activityBarIcons: "#dbdbdb7c",
+    activityBarcActiveIcon: "#22c0f0",
     lineNumbersRulers: "#444444",
     lineActiveNumber: "#ae5dff",
     listActiveItem: "#2cc2f04b",
+    menuBackground: "#22c0f04b",
     tabsBackground: "#ff006a17",
     tabsBorders: "#f1438c",
 
@@ -48,10 +50,12 @@ export const themesList: Theme[] = [
     background: "#F4F2F2",
     inlineHintBackground: Color("#F4F2F2").darken(0.04).hexa(),
     lineSeparator: "#CECECE",
-    activityBarIcon: "#939393",
+    activityBarIcons: "#939393",
+    activityBarcActiveIcon: "#00AFE4",
     lineNumbersRulers: "#B5B5B5",
     lineActiveNumber: "#ae5dff",
     listActiveItem: "#2cc2f04b",
+    menuBackground: "#22c0f017",
     tabsBackground: "#ff006a17",
     tabsBorders: "#f1438c",
 
@@ -80,13 +84,15 @@ export const themesList: Theme[] = [
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */
-    background: "#313131",
-    inlineHintBackground: Color("#313131").lighten(0.2).hexa(),
-    lineSeparator: "#525252",
-    activityBarIcon: "#dbdbdb7c",
+    background: "#1d1b1d",
+    inlineHintBackground: Color("#1d1b1d").lighten(0.2).hexa(),
+    lineSeparator: "#333333",
+    activityBarcActiveIcon: "#BEE7FB",
+    activityBarIcons: "#444444",
     lineActiveNumber: "#BEE7FB",
-    lineNumbersRulers: "#525252",
+    lineNumbersRulers: "#333333",
     listActiveItem: "#2cc2f04b",
+    menuBackground: "#2cc2f04b",
     tabsBackground: "#BEE7FB17",
     tabsBorders: "#BEE7FB",
 
@@ -115,35 +121,74 @@ export const themesList: Theme[] = [
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */
-    background: "#313131",
-    inlineHintBackground: Color("#313131").lighten(0.2).hexa(),
+    background: "#1a1e27",
+    inlineHintBackground: Color("#0e172c").lighten(0.2).hexa(),
     lineSeparator: "#525252",
-    activityBarIcon: "#dbdbdb7c",
-    lineActiveNumber: "#BEE7FB",
+    activityBarcActiveIcon: "#FCA311",
+    activityBarIcons: "#ffbb4e7c",
+    lineActiveNumber: "#FCA311",
     lineNumbersRulers: "#525252",
-    listActiveItem: "#2cc2f04b",
+    listActiveItem: "#FCA3114b",
+    menuBackground: "#FCA31117",
     tabsBackground: "#BEE7FB17",
-    tabsBorders: "#BEE7FB",
+    tabsBorders: "#FCA311",
 
     /* -----------------------------
     -       Primary colors    -
     ----------------------------- */
 
-    variable: "#ebebeb",
-    comment: "#6e6e6e",
-    type: "#BEE7FB",
-    typePrimitive: "#C1AF35",
-    function: "#BEC5FB",
-    keyword: "#FBBED4",
-    punctuation: "#FBE7BE", // And operators
+    variable: "#FCA311",
+    comment: "#83814e",
+    type: "#b8dbd9",
+    typePrimitive: "#63a8a6",
+    function: "#94d1be",
+    keyword: "#eb5e28",
+    punctuation: "#E5E5E5", // And operators
     usedProperties: "#7676ED",
 
     /* -----------------------------
     -       Secondary colors    -
     ----------------------------- */
 
-    string: "#d0efff",
-    numeric: "#F18686",
-    boolean: "#4CDA87",
+    string: "#C1AF35",
+    numeric: "#ffed66",
+    boolean: "#00cecb",
+  }),
+  new Theme("EyeSafedark", ThemeTypes.DARK, {
+    /* -----------------------------
+    -       Exclusive UI Colors    -
+    ----------------------------- */
+    background: "#131111",
+    inlineHintBackground: Color("#131111").lighten(0.2).hexa(),
+    lineSeparator: "#525252",
+    activityBarcActiveIcon: "#FCA311",
+    activityBarIcons: "#ffbb4e7c",
+    lineActiveNumber: "#FCA311",
+    lineNumbersRulers: "#525252",
+    listActiveItem: "#FCA3114b",
+    menuBackground: "#FCA31117",
+    tabsBackground: "#BEE7FB17",
+    tabsBorders: "#FCA311",
+
+    /* -----------------------------
+    -       Primary colors    -
+    ----------------------------- */
+
+    variable: "#c7c7c7", //[x]
+    comment: "#777664",
+    type: "#168aad",
+    typePrimitive: "#63a8a6",
+    function: "#007f5f",
+    keyword: "#96624a",
+    punctuation: "#ca6702", // And operators //[x]
+    usedProperties: "#7676ED",
+
+    /* -----------------------------
+    -       Secondary colors    -
+    ----------------------------- */
+
+    string: "#C1AF35", // [x]changed
+    numeric: "#ffed66", // [x]changed
+    boolean: "#00cecb", // [x]changed
   }),
 ];

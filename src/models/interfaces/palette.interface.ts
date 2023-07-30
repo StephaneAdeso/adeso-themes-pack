@@ -1,5 +1,6 @@
 export interface Palette {
-  activityBarIcon: string;
+  activityBarcActiveIcon: string;
+  activityBarIcons: string;
   background: string;
   boolean: string;
   comment: string;
@@ -10,6 +11,7 @@ export interface Palette {
   lineNumbersRulers: string;
   lineSeparator: string;
   listActiveItem: string;
+  menuBackground: string;
   numeric: string;
   punctuation: string;
   string: string;

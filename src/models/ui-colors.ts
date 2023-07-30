@@ -8,8 +8,8 @@ export function getColors(palette: Palette): any {
   return {
     "activityBar.activeBorder": palette.type,
     "activityBar.background": palette.background,
-    "activityBar.foreground": palette.type,
-    "activityBar.inactiveForeground": palette.activityBarIcon, // plugin icons on the left bar
+    "activityBar.foreground": palette.activityBarcActiveIcon,
+    "activityBar.inactiveForeground": palette.activityBarIcons, // plugin icons on the left bar
     "activityBarBadge.background": palette.keyword,
     "activityBarBadge.foreground": palette.variable,
     "button.background": palette.usedProperties,
@@ -26,9 +26,9 @@ export function getColors(palette: Palette): any {
     "editorLineNumber.foreground": palette.lineNumbersRulers,
     "editorOverviewRuler.border": palette.lineSeparator,
     "editorRuler.foreground": palette.lineNumbersRulers,
-    "list.activeSelectionBackground": palette.listActiveItem,
+    "list.activeSelectionBackground": palette.tabsBackground,
     "list.activeSelectionForeground": palette.variable,
-    "menu.selectionBackground": palette.type,
+    "menu.selectionBackground": palette.menuBackground,
     "scrollbar.shadow": palette.background,
     "sideBar.background": palette.background,
     "sideBar.border": palette.lineSeparator,

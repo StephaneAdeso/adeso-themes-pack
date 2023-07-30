@@ -55,6 +55,11 @@
         "path": "./themes/Goldendark-color-theme.json"
       },
       {
+        "label": "Adeso Eye safe Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/EyeSafedark-color-theme.json"
+      },
+      {
         "label": "Adeso Monolight",
         "uiTheme": "vs",
         "path": "./themes/Monolight-color-theme.json"
