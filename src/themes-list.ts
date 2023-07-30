@@ -17,6 +17,7 @@ export const themesList: Theme[] = [
     Line_numbers_rulers: "#444444",
     Active_list_item: "#2cc2f04b",
     Tabs_background: "#ff006a17",
+    Tabs_borders: "#f1438c",
 
     /* -----------------------------
     -       Primary colors    -
@@ -50,6 +51,7 @@ export const themesList: Theme[] = [
     Line_numbers_rulers: "#B5B5B5",
     Active_list_item: "#2cc2f04b",
     Tabs_background: "#ff006a17",
+    Tabs_borders: "#f1438c",
 
     /* -----------------------------
     -       Primary colors    -
@@ -76,13 +78,14 @@ export const themesList: Theme[] = [
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */
-    Background: "#2c2c2c",
-    InlineHint_Background: Color("#2c2c2c").lighten(0.2).hexa(),
+    Background: "#313131",
+    InlineHint_Background: Color("#313131").lighten(0.2).hexa(),
     Line_separator: "#414141",
     Activity_bar_icon: "#dbdbdb7c",
     Line_numbers_rulers: "#444444",
     Active_list_item: "#2cc2f04b",
-    Tabs_background: "#ff006a17",
+    Tabs_background: "#BEE7FB17",
+    Tabs_borders: "#BEE7FB",
 
     /* -----------------------------
     -       Primary colors    -
