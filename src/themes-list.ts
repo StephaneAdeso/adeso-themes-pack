@@ -80,9 +80,9 @@ export const themesList: Theme[] = [
     ----------------------------- */
     Background: "#313131",
     InlineHint_Background: Color("#313131").lighten(0.2).hexa(),
-    Line_separator: "#414141",
+    Line_separator: "#525252",
     Activity_bar_icon: "#dbdbdb7c",
-    Line_numbers_rulers: "#444444",
+    Line_numbers_rulers: "#525252",
     Active_list_item: "#2cc2f04b",
     Tabs_background: "#BEE7FB17",
     Tabs_borders: "#BEE7FB",
@@ -104,7 +104,7 @@ export const themesList: Theme[] = [
     -       Secondary colors    -
     ----------------------------- */
 
-    String: "#BEE7FB",
+    String: "#d0efff",
     Numeric: "#F18686",
     Boolean: "#4CDA87",
   }),
