@@ -44,7 +44,7 @@ This theme tries to bring the colors of Monokai to the light side. If you like l
 
 This theme tries to fit in all types of vision. Whether you are color blind or not. Protanopia, deuteranopia, and tritanopia compatible.
 
-<span style="background:#2c2c2c;" class="color" >&shy;</span> 
+<span style="background:#313131;" class="color" >&shy;</span> 
 <span style="background:#FBBED4;" class="color" >&shy;</span>
 <span style="background:#C1AF35;" class="color" >&shy;</span>
 <span style="background:#BEE7FB;" class="color" >&shy;</span> 
