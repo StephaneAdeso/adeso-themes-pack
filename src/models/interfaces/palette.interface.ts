@@ -7,6 +7,7 @@ export interface Palette {
   Function: string;
   InlineHint_Background: string;
   Keyword: string;
+  Line_active_number: string;
   Line_numbers_rulers: string;
   Line_separator: string;
   Numeric: string;

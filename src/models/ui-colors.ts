@@ -22,7 +22,7 @@ export function getColors(palette: Palette): any {
     "editorInlayHint.parameterForeground": palette.Comment, //Inline Hints
     "editorInlayHint.foreground": palette.Comment,
     "editorInlayHint.background": palette.InlineHint_Background,
-    "editorLineNumber.activeForeground": palette.Used_properties,
+    "editorLineNumber.activeForeground": palette.Line_active_number,
     "editorLineNumber.foreground": palette.Line_numbers_rulers,
     "editorOverviewRuler.border": palette.Line_separator,
     "editorRuler.foreground": palette.Line_numbers_rulers,

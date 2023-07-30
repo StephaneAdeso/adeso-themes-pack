@@ -18,7 +18,7 @@
     "editorInlayHint.parameterForeground": "#6e6e6e",
     "editorInlayHint.foreground": "#6e6e6e",
     "editorInlayHint.background": "#3B3B3BFF",
-    "editorLineNumber.activeForeground": "#7676ED",
+    "editorLineNumber.activeForeground": "#BEE7FB",
     "editorLineNumber.foreground": "#525252",
     "editorOverviewRuler.border": "#525252",
     "editorRuler.foreground": "#525252",
