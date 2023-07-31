@@ -2,20 +2,27 @@ import Color from "color";
 import { ThemeTypes } from "../models/enums/themeTypes.enum";
 import { Theme } from "../models/theme";
 
+const background = "#131111";
+const secondaryBackground = Color(background).lighten(0.2).hexa()
+
 export const getTheme = (): Theme => {
   return new Theme("EyeSafedark", ThemeTypes.DARK, {
     /* -----------------------------
     -       Exclusive UI Colors    -
     ----------------------------- */
-    background: "#131111",
-    inlineHintBackground: Color("#131111").lighten(0.2).hexa(),
+    background: background,
+    inlineHintBackground: secondaryBackground,
     lineSeparator: "#525252",
     activityBarcActiveIcon: "#FCA311",
     activityBarIcons: "#ffbb4e7c",
     lineActiveNumber: "#FCA311",
     lineNumbersRulers: "#525252",
     listActiveItem: "#FCA3114b",
-    menuBackground: "#FCA31117",
+    menuBackground: secondaryBackground,
+    menuHoverBackground: "#FCA31117",
+    quickInputBackground: secondaryBackground,
+    windowResizeline: "#FCA311",
+    scrollbarButtonBackground: "#CECECE",
     tabsBackground: "#BEE7FB17",
     tabsBorders: "#FCA311",
 

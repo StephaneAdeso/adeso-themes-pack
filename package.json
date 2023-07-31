@@ -50,9 +50,9 @@
         "path": "./themes/Universaldark-color-theme.json"
       },
       {
-        "label": "Adeso Golden Dark",
+        "label": "Adeso Banana in the dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Goldendark-color-theme.json"
+        "path": "./themes/BananaInTheDark-color-theme.json"
       },
       {
         "label": "Adeso Eye safe Dark",

@@ -42,7 +42,7 @@ This theme tries to bring the colors of Monokai to the light side. If you like l
 
 ### Universal Dark
 
-This theme is designed so that everyone will feel comfortable using it. Whether you are color blind or not. Protanopia  (people that don't see red colors)  , deuteranopia (people that don't see green colors), and tritanopia (people that don't see blue colors)compatible. 
+This theme is specially designed for people with color perception problems. It is based on the color palette of **Paul Tol**. Protanopia  (people that don't see red colors)  , deuteranopia (people that don't see green colors), and tritanopia (people that don't see blue colors)compatible. 
 
 <span style="background:#313131;" class="color" >&shy;</span> 
 <span style="background:#FBBED4;" class="color" >&shy;</span>
@@ -61,6 +61,8 @@ This theme is maintained by [Stephane Margini](https://www.linkedin.com/in/steph
 To [Darcula theme](https://draculatheme.com/) for inspiring and sharing your sample project.
 
 To [David Nichols](https://davidmathlogic.com/) for his colorblind [online tool](https://davidmathlogic.com/colorblind/).
+
+To [Paul Tol](https://personal.sron.nl/~pault/) for his work on color blind palette.
 
 To Microsoft for making and maintaining the best free open source editor.
 

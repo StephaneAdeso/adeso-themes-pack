@@ -6,7 +6,7 @@
 import * as fs from "fs";
 import { Theme } from "./models/theme";
 import { getTheme as eyesafedark } from "./themes-config/eyesafedark.theme";
-import { getTheme as goldendark } from "./themes-config/goldendark.theme";
+import { getTheme as bananaInTheDark } from "./themes-config/banana-in-the-dark.theme";
 import { getTheme as monodark } from "./themes-config/monodark.theme";
 import { getTheme as monolight } from "./themes-config/monolight.theme";
 import { getTheme as universaldark } from "./themes-config/universaldark.theme";
@@ -14,7 +14,7 @@ import { getTheme as universaldark } from "./themes-config/universaldark.theme";
 /** retrieve all themes configurations */
 const themesList: Theme[] = [
   eyesafedark(),
-  goldendark(),
+  bananaInTheDark(),
   monodark(),
   monolight(),
   universaldark(),
@@ -32,8 +32,5 @@ themesList.forEach((theme) => {
 //TODO: Update Readme
 //TODO: Create Wiki
 //TODO: Finish eyesafe theme
-//TODO: Migrate themes to independent files.
-//TODO: check if we need to create specific color for list item selected
-//TODO: configure color library in project.
+//TODO: check background of command palette, resize window line
 //TODO: Add script to clean dist and theme folders after each build.
-//TODO: Try to make parameters looks good like in the image of https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula
