@@ -4,7 +4,21 @@
  * Remember to register the theme in the package.json.
  */
 import * as fs from "fs";
-import { themesList } from "./themes-list";
+import { Theme } from "./models/theme";
+import { getTheme as eyesafedark } from "./themes-config/eyesafedark.theme";
+import { getTheme as goldendark } from "./themes-config/goldendark.theme";
+import { getTheme as monodark } from "./themes-config/monodark.theme";
+import { getTheme as monolight } from "./themes-config/monolight.theme";
+import { getTheme as universaldark } from "./themes-config/universaldark.theme";
+
+/** retrieve all themes configurations */
+const themesList: Theme[] = [
+  eyesafedark(),
+  goldendark(),
+  monodark(),
+  monolight(),
+  universaldark(),
+];
 
 themesList.forEach((theme) => {
   fs.writeFileSync(

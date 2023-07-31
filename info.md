@@ -20,9 +20,9 @@ In `package.json`, you will find two useful scripts:
 
 ## Add a color theme
 
-If you want to add a color theme, just add a `new Theme()` in the `theme-list.ts` file.
+If you want to add a color theme, just add a copy one of the theme files in the `theme-config` folder and register it in the `index.ts` file.
 
-After adding your theme, remember to register it in the `package.json`.
+After adding your theme, remember to register it also in the `package.json`.
 
 ## Editing this project
 
