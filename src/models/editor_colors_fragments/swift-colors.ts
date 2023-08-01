@@ -6,28 +6,28 @@ export function getSwiftColors(palette: Palette) {
       name: "SWIFT functions",
       scope: ["support.function.any-method.swift"],
       settings: {
-        foreground: palette.editor.function,
+        foreground: palette.code.func,
       },
     },
     {
       name: "SWIFT variable",
       scope: ["variable.other.swift"],
       settings: {
-        foreground: palette.editor.usedProperties,
+        foreground: palette.code.usedProperties,
       },
     },
     {
       name: "SWIFT variable  function parameter",
       scope: ["variable.parameter.function.swift entity.name.function.swift"],
       settings: {
-        foreground: palette.editor.variable,
+        foreground: palette.code.variable,
       },
     },
     {
       name: "SWIFT object properties",
       scope: ["support.variable.swift"],
       settings: {
-        foreground: palette.editor.usedProperties,
+        foreground: palette.code.usedProperties,
       },
     },
   ];

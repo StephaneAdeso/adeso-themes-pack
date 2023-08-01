@@ -9,27 +9,42 @@ const selectedItemBackground = "#FCA3114b";
 export const getTheme = (): Theme => {
   return new Theme("EyeSafedark", ThemeTypes.DARK, {
     ui: {
-      activityBarcActiveIcon: "#FCA311",
-      activityBarIcons: "#ffbb4e7c",
-      background: background,
-      inlineHintBackground: secondaryBackground,
-      lineActiveNumber: "#FCA311",
-      lineNumbersRulers: "#525252",
-      lineSeparator: "#525252",
-      listActiveItem: selectedItemBackground,
-      menuBackground: secondaryBackground,
-      menuHoverBackground: selectedItemBackground,
-      quickInputBackground: secondaryBackground,
-      quickInputListBackground: selectedItemBackground,
-      scrollbarButtonBackground: "#CECECE",
-      tabsBackground: "#BEE7FB17",
-      tabsBorders: "#FCA311",
-      windowResizeline: "#FCA311",
+      activityBar: {
+        ActiveIcon: "#FCA311",
+        inactiveIcons: "#ffbb4e7c",
+      },
+      /** main menus and pop windows like command palette */
+      menus: {
+        background: secondaryBackground,
+        hoverBackground: selectedItemBackground,
+        quickInputBackground: secondaryBackground,
+        quickInputListBackground: selectedItemBackground,
+      },
+      /** trees and list windows */
+      trees: {
+        activeItem: selectedItemBackground,
+      },
+      editorWindow: {
+        inlineHintBackground: secondaryBackground,
+        lineActiveNumber: "#FCA311",
+        lineNumbersRulers: "#525252",
+        lineSeparator: "#525252",
+
+      },
+      general: {
+        mainBackground: background,
+        windowResizeline: "#FCA311",
+        scrollbarButtonBackground: "#525252",
+      },
+      tabs: {
+        background: "#BEE7FB17",
+        borders: "#FCA311",
+      }
     },
-    editor: {
+    code: {
       boolean: "#00cecb",
       comment: "#777664",
-      function: "#007f5f",
+      func: "#007f5f",
       keyword: "#96624a",
       numeric: "#ffed66",
       punctuation: "#ca6702", // And operators 

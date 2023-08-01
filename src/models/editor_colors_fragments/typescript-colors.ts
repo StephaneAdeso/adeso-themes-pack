@@ -9,7 +9,7 @@ export function getTypescriptColors(palette: Palette) {
       name: "functions",
       scope: ["variable.language.super.ts"],
       settings: {
-        foreground: palette.editor.function,
+        foreground: palette.code.func,
       },
     },
   ];

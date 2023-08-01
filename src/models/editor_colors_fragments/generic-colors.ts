@@ -10,63 +10,63 @@ export function getGenericColors(palette: Palette) {
       scope: ["comment", "punctuation.definition.comment"],
       settings: {
         fontStyle: "italic",
-        foreground: palette.editor.comment,
+        foreground: palette.code.comment,
       },
     },
     {
       name: "Storage types. classes ,const ,let etc",
       scope: ["storage.type"],
       settings: {
-        foreground: palette.editor.keyword,
+        foreground: palette.code.keyword,
       },
     },
     {
       name: " Storage modifier. implements",
       scope: ["storage.modifier"],
       settings: {
-        foreground: palette.editor.keyword,
+        foreground: palette.code.keyword,
       },
     },
     {
       name: " keyword. if, this, new ,etc",
       scope: ["keyword", "variable.language", "keyword.operator.new"],
       settings: {
-        foreground: palette.editor.keyword,
+        foreground: palette.code.keyword,
       },
     },
     {
       name: " keyword operator. =,etc",
       scope: ["keyword.operator"],
       settings: {
-        foreground: palette.editor.punctuation,
+        foreground: palette.code.punctuation,
       },
     },
     {
       name: " puntuacion. {,etc",
       scope: ["punctuation", "constant.language.import-export-all"],
       settings: {
-        foreground: palette.editor.punctuation,
+        foreground: palette.code.punctuation,
       },
     },
     {
       name: "escaped chars",
       scope: ["constant.character.escape"],
       settings: {
-        foreground: palette.editor.punctuation,
+        foreground: palette.code.punctuation,
       },
     },
     {
       name: "meta.brace. (,etc",
       scope: ["meta.brace"],
       settings: {
-        foreground: palette.editor.punctuation,
+        foreground: palette.code.punctuation,
       },
     },
     {
       name: "entity.name .",
       scope: ["entity.name.type", "entity.other"],
       settings: {
-        foreground: palette.editor.type,
+        foreground: palette.code.type,
       },
     },
     {
@@ -77,56 +77,56 @@ export function getGenericColors(palette: Palette) {
         "meta.method.declaration meta.block meta.function-call	variable.language.super",
       ],
       settings: {
-        foreground: palette.editor.function,
+        foreground: palette.code.func,
       },
     },
     {
       name: "variables",
       scope: ["variable"],
       settings: {
-        foreground: palette.editor.variable,
+        foreground: palette.code.variable,
       },
     },
     {
       name: "meta.object-literal",
       scope: ["meta.object-literal"],
       settings: {
-        foreground: palette.editor.variable,
+        foreground: palette.code.variable,
       },
     },
     {
       name: "support.type",
       scope: ["support.type"],
       settings: {
-        foreground: palette.editor.typePrimitive,
+        foreground: palette.code.typePrimitive,
       },
     },
     {
       name: "String",
       scope: ["string"],
       settings: {
-        foreground: palette.editor.string,
+        foreground: palette.code.string,
       },
     },
     {
       name: "boolean",
       scope: ["constant.language.boolean", "constant.language"],
       settings: {
-        foreground: palette.editor.boolean,
+        foreground: palette.code.boolean,
       },
     },
     {
       name: "numeric",
       scope: ["constant.numeric"],
       settings: {
-        foreground: palette.editor.numeric,
+        foreground: palette.code.numeric,
       },
     },
     {
       name: "Used properties",
       scope: ["variable.other.property", "variable.other.object.property"],
       settings: {
-        foreground: palette.editor.usedProperties,
+        foreground: palette.code.usedProperties,
       },
     },
   ];

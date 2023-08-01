@@ -9,7 +9,7 @@ export function getPythonColors(palette: Palette) {
         "keyword.operator.logical.python",
       ],
       settings: {
-        foreground: palette.editor.keyword,
+        foreground: palette.code.keyword,
       },
     },
 
@@ -22,7 +22,7 @@ export function getPythonColors(palette: Palette) {
         "support.function.builtin.python",
       ],
       settings: {
-        foreground: palette.editor.function,
+        foreground: palette.code.func,
       },
     },
     {
@@ -31,7 +31,7 @@ export function getPythonColors(palette: Palette) {
         "meta.fstring.python punctuation.definition.string string.interpolated.python string.quoted.single.python",
       ],
       settings: {
-        foreground: palette.editor.punctuation,
+        foreground: palette.code.punctuation,
       },
     },
 
@@ -39,14 +39,14 @@ export function getPythonColors(palette: Palette) {
       name: "PYTHON strings",
       scope: ["meta.fstring.python"],
       settings: {
-        foreground: palette.editor.string,
+        foreground: palette.code.string,
       },
     }, // TODO: Check if this one is correct
     {
       name: "PYTHON used property",
       scope: ["meta.attribute.python"],
       settings: {
-        foreground: palette.editor.usedProperties,
+        foreground: palette.code.usedProperties,
       },
     },
   ];

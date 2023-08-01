@@ -24,6 +24,10 @@
     "editorRuler.foreground": "#525252",
     "list.activeSelectionBackground": "#BEE7FB17",
     "list.activeSelectionForeground": "#FCA311",
+    "list.focusAndSelectionOutline": "#FCA311",
+    "list.focusBackground": "#ff0000",
+    "list.hoverBackground": "#ff0000",
+    "list.inactiveFocusBackground": "red",
     "menu.background": "#1F242FFF",
     "menu.selectionBackground": "#FCA3114b",
     "quickInput.background": "#1F242FFF",
@@ -41,7 +45,7 @@
     "tab.activeBorderTop": "#FCA311",
     "tab.inactiveBackground": "#1a1e27",
     "titleBar.activeBackground": "#1a1e27",
-    "tree.indentGuidesStroke": "#b8dbd9",
+    "tree.indentGuidesStroke": "#FCA311",
     "focusBorder": "#FCA311"
   },
   "tokenColors": [

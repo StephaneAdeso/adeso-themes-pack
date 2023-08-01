@@ -9,28 +9,42 @@ const selectedItemBackground = '#2cc2f04b';
 export const getTheme = (): Theme => {
   return new Theme("Monolight", ThemeTypes.LIGHT, {
     ui: {
-      activityBarcActiveIcon: "#00AFE4",
-      activityBarIcons: "#939393",
-      background: background,
-      inlineHintBackground: secondaryBackground,
-      lineActiveNumber: "#ae5dff",
-      lineNumbersRulers: "#B5B5B5",
-      lineSeparator: "#CECECE",
-      listActiveItem: selectedItemBackground,
-      menuBackground: secondaryBackground,
-      menuHoverBackground: selectedItemBackground,
-      quickInputBackground: secondaryBackground,
-      quickInputListBackground: selectedItemBackground,
-      scrollbarButtonBackground: "#CECECE",
-      tabsBackground: "#ff006a17",
-      tabsBorders: "#f1438c",
-      windowResizeline: "#00AFE4",
+      activityBar: {
+        ActiveIcon: "#00AFE4",
+        inactiveIcons: "#939393",
+      },
+      /** main menus and pop windows like command palette */
+      menus: {
+        background: secondaryBackground,
+        hoverBackground: selectedItemBackground,
+        quickInputBackground: secondaryBackground,
+        quickInputListBackground: selectedItemBackground,
+      },
+      /** trees and list windows */
+      trees: {
+        activeItem: selectedItemBackground,
+      },
+      editorWindow: {
+        inlineHintBackground: secondaryBackground,
+        lineActiveNumber: "#ae5dff",
+        lineNumbersRulers: "#B5B5B5",
+        lineSeparator: "#CECECE",
 
+      },
+      general: {
+        mainBackground: background,
+        windowResizeline: "#00AFE4",
+        scrollbarButtonBackground: "#CECECE",
+      },
+      tabs: {
+        background: "#ff006a17",
+        borders: "#f1438c",
+      }
     },
-    editor: {
+    code: {
       boolean: "#0091A6",
       comment: "#7C7C7C",
-      function: "#50b81f",
+      func: "#50b81f",
       keyword: "#f1438c",
       numeric: "#9C00A6",
       punctuation: "#e58800", // And operators

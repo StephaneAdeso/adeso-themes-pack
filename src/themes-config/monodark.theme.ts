@@ -9,27 +9,40 @@ const selectedItemBackground = "#2cc2f04b";
 export const getTheme = (): Theme => {
   return new Theme("Monodark", ThemeTypes.DARK, {
     ui: {
-      activityBarcActiveIcon: "#22c0f0",
-      activityBarIcons: "#dbdbdb7c",
-      background: background,
-      inlineHintBackground: secondaryBackground,
-      lineActiveNumber: "#ae5dff",
-      lineNumbersRulers: "#444444",
-      lineSeparator: "#343434",
-      listActiveItem: selectedItemBackground,
-      menuBackground: secondaryBackground,
-      menuHoverBackground: selectedItemBackground,
-      quickInputBackground: secondaryBackground,
-      quickInputListBackground: selectedItemBackground,
-      scrollbarButtonBackground: "#343434",
-      tabsBackground: "#ff006a17",
-      tabsBorders: "#f1438c",
-      windowResizeline: "#22c0f0",
+      activityBar: {
+        ActiveIcon: "#22c0f0",
+        inactiveIcons: "#dbdbdb7c",
+      },
+      menus: {
+        background: secondaryBackground,
+        hoverBackground: selectedItemBackground,
+        quickInputBackground: secondaryBackground,
+        quickInputListBackground: selectedItemBackground,
+      },
+      trees: {
+        activeItem: selectedItemBackground,
+      },
+      editorWindow: {
+
+        inlineHintBackground: secondaryBackground,
+        lineActiveNumber: "#ae5dff",
+        lineNumbersRulers: "#444444",
+        lineSeparator: "#343434"
+      },
+      general: {
+        mainBackground: background,
+        windowResizeline: "#22c0f0",
+        scrollbarButtonBackground: "#343434",
+      },
+      tabs: {
+        background: "#ff006a17",
+        borders: "#f1438c"
+      }
     },
-    editor: {
+    code: {
       boolean: "#c09ad9",
       comment: "#6e6e6e",
-      function: "#56cc1f",
+      func: "#56cc1f",
       keyword: "#f1438c",
       numeric: "#a9dff0",
       punctuation: "#f69608", // And operators
@@ -39,7 +52,5 @@ export const getTheme = (): Theme => {
       usedProperties: "#ae5dff",
       variable: "#d3d3d3",
     }
-
-
   });
 };
