@@ -10,7 +10,7 @@ export const getTheme = (): Theme => {
   return new Theme("Monolight", ThemeTypes.LIGHT, {
     ui: {
       activityBar: {
-        ActiveIcon: "#00AFE4",
+        activeIcon: "#00AFE4",
         inactiveIcons: "#939393",
       },
       /** main menus and pop windows like command palette */
@@ -23,6 +23,9 @@ export const getTheme = (): Theme => {
       /** trees and list windows */
       trees: {
         activeItem: selectedItemBackground,
+        focusItemBackground: "#ff0000", // TODO: Change this value
+        hoverItemBackground: "#ff0000", // TODO: Change this value
+        inactiveSelectionBackground: "#ff0000", // TODO: Change this value
       },
       editorWindow: {
         inlineHintBackground: secondaryBackground,

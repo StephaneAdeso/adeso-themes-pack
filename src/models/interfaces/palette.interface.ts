@@ -2,7 +2,7 @@ export interface Palette {
   /** colors of the vscode user interface */
   ui: {
     activityBar: {
-      ActiveIcon: string;
+      activeIcon: string;
       inactiveIcons: string;
     };
     /** main menus and pop windows like command palette */
@@ -15,6 +15,9 @@ export interface Palette {
     /** trees and list windows */
     trees: {
       activeItem: string;
+      focusItemBackground: string
+      hoverItemBackground: string
+      inactiveSelectionBackground: string
     };
     editorWindow: {
       inlineHintBackground: string;

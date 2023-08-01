@@ -10,7 +10,7 @@ export const getTheme = (): Theme => {
   return new Theme("BananaInTheDark", ThemeTypes.DARK, {
     ui: {
       activityBar: {
-        ActiveIcon: "#FCA311",
+        activeIcon: "#FCA311",
         inactiveIcons: "#ffbb4e7c",
       },
       /** main menus and pop windows like command palette */
@@ -23,6 +23,9 @@ export const getTheme = (): Theme => {
       /** trees and list windows */
       trees: {
         activeItem: selectedItemBackground,
+        focusItemBackground: "#ff0000", // TODO: Change this value
+        hoverItemBackground: "#ff0000", // TODO: Change this value
+        inactiveSelectionBackground: "#ff0000", // TODO: Change this value
       },
       editorWindow: {
         inlineHintBackground: secondaryBackground,

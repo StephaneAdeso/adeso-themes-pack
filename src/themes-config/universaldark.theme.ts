@@ -11,7 +11,7 @@ export const getTheme = (): Theme => {
   return new Theme("Universaldark", ThemeTypes.DARK, {
     ui: {
       activityBar: {
-        ActiveIcon: "#CC6677",
+        activeIcon: "#CC6677",
         inactiveIcons: "#444444",
       },
       /** main menus and pop windows like command palette */
@@ -24,6 +24,9 @@ export const getTheme = (): Theme => {
       /** trees and list windows */
       trees: {
         activeItem: selectedItemBackground,
+        focusItemBackground: "#ff0000", // TODO: Change this value
+        hoverItemBackground: "#ff0000", // TODO: Change this value
+        inactiveSelectionBackground: "#ff0000", // TODO: Change this value
       },
       editorWindow: {
         inlineHintBackground: secondaryBackground,

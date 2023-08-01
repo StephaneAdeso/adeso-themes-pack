@@ -34,3 +34,4 @@ themesList.forEach((theme) => {
 //TODO: Finish eyesafe theme
 //TODO: check background of command palette, resize window line
 //TODO: Add script to clean dist and theme folders after each build.
+//TODO: Create specific selector for the status bar

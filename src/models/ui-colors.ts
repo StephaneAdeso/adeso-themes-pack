@@ -8,7 +8,7 @@ export function getColors(palette: Palette): any {
   return {
     "activityBar.activeBorder": palette.code.type,
     "activityBar.background": palette.ui.general.mainBackground,
-    "activityBar.foreground": palette.ui.activityBar.ActiveIcon,
+    "activityBar.foreground": palette.ui.activityBar.activeIcon,
     "activityBar.inactiveForeground": palette.ui.activityBar.inactiveIcons, // plugin icons on the left bar
     "activityBarBadge.background": palette.code.keyword,
     "activityBarBadge.foreground": palette.code.variable,
@@ -26,12 +26,12 @@ export function getColors(palette: Palette): any {
     "editorLineNumber.foreground": palette.ui.editorWindow.lineNumbersRulers,
     "editorOverviewRuler.border": palette.ui.editorWindow.lineSeparator,
     "editorRuler.foreground": palette.ui.editorWindow.lineNumbersRulers,
-    "list.activeSelectionBackground": palette.ui.tabs.background, // background color of the focused and selected item in the tree view
+    "list.activeSelectionBackground": palette.ui.trees.inactiveSelectionBackground, // background color of the focused and selected item in the tree view
     "list.activeSelectionForeground": palette.code.variable, // text color of the focused and selected item in the tree view
-    "list.focusAndSelectionOutline": palette.ui.general.windowResizeline,
-    "list.focusBackground": "#ff0000", // background of focused tree items only with keyboard.
-    "list.hoverBackground": "#ff0000", // background of hovered tree items without selecting anyone.
-    "list.inactiveFocusBackground": "red",   // background of previously selected tree item and focus is outside item window.
+    "list.focusAndSelectionOutline": palette.ui.activityBar.activeIcon,
+    "list.focusBackground": palette.ui.trees.focusItemBackground, // background of focused tree items only with keyboard.
+    "list.hoverBackground": palette.ui.trees.hoverItemBackground, // background of hovered tree items without selecting anyone.
+    "list.inactiveSelectionBackground": palette.ui.trees.inactiveSelectionBackground,   // background of previously selected tree item and focus is outside item window.
     "menu.background": palette.ui.menus.background,
     "menu.selectionBackground": palette.ui.menus.hoverBackground,
     "quickInput.background": palette.ui.menus.quickInputBackground,// background of window like command palette 
@@ -49,7 +49,7 @@ export function getColors(palette: Palette): any {
     "tab.activeBorderTop": palette.ui.tabs.borders,
     "tab.inactiveBackground": palette.ui.general.mainBackground,
     "titleBar.activeBackground": palette.ui.general.mainBackground,
-    "tree.indentGuidesStroke": palette.ui.general.windowResizeline,
-    focusBorder: palette.ui.general.windowResizeline, // the color of the line near the scroll bar when you try to resize a window
+    "tree.indentGuidesStroke": palette.ui.activityBar.activeIcon,
+    focusBorder: palette.ui.activityBar.activeIcon, // the color of the line near the scroll bar when you try to resize a window
   };
 }
