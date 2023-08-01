@@ -6,14 +6,14 @@ export function getJavaColors(palette: Palette) {
       name: "JAVA Storage modifer text. import, package,etc",
       scope: ["storage.modifier.import.java", "storage.modifier.package.java"],
       settings: {
-        foreground: palette.variable,
+        foreground: palette.editor.variable,
       },
     },
     {
       name: "JAVA Storage type",
       scope: ["storage.type.java", "storage.type.object"],
       settings: {
-        foreground: palette.type,
+        foreground: palette.editor.type,
       },
     },
     {
@@ -23,14 +23,14 @@ export function getJavaColors(palette: Palette) {
         "storage.type.primitive.array.java",
       ],
       settings: {
-        foreground: palette.typePrimitive,
+        foreground: palette.editor.typePrimitive,
       },
     },
     {
       name: "JAVA functions",
       scope: ["variable.language.java "],
       settings: {
-        foreground: palette.function,
+        foreground: palette.editor.function,
       },
     },
   ];

@@ -6,7 +6,7 @@ export function getDartColors(palette: Palette) {
       name: "DART entities",
       scope: ["support.class.dart"],
       settings: {
-        foreground: palette.type,
+        foreground: palette.editor.type,
       },
     },
   ];

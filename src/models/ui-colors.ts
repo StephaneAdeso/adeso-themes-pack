@@ -6,45 +6,46 @@ import { Palette } from "./interfaces/palette.interface";
  */
 export function getColors(palette: Palette): any {
   return {
-    "activityBar.activeBorder": palette.type,
-    "activityBar.background": palette.background,
-    "activityBar.foreground": palette.activityBarcActiveIcon,    
-    "activityBar.inactiveForeground": palette.activityBarIcons, // plugin icons on the left bar
-    "activityBarBadge.background": palette.keyword,
-    "activityBarBadge.foreground": palette.variable,
-    "button.background": palette.usedProperties,
-    "editor.background": palette.background,
-    "editor.foreground": palette.variable,
-    "editorGroupHeader.tabsBackground": palette.background,
-    "editorGutter.background": palette.background,
-    "editorIndentGuide.activeBackground": palette.type,
-    "editorIndentGuide.background": palette.lineSeparator,    
-    "editorInlayHint.background": palette.inlineHintBackground,
-    "editorInlayHint.foreground": palette.comment,
-    "editorInlayHint.parameterForeground": palette.comment, //Inline Hints
-    "editorLineNumber.activeForeground": palette.lineActiveNumber,
-    "editorLineNumber.foreground": palette.lineNumbersRulers,
-    "editorOverviewRuler.border": palette.lineSeparator,
-    "editorRuler.foreground": palette.lineNumbersRulers,
-    "list.activeSelectionBackground": palette.tabsBackground,
-    "list.activeSelectionForeground": palette.variable,
-    "menu.background": palette.menuBackground,
-    "menu.selectionBackground": palette.menuHoverBackground,
-    "quickInput.background":palette.quickInputBackground, // background of window like command palette
-    "scrollbar.shadow": palette.background,
-    "scrollbarSlider.background":palette.scrollbarButtonBackground, // color of the scrollbar button
-    "sideBar.background": palette.background,
-    "sideBar.border": palette.lineSeparator,
-    "sideBarSectionHeader.background": palette.background,
-    "sideBarSectionHeader.border": palette.lineSeparator,
-    "sideBarTitle.foreground": palette.variable,
-    "statusBar.background": palette.usedProperties, // the long bar at the bottom of the main window
-    "tab.activeBackground": palette.tabsBackground,
-    "tab.activeBorder": palette.tabsBorders,
-    "tab.activeBorderTop": palette.tabsBorders,
-    "tab.inactiveBackground": palette.background,
-    "titleBar.activeBackground": palette.background,
-    "tree.indentGuidesStroke": palette.type,    
-    focusBorder: palette.windowResizeline, // the color of the line near the scroll bar when you try to resize a window
+    "activityBar.activeBorder": palette.editor.type,
+    "activityBar.background": palette.ui.background,
+    "activityBar.foreground": palette.ui.activityBarcActiveIcon,
+    "activityBar.inactiveForeground": palette.ui.activityBarIcons, // plugin icons on the left bar
+    "activityBarBadge.background": palette.editor.keyword,
+    "activityBarBadge.foreground": palette.editor.variable,
+    "button.background": palette.editor.usedProperties,
+    "editor.background": palette.ui.background,
+    "editor.foreground": palette.editor.variable,
+    "editorGroupHeader.tabsBackground": palette.ui.background,
+    "editorGutter.background": palette.ui.background,
+    "editorIndentGuide.activeBackground": palette.editor.type,
+    "editorIndentGuide.background": palette.ui.lineSeparator,
+    "editorInlayHint.background": palette.ui.inlineHintBackground,
+    "editorInlayHint.foreground": palette.editor.comment,
+    "editorInlayHint.parameterForeground": palette.editor.comment, //Inline Hints
+    "editorLineNumber.activeForeground": palette.ui.lineActiveNumber,
+    "editorLineNumber.foreground": palette.ui.lineNumbersRulers,
+    "editorOverviewRuler.border": palette.ui.lineSeparator,
+    "editorRuler.foreground": palette.ui.lineNumbersRulers,
+    "list.activeSelectionBackground": palette.ui.tabsBackground,
+    "list.activeSelectionForeground": palette.editor.variable,
+    "menu.background": palette.ui.menuBackground,
+    "menu.selectionBackground": palette.ui.menuHoverBackground,
+    "quickInput.background": palette.ui.quickInputBackground,// background of window like command palette 
+    "quickInputList.focusBackground": palette.ui.quickInputListBackground, // background of selected item in the list like command palette.ui.
+    "scrollbar.shadow": palette.ui.background,
+    "scrollbarSlider.background": palette.ui.scrollbarButtonBackground, // color of the scrollbar button
+    "sideBar.background": palette.ui.background,
+    "sideBar.border": palette.ui.lineSeparator,
+    "sideBarSectionHeader.background": palette.ui.background,
+    "sideBarSectionHeader.border": palette.ui.lineSeparator,
+    "sideBarTitle.foreground": palette.editor.variable,
+    "statusBar.background": palette.editor.usedProperties, // the long bar at the bottom of the main window
+    "tab.activeBackground": palette.ui.tabsBackground,
+    "tab.activeBorder": palette.ui.tabsBorders,
+    "tab.activeBorderTop": palette.ui.tabsBorders,
+    "tab.inactiveBackground": palette.ui.background,
+    "titleBar.activeBackground": palette.ui.background,
+    "tree.indentGuidesStroke": palette.editor.type,
+    focusBorder: palette.ui.windowResizeline, // the color of the line near the scroll bar when you try to resize a window
   };
 }

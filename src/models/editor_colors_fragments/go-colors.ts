@@ -10,14 +10,14 @@ export function getGoColors(palette: Palette) {
         "storage.type.string.go",
       ],
       settings: {
-        foreground: palette.typePrimitive,
+        foreground: palette.editor.typePrimitive,
       },
     },
     {
       name: "GO primitives",
       scope: ["support.function.go"],
       settings: {
-        foreground: palette.function,
+        foreground: palette.editor.function,
       },
     },
   ];

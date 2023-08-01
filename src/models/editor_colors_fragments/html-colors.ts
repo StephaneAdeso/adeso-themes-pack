@@ -6,7 +6,7 @@ export function getHtmlColors(palette: Palette) {
       name: "HTML Tag names",
       scope: ["entity.name.tag.html"],
       settings: {
-        foreground: palette.keyword,
+        foreground: palette.editor.keyword,
       },
     },
   ];

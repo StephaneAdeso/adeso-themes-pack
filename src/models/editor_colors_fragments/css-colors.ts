@@ -9,35 +9,35 @@ export function getCssColors(palette: Palette) {
       name: "CSS functions",
       scope: ["source.css support.function"],
       settings: {
-        foreground: palette.function,
+        foreground: palette.editor.function,
       },
     },
     {
       name: "CSS properties",
       scope: ["source.css variable"],
       settings: {
-        foreground: palette.usedProperties,
+        foreground: palette.editor.usedProperties,
       },
     },
     {
       name: "CSS Entity name ",
       scope: ["entity.name.tag.css"],
       settings: {
-        foreground: palette.type,
+        foreground: palette.editor.type,
       },
     },
     {
       name: "CSS keyword ",
       scope: ["support.constant.media.css"],
       settings: {
-        foreground: palette.keyword,
+        foreground: palette.editor.keyword,
       },
     },
     {
       name: "CSS keyword operator ",
       scope: ["source.css keyword.operator"],
       settings: {
-        foreground: palette.punctuation,
+        foreground: palette.editor.punctuation,
       },
     },
     /* for Sass files */
@@ -45,7 +45,7 @@ export function getCssColors(palette: Palette) {
       name: "CSS attribute string ",
       scope: ["meta.attribute-selector"],
       settings: {
-        foreground: palette.string,
+        foreground: palette.editor.string,
       },
     },
   ];

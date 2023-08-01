@@ -6,7 +6,7 @@ export function geMarkdownColors(palette: Palette) {
       name: "MARKDOWN Section name. Titles",
       scope: ["entity.name.section.markdown"],
       settings: {
-        foreground: palette.keyword,
+        foreground: palette.editor.keyword,
       },
     },
     {
@@ -17,7 +17,7 @@ export function geMarkdownColors(palette: Palette) {
         "markup.strikethrough.markdown",
       ],
       settings: {
-        foreground: palette.usedProperties,
+        foreground: palette.editor.usedProperties,
       },
     },
     {
@@ -27,14 +27,14 @@ export function geMarkdownColors(palette: Palette) {
         "markup.underline.link.image.markdown",
       ],
       settings: {
-        foreground: palette.type,
+        foreground: palette.editor.type,
       },
     },
     {
       name: "MARKDOWN Fenced block. Notes",
       scope: ["markup.fenced_code.block.markdown"],
       settings: {
-        foreground: palette.function,
+        foreground: palette.editor.function,
       },
     },
   ];

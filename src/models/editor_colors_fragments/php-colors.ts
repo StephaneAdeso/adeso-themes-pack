@@ -6,14 +6,14 @@ export function getPhpColors(palette: Palette) {
       name: "PHP primitives",
       scope: ["keyword.other.type.php"],
       settings: {
-        foreground: palette.typePrimitive,
+        foreground: palette.editor.typePrimitive,
       },
     },
     {
       name: "PHP functions",
       scope: ["source.php support.function", "support.class.php"],
       settings: {
-        foreground: palette.function,
+        foreground: palette.editor.function,
       },
     },
   ];

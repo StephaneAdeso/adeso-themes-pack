@@ -27,6 +27,7 @@
     "menu.background": "#1F1C1AFF",
     "menu.selectionBackground": "#CC66774b",
     "quickInput.background": "#1F1C1AFF",
+    "quickInputList.focusBackground": "#CC66774b",
     "scrollbar.shadow": "#1a1716",
     "scrollbarSlider.background": "#2c2c2c",
     "sideBar.background": "#1a1716",

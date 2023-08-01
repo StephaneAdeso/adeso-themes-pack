@@ -8,7 +8,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.keyword,
+        foreground: palette.editor.keyword,
       },
     },
     {
@@ -17,7 +17,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.usedProperties,
+        foreground: palette.editor.usedProperties,
       },
     },
     {
@@ -26,7 +26,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.typePrimitive,
+        foreground: palette.editor.typePrimitive,
       },
     },
     {
@@ -35,7 +35,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.type,
+        foreground: palette.editor.type,
       },
     },
     {
@@ -44,7 +44,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.function,
+        foreground: palette.editor.function,
       },
     },
     {
@@ -53,7 +53,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.keyword,
+        foreground: palette.editor.keyword,
       },
     },
     {
@@ -62,7 +62,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.usedProperties,
+        foreground: palette.editor.usedProperties,
       },
     },
     {
@@ -71,7 +71,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.typePrimitive,
+        foreground: palette.editor.typePrimitive,
       },
     },
     {
@@ -80,7 +80,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.type,
+        foreground: palette.editor.type,
       },
     },
     {
@@ -89,7 +89,7 @@ export function getJsonColors(palette: Palette) {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json",
       ],
       settings: {
-        foreground: palette.function,
+        foreground: palette.editor.function,
       },
     },
   ];
