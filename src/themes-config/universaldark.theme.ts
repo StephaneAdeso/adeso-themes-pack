@@ -18,8 +18,9 @@ export const getTheme = (): Theme => {
       menus: {
         background: secondaryBackground,
         hoverBackground: selectedItemBackground,
-        quickInputBackground: secondaryBackground,
+        inputBackground: secondaryBackground,
         quickInputListBackground: selectedItemBackground,
+        text: "#ff0000",
       },
       /** trees and list windows */
       trees: {
@@ -27,12 +28,14 @@ export const getTheme = (): Theme => {
         focusItemBackground: "#ff0000", // TODO: Change this value
         hoverItemBackground: "#ff0000", // TODO: Change this value
         inactiveSelectionBackground: "#ff0000", // TODO: Change this value
+        borderLine: "#ff0000", // TODO: Change this value
       },
       editorWindow: {
         inlineHintBackground: secondaryBackground,
         lineActiveNumber: "#CC6677",
         lineNumbersRulers: "#333333",
         lineSeparator: "#2c2c2c",
+        selectedLineBorder: "#ff0000"
 
       },
       general: {

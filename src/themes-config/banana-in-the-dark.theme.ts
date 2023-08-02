@@ -2,46 +2,53 @@ import Color from "color";
 import { ThemeTypes } from "../models/enums/themeTypes.enum";
 import { Theme } from "../models/theme";
 
-const background = "#1a1e27";
-const secondaryBackground = Color(background).lighten(0.2).hexa()
-const selectedItemBackground = "#FCA3114b";
+const background1 = "#1a1e27";
+const background1Lighten = Color(background1).lighten(0.2).hexa();
+const color1 = "#FCA311";
+const color1Alpha = Color(color1).alpha(0.3).hexa();
+const color1Alpha2 = Color(color1).alpha(0.15).hexa();
+const color3 = "#666666";
+const transparent = "#00000000";
 
 export const getTheme = (): Theme => {
   return new Theme("BananaInTheDark", ThemeTypes.DARK, {
     ui: {
       activityBar: {
-        activeIcon: "#FCA311",
-        inactiveIcons: "#ffbb4e7c",
+        activeIcon: color1,
+        inactiveIcons: color3,
       },
       /** main menus and pop windows like command palette */
       menus: {
-        background: secondaryBackground,
-        hoverBackground: selectedItemBackground,
-        quickInputBackground: secondaryBackground,
-        quickInputListBackground: selectedItemBackground,
+        background: background1Lighten,
+        hoverBackground: color1Alpha,
+        inputBackground: background1Lighten,
+        quickInputListBackground: color1Alpha,
+        text: "#b4b4b4",
       },
       /** trees and list windows */
       trees: {
-        activeItem: selectedItemBackground,
-        focusItemBackground: "#ff0000", // TODO: Change this value
-        hoverItemBackground: "#ff0000", // TODO: Change this value
-        inactiveSelectionBackground: "#ff0000", // TODO: Change this value
+        activeItem: color1Alpha,
+        borderLine: color1,
+        focusItemBackground: transparent,
+        hoverItemBackground: color1Alpha,
+        inactiveSelectionBackground: color1Alpha,
       },
       editorWindow: {
-        inlineHintBackground: secondaryBackground,
-        lineActiveNumber: "#FCA311",
+        inlineHintBackground: background1Lighten,
+        lineActiveNumber: color1,
         lineNumbersRulers: "#525252",
         lineSeparator: "#525252",
+        selectedLineBorder: color1Alpha2
 
       },
       general: {
-        mainBackground: background,
-        windowResizeline: "#FCA311",
+        mainBackground: background1,
         scrollbarButtonBackground: "#525252",
+        windowResizeline: color1,
       },
       tabs: {
         background: "#BEE7FB17",
-        borders: "#FCA311",
+        borders: color1,
       }
     },
     code: {
@@ -55,7 +62,7 @@ export const getTheme = (): Theme => {
       type: "#b8dbd9",
       typePrimitive: "#63a8a6",
       usedProperties: "#7676ED",
-      variable: "#FCA311",
+      variable: color1,
     }
   });
 };

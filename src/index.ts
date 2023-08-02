@@ -35,3 +35,7 @@ themesList.forEach((theme) => {
 //TODO: check background of command palette, resize window line
 //TODO: Add script to clean dist and theme folders after each build.
 //TODO: Create specific selector for the status bar
+// TODO: rename themes.
+// TODO: check scrollbar button colors
+// TODO: Review # and . css selector color
+// TODO: check bottom status bar color

@@ -9,21 +9,24 @@ export interface Palette {
     menus: {
       background: string;
       hoverBackground: string;
-      quickInputBackground: string;
+      inputBackground: string;
       quickInputListBackground: string;
+      text: string;
     };
     /** trees and list windows */
     trees: {
       activeItem: string;
-      focusItemBackground: string
-      hoverItemBackground: string
-      inactiveSelectionBackground: string
+      focusItemBackground: string;
+      hoverItemBackground: string;
+      inactiveSelectionBackground: string;
+      borderLine: string;
     };
     editorWindow: {
       inlineHintBackground: string;
       lineActiveNumber: string;
       lineNumbersRulers: string;
       lineSeparator: string;
+      selectedLineBorder: string;
     };
     general: {
       mainBackground: string; // TODO: maybe move this to editor windows

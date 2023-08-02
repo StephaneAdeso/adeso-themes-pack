@@ -2,12 +2,14 @@ import Color from "color";
 import { ThemeTypes } from "../models/enums/themeTypes.enum";
 import { Theme } from "../models/theme";
 
-const background = "#1f1f1f";
-const background2 = Color(background).lighten(0.2).hexa();
+const background1 = "#1f1f1f";
+const background1Bright = Color(background1).lighten(0.4).hexa();
 const color1 = "#22c0f0";
 const color1Alpha = Color(color1).alpha(0.3).hexa();
 const color2 = "#f1438c";
 const color2Alpha = Color(color2).alpha(0.1).hexa();
+const lineColor1 = "#343434";
+const lineColor1Bright = Color(lineColor1).lighten(0.3).hexa();
 const transparent = "#00000000";
 
 export const getTheme = (): Theme => {
@@ -18,27 +20,30 @@ export const getTheme = (): Theme => {
         inactiveIcons: "#dbdbdb7c",
       },
       menus: {
-        background: background2,
+        background: background1Bright,
         hoverBackground: color1Alpha,
-        quickInputBackground: background2,
+        inputBackground: background1Bright,
         quickInputListBackground: color1Alpha,
+        text: "#b8b8b8",
       },
       trees: {
         activeItem: color1Alpha,
+        borderLine: color1,
         focusItemBackground: transparent,
         hoverItemBackground: color1Alpha,
-        inactiveSelectionBackground: color1Alpha,
+        inactiveSelectionBackground: color1Alpha
       },
       editorWindow: {
-        inlineHintBackground: background2,
+        inlineHintBackground: background1Bright,
         lineActiveNumber: "#ae5dff",
-        lineNumbersRulers: "#444444",
-        lineSeparator: "#343434"
+        lineNumbersRulers: lineColor1Bright,
+        lineSeparator: lineColor1,
+        selectedLineBorder: lineColor1
       },
       general: {
-        mainBackground: background,
+        mainBackground: background1,
+        scrollbarButtonBackground: lineColor1,
         windowResizeline: color1,
-        scrollbarButtonBackground: "#343434",
       },
       tabs: {
         background: color2Alpha,
@@ -56,7 +61,7 @@ export const getTheme = (): Theme => {
       type: color1,
       typePrimitive: "#437fff",
       usedProperties: "#ae5dff",
-      variable: "#d3d3d3",
+      variable: "#cfcfcf",
     }
   });
 };

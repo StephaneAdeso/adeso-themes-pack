@@ -2,59 +2,70 @@ import Color from "color";
 import { ThemeTypes } from "../models/enums/themeTypes.enum";
 import { Theme } from "../models/theme";
 
-const background = "#F4F2F2";
-const secondaryBackground = Color(background).darken(0.04).hexa();
-const selectedItemBackground = '#2cc2f04b';
+const background1 = "#d1d1d1";
+const background1Darken = Color(background1).darken(0.1).hexa();
+const background1Darken2 = Color(background1).darken(0.03).hexa();
+const background1Lighten = Color(background1).lighten(0.1).hexa();
+const color1 = "#00a2d3";
+const color1Alpha = Color(color1).alpha(0.3).hexa();
+const color2 = "#cf2c70";
+const lineColor1 = "#e0e0e0";
+const color2Alpha = Color(color2).alpha(0.1).hexa();
+const text1 = "#111111";
+const transparent = "#00000000";
 
 export const getTheme = (): Theme => {
   return new Theme("Monolight", ThemeTypes.LIGHT, {
     ui: {
       activityBar: {
-        activeIcon: "#00AFE4",
+        activeIcon: color1,
         inactiveIcons: "#939393",
       },
       /** main menus and pop windows like command palette */
       menus: {
-        background: secondaryBackground,
-        hoverBackground: selectedItemBackground,
-        quickInputBackground: secondaryBackground,
-        quickInputListBackground: selectedItemBackground,
+        background: background1Darken,
+        hoverBackground: color1Alpha,
+        inputBackground: background1Lighten,
+        quickInputListBackground: color1Alpha,
+        text: text1,
       },
       /** trees and list windows */
       trees: {
-        activeItem: selectedItemBackground,
-        focusItemBackground: "#ff0000", // TODO: Change this value
-        hoverItemBackground: "#ff0000", // TODO: Change this value
-        inactiveSelectionBackground: "#ff0000", // TODO: Change this value
+        activeItem: color1Alpha,
+        borderLine: color1,
+        focusItemBackground: transparent,
+        hoverItemBackground: color1Alpha,
+        inactiveSelectionBackground: color1Alpha,
       },
       editorWindow: {
-        inlineHintBackground: secondaryBackground,
-        lineActiveNumber: "#ae5dff",
-        lineNumbersRulers: "#B5B5B5",
-        lineSeparator: "#CECECE",
+        inlineHintBackground: background1Darken2,
+        lineActiveNumber: "#f5f3f3",
+        lineNumbersRulers: "#a8a8a8",
+        lineSeparator: lineColor1,
+        selectedLineBorder: lineColor1
 
       },
       general: {
-        mainBackground: background,
-        windowResizeline: "#00AFE4",
-        scrollbarButtonBackground: "#CECECE",
+        mainBackground: background1,
+        scrollbarButtonBackground: lineColor1,
+        windowResizeline: color1,
       },
       tabs: {
-        background: "#ff006a17",
-        borders: "#f1438c",
+        background: color2Alpha,
+        borders: color2,
       }
     },
     code: {
       boolean: "#0091A6",
-      comment: "#7C7C7C",
-      func: "#50b81f",
-      keyword: "#f1438c",
+      comment: "#868686",
+      func: "#389e08",
+      keyword: color2,
       numeric: "#9C00A6",
-      punctuation: "#e58800", // And operators
+      punctuation: "#ca7900", // And operators
       string: "#8C7300",
-      type: "#00AFE4",
+      type: color1,
       typePrimitive: "#0048E2",
-      usedProperties: "#ae5dff",
+      usedProperties: "#9b36ff",
       variable: "#2D2D2D",
     }
 
