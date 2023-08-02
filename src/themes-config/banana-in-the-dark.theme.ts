@@ -4,6 +4,7 @@ import { Theme } from "../models/theme";
 
 const background1 = "#1a1e27";
 const background1Lighten = Color(background1).lighten(0.2).hexa();
+const background1Lighten2 = Color(background1).lighten(0.4).hexa();
 const color1 = "#FCA311";
 const color1Alpha = Color(color1).alpha(0.3).hexa();
 const color1Alpha2 = Color(color1).alpha(0.15).hexa();
@@ -19,9 +20,9 @@ export const getTheme = (): Theme => {
       },
       /** main menus and pop windows like command palette */
       menus: {
-        background: background1Lighten,
+        background: background1Lighten2,
         hoverBackground: color1Alpha,
-        inputBackground: background1Lighten,
+        inputBackground: background1Lighten2,
         quickInputListBackground: color1Alpha,
         text: "#b4b4b4",
       },
