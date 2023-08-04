@@ -8,15 +8,37 @@ const background1Lighten2 = Color(background1).lighten(0.4).hexa();
 const color1 = "#FCA311";
 const color1Alpha = Color(color1).alpha(0.3).hexa();
 const color1Alpha2 = Color(color1).alpha(0.15).hexa();
-const color3 = "#666666";
+const color2 = "#666666";
+const line1 = "#525252";
 const transparent = "#00000000";
 
 export const getTheme = (): Theme => {
-  return new Theme("BananaInTheDark", ThemeTypes.DARK, {
+  return new Theme("BananaInTheNight", ThemeTypes.DARK, {
     ui: {
+      topMenuBar: {
+        background: '#ff0000',
+        foreground: '#ff0000'
+      },
       activityBar: {
         activeIcon: color1,
-        inactiveIcons: color3,
+        inactiveIcons: color2,
+      },
+      /** trees and list windows */
+      sideBar: {
+        activeItem: color1Alpha,
+        borderLine: color1,
+        focusItemBackground: transparent,
+        hoverItemBackground: color1Alpha,
+        inactiveSelectionBackground: color1Alpha,
+      },
+      statusBar: {
+        barBackground: '#ff0000',
+        barForeground: '#ff0000',
+        iconBackground: '#ff0000'
+      },
+      tabs: {
+        background: "#BEE7FB17",
+        borders: color1,
       },
       /** main menus and pop windows like command palette */
       menus: {
@@ -26,30 +48,21 @@ export const getTheme = (): Theme => {
         quickInputListBackground: color1Alpha,
         text: "#b4b4b4",
       },
-      /** trees and list windows */
-      trees: {
-        activeItem: color1Alpha,
-        borderLine: color1,
-        focusItemBackground: transparent,
-        hoverItemBackground: color1Alpha,
-        inactiveSelectionBackground: color1Alpha,
-      },
-      editorWindow: {
+      editorPanel: {
         inlineHintBackground: background1Lighten,
         lineActiveNumber: color1,
-        lineNumbersRulers: "#525252",
-        lineSeparator: "#525252",
+        lineNumbersRulers: line1,
+        lineSeparator: line1,
         selectedLineBorder: color1Alpha2
-
+      },
+      terminalPanel: {
+        background: '#ff0000',
+        Foreground: '#ff0000'
       },
       general: {
         mainBackground: background1,
-        scrollbarButtonBackground: "#525252",
+        scrollbarButtonBackground: line1,
         windowResizeline: color1,
-      },
-      tabs: {
-        background: "#BEE7FB17",
-        borders: color1,
       }
     },
     code: {

@@ -94,7 +94,7 @@ export interface IntProducts {
   price: string | number;
   originalPrice: string | number;
   type?: string;
-  address?:String;
+  address?: String;
 }
 export interface IntTravelData {
   statusReserved: "active" | "noActive";
@@ -120,18 +120,20 @@ export interface IntStations {
 }
 
 export const myObj = {
-  age:17,
-  adult:false,
-  getAge:(age)=>{age}
+  age: 17,
+  adult: false,
+  getAge: (age) => { age }
 }
+
+@Decorator()
 class CreateFileDropProvider implements vscode.DocumentDropEditProvider {
   constructor() {
     super();
-    
+
   }
-  async provideDocumentDropEdits(_document: vscode.textDocument, _position: vscode.Position.dataTranfer:any){
+  async provideDocumentDropEdits(_document: vscode.textDocument, _position: vscode.Position.dataTranfer: any) {
     const pngFile = _document.get('image/png')?.asFile();
-    if(!pngFile && _document){
+    if (!pngFile && _document) {
       myObj.age;
       myObj.getAge(34);
       return;
@@ -141,16 +143,16 @@ class CreateFileDropProvider implements vscode.DocumentDropEditProvider {
 // Read file
 // This results in the entire file content being copied over the extension host.
 const contents = await pngFile.data();
-const path = vscode.Uri.joinPath( vscode.workspace.workspaceFolders![0].uri, 'image.png',vscode.workspace.workspaceFolders());
-let age=34;
+const path = vscode.Uri.joinPath(vscode.workspace.workspaceFolders![0].uri, 'image.png', vscode.workspace.workspaceFolders());
+let age = 34;
 var regex = /^[1-9]\d{0,2}$/g
 regex.test('2') // outputs true
 
-if(18>=37){
-  
+if (18 >= 37) {
+
 }
 var trigger = "2",
-    regexp = new RegExp('^[1-9]\d{0,2}$'),
-    test = regexp.test(trigger);
+  regexp = new RegExp('^[1-9]\d{0,2}$'),
+  test = regexp.test(trigger);
 alert(test + ""); // will display true
 

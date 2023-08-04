@@ -20,38 +20,38 @@ export function getColors(palette: Palette): any {
     "editorGroupHeader.tabsBackground": palette.ui.general.mainBackground,
     "editorGutter.background": palette.ui.general.mainBackground,
     "editorIndentGuide.activeBackground": palette.code.type,
-    "editorIndentGuide.background": palette.ui.editorWindow.lineSeparator,
-    "editorInlayHint.background": palette.ui.editorWindow.inlineHintBackground,
+    "editorIndentGuide.background": palette.ui.editorPanel.lineSeparator,
+    "editorInlayHint.background": palette.ui.editorPanel.inlineHintBackground,
     "editorInlayHint.foreground": palette.code.comment,
     "editorInlayHint.parameterForeground": palette.code.comment, //Inline Hints
-    "editor.lineHighlightBorder": palette.ui.editorWindow.selectedLineBorder, // Lines around the last line you selected and focused on a window
-    "editorLineNumber.activeForeground": palette.ui.editorWindow.lineActiveNumber,
-    "editorLineNumber.foreground": palette.ui.editorWindow.lineNumbersRulers,
-    "editorOverviewRuler.border": palette.ui.editorWindow.lineSeparator,
-    "editorRuler.foreground": palette.ui.editorWindow.lineNumbersRulers,
+    "editor.lineHighlightBorder": palette.ui.editorPanel.selectedLineBorder, // Lines around the last line you selected and focused on a window
+    "editorLineNumber.activeForeground": palette.ui.editorPanel.lineActiveNumber,
+    "editorLineNumber.foreground": palette.ui.editorPanel.lineNumbersRulers,
+    "editorOverviewRuler.border": palette.ui.editorPanel.lineSeparator,
+    "editorRuler.foreground": palette.ui.editorPanel.lineNumbersRulers,
     "foreground": palette.ui.menus.text,
     "input.background": palette.ui.menus.inputBackground,
-    "list.activeSelectionBackground": palette.ui.trees.inactiveSelectionBackground, // background color of the focused and selected item in the tree view
+    "list.activeSelectionBackground": palette.ui.sideBar.inactiveSelectionBackground, // background color of the focused and selected item in the tree view
     "list.activeSelectionForeground": palette.ui.menus.text, // text color of the focused and selected item in the tree view
 
-    "list.focusOutline": palette.ui.trees.borderLine, // border line of selected item without focus. Only keyboard.
-    "list.focusAndSelectionOutline": palette.ui.trees.borderLine, // border line of selected item + focus
-    "list.focusBackground": palette.ui.trees.focusItemBackground, // background of focused tree items only with keyboard.
-    "list.hoverBackground": palette.ui.trees.hoverItemBackground, // background of hovered tree items without selecting anyone.
-    "list.inactiveSelectionBackground": palette.ui.trees.inactiveSelectionBackground,   // background of previously selected tree item and focus is outside item window.
+    "list.focusOutline": palette.ui.sideBar.borderLine, // border line of selected item without focus. Only keyboard.
+    "list.focusAndSelectionOutline": palette.ui.sideBar.borderLine, // border line of selected item + focus
+    "list.focusBackground": palette.ui.sideBar.focusItemBackground, // background of focused tree items only with keyboard.
+    "list.hoverBackground": palette.ui.sideBar.hoverItemBackground, // background of hovered tree items without selecting anyone.
+    "list.inactiveSelectionBackground": palette.ui.sideBar.inactiveSelectionBackground,   // background of previously selected tree item and focus is outside item window.
     "menu.background": palette.ui.menus.background,
     "menu.foreground": palette.ui.menus.text,
     "menu.selectionBackground": palette.ui.menus.hoverBackground,
-    "panel.border": palette.ui.editorWindow.lineSeparator,
+    "panel.border": palette.ui.editorPanel.lineSeparator,
     "quickInput.background": palette.ui.menus.background,// background of window like command palette 
     "quickInput.foreground": palette.ui.menus.text,
     "quickInputList.focusBackground": palette.ui.menus.quickInputListBackground, // background of selected item in the list like command palette.ui.
     "scrollbar.shadow": palette.ui.general.mainBackground,
     "scrollbarSlider.background": palette.ui.general.scrollbarButtonBackground, // color of the scrollbar button
     "sideBar.background": palette.ui.general.mainBackground,
-    "sideBar.border": palette.ui.editorWindow.lineSeparator,
+    "sideBar.border": palette.ui.editorPanel.lineSeparator,
     "sideBarSectionHeader.background": palette.ui.general.mainBackground,
-    "sideBarSectionHeader.border": palette.ui.editorWindow.lineSeparator,
+    "sideBarSectionHeader.border": palette.ui.editorPanel.lineSeparator,
     "sideBarTitle.foreground": palette.ui.menus.text,
     "statusBar.background": palette.code.usedProperties, // the long bar at the bottom of the main window
     "tab.activeBackground": palette.ui.tabs.background,

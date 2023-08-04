@@ -6,7 +6,7 @@
     "activityBar.background": "#1f1f1f",
     "activityBar.foreground": "#22c0f0",
     "activityBar.inactiveForeground": "#dbdbdb7c",
-    "activityBarBadge.background": "#f1438c",
+    "activityBarBadge.background": "#eb5493",
     "activityBarBadge.foreground": "#b8b8b8",
     "button.background": "#ae5dff",
     "checkbox.background": "#2B2B2BFF",
@@ -49,9 +49,9 @@
     "sideBarSectionHeader.border": "#343434",
     "sideBarTitle.foreground": "#b8b8b8",
     "statusBar.background": "#ae5dff",
-    "tab.activeBackground": "#F1438C1A",
-    "tab.activeBorder": "#f1438c",
-    "tab.activeBorderTop": "#f1438c",
+    "tab.activeBackground": "#EB54931A",
+    "tab.activeBorder": "#eb5493",
+    "tab.activeBorderTop": "#eb5493",
     "tab.inactiveBackground": "#1f1f1f",
     "titleBar.activeBackground": "#1f1f1f",
     "titleBar.activeForeground": "#b8b8b8",
@@ -76,7 +76,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {
@@ -85,7 +85,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {
@@ -96,7 +96,7 @@
         "keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {
@@ -255,7 +255,7 @@
         "support.constant.media.css"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {
@@ -311,7 +311,7 @@
         "entity.name.tag.html"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {
@@ -359,7 +359,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {
@@ -404,7 +404,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {
@@ -449,7 +449,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {
@@ -508,7 +508,7 @@
         "keyword.operator.logical.python"
       ],
       "settings": {
-        "foreground": "#f1438c"
+        "foreground": "#eb5493"
       }
     },
     {

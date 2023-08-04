@@ -1,9 +1,30 @@
 export interface Palette {
   /** colors of the vscode user interface */
   ui: {
+    topMenuBar: {
+      background: string;
+      foreground: string;
+    };
     activityBar: {
       activeIcon: string;
       inactiveIcons: string;
+    };
+    /** trees and list windows */
+    sideBar: {
+      activeItem: string;
+      focusItemBackground: string;
+      hoverItemBackground: string;
+      inactiveSelectionBackground: string;
+      borderLine: string;
+    };
+    statusBar: {
+      barBackground: string;
+      barForeground: string;
+      iconBackground: string;
+    };
+    tabs: {
+      background: string;
+      borders: string;
     };
     /** main menus and pop windows like command palette */
     menus: {
@@ -13,30 +34,23 @@ export interface Palette {
       quickInputListBackground: string;
       text: string;
     };
-    /** trees and list windows */
-    trees: {
-      activeItem: string;
-      focusItemBackground: string;
-      hoverItemBackground: string;
-      inactiveSelectionBackground: string;
-      borderLine: string;
-    };
-    editorWindow: {
+    editorPanel: {
       inlineHintBackground: string;
       lineActiveNumber: string;
       lineNumbersRulers: string;
       lineSeparator: string;
       selectedLineBorder: string;
     };
+    terminalPanel: {
+      background: string;
+      Foreground: String;
+    }
     general: {
-      mainBackground: string; // TODO: maybe move this to editor windows
+      mainBackground: string; // TODO: maybe move this to editorPanel
       windowResizeline: string;
       scrollbarButtonBackground: string;
     };
-    tabs: {
-      background: string;
-      borders: string;
-    };
+
 
   };
 

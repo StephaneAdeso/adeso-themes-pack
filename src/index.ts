@@ -5,19 +5,15 @@
  */
 import * as fs from "fs";
 import { Theme } from "./models/theme";
-import { getTheme as eyesafedark } from "./themes-config/eyesafedark.theme";
-import { getTheme as bananaInTheDark } from "./themes-config/banana-in-the-dark.theme";
+import { getTheme as bananaInTheNight } from "./themes-config/banana-in-the-dark.theme";
 import { getTheme as monodark } from "./themes-config/monodark.theme";
 import { getTheme as monolight } from "./themes-config/monolight.theme";
-import { getTheme as universaldark } from "./themes-config/universaldark.theme";
 
 /** retrieve all themes configurations */
 const themesList: Theme[] = [
-  eyesafedark(),
-  bananaInTheDark(),
+  bananaInTheNight(),
   monodark(),
-  monolight(),
-  universaldark(),
+  monolight()
 ];
 
 themesList.forEach((theme) => {
@@ -38,4 +34,7 @@ themesList.forEach((theme) => {
 // TODO: rename themes.
 // TODO: check scrollbar button colors
 // TODO: Review # and . css selector color
+// TODO: Review @ decorator in ts files
 // TODO: check bottom status bar color
+// TODO: check inactive tabs foreground in very dark background theme
+// TODO: add control of background of sides windows.
