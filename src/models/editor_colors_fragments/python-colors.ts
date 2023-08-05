@@ -41,7 +41,7 @@ export function getPythonColors(palette: Palette) {
       settings: {
         foreground: palette.code.string,
       },
-    }, // TODO: Check if this one is correct
+    },
     {
       name: "PYTHON used property",
       scope: ["meta.attribute.python"],

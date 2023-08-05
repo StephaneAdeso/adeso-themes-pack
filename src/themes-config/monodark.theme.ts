@@ -32,6 +32,13 @@ export const getTheme = (): Theme => {
         bottomBadgeBackground: color2,
         bottomBadgeForeground: background1
       },
+      breadcrumbs: {
+        background: background1,
+        foreground: foreground
+      },
+      minimap: {
+        background: background1
+      },
       sideBar: {
         background: background1,
         border: background1,
@@ -81,25 +88,25 @@ export const getTheme = (): Theme => {
         inlayHintBackground: background1Bright,
         lineActiveNumber: "#ae5dff",
         lineNumbersRulers: lineColor1Bright,
-        lineSeparator: lineColor1,
+        scrollbarLineSeparator: background1,
         selectedLineBorder: lineColor1,
         background: background1,
         groupHeaderTabsBackground: background1,
         lineNumbersColumnBackground: background1,
         inlayHintForeground: "#6e6e6e",
-        indentLineColor: color1,
-        foreground: "#cfcfcf"
+        activeIndentGuideColor: color1,
+        foreground: "#cfcfcf",
+        indentGuideColor: "#6e6e6e"
       },
       panel: {
         background: background1,
         border: lineColor1
       },
       global: {
-        mainBackground: background1,
         scrollbarButtonColor: lineColor1,
         windowResizeline: color1,
         globalForeground: foreground,
-        globalFocusBorder: '#ff0000',
+        globalFocusBorder: color1,
         scrollbarShadow: transparent
       },
 

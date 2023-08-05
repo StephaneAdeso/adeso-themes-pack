@@ -18,6 +18,13 @@ export interface Palette {
       bottomBadgeBackground: string;
       bottomBadgeForeground: string;
     };
+    breadcrumbs: {
+      background: string;
+      foreground: string;
+    };
+    minimap: {
+      background: string;
+    };
     /** trees and list windows */
     sideBar: {
       background: string;
@@ -72,10 +79,11 @@ export interface Palette {
       lineActiveNumber: string;
       lineNumbersRulers: string;
       lineNumbersColumnBackground: string;
-      lineSeparator: string;
+      scrollbarLineSeparator: string;
       selectedLineBorder: string;
       groupHeaderTabsBackground: string;
-      indentLineColor: string;
+      activeIndentGuideColor: string;
+      indentGuideColor: string;
       foreground: string;
     };
     /** bottom panel used for terminal, debug console, etc */
@@ -84,7 +92,6 @@ export interface Palette {
       border: string;
     }
     global: {
-      mainBackground: string; // TODO: maybe move this to editorPanel
       windowResizeline: string;
       scrollbarButtonColor: string;
       scrollbarShadow: string;

@@ -24,16 +24,8 @@ themesList.forEach((theme) => {
 });
 
 //TODO: Change documentation and colors
-//TODO: Delete all todo's
 //TODO: Update Readme
-//TODO: Create Wiki
-//TODO: Finish eyesafe theme
-//TODO: check background of command palette, resize window line
 //TODO: Add script to clean dist and theme folders after each build.
-//TODO: Create specific selector for the status bar
 // TODO: Review # and . css selector color
 // TODO: Review @ decorator in ts files
-// TODO: check bottom status bar color
-// TODO: check inactive tabs foreground in very dark background theme
-// TODO: add control of background of sides windows.
-// TODO: add minimap and breadcrumb customization
+// TODO: check themes with extensions and indent lines off

@@ -33,6 +33,13 @@ export const getTheme = (): Theme => {
         bottomBadgeBackground: '#ff0000',
         bottomBadgeForeground: '#ff0000'
       },
+      breadcrumbs: {
+        background: '#ff0000',
+        foreground: '#ff0000'
+      },
+      minimap: {
+        background: "#ff0000"
+      },
       /** trees and list windows */
       sideBar: {
         background: background1,
@@ -83,14 +90,15 @@ export const getTheme = (): Theme => {
         inlayHintBackground: background1Darken2,
         lineActiveNumber: color2,
         lineNumbersRulers: "#f7f7f7",
-        lineSeparator: lineColor1,
+        scrollbarLineSeparator: lineColor1,
         selectedLineBorder: lineColor1,
         background: '#ff0000',
         groupHeaderTabsBackground: '#ff0000',
         lineNumbersColumnBackground: '#ff0000',
         inlayHintForeground: '#ff0000',
-        indentLineColor: color1,
-        foreground: '#ff0000'
+        activeIndentGuideColor: color1,
+        foreground: '#ff0000',
+        indentGuideColor: "#ff0000"
 
       }
       ,
@@ -99,7 +107,6 @@ export const getTheme = (): Theme => {
         border: '#ff0000'
       },
       global: {
-        mainBackground: background1,
         scrollbarButtonColor: lineColor1,
         windowResizeline: color1,
         globalForeground: '#ff0000',
