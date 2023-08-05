@@ -1,9 +1,12 @@
 export interface Palette {
   /** colors of the vscode user interface */
   ui: {
-    topMenuBar: {
+    /** top menu bar */
+    titleBar: {
       background: string;
       foreground: string;
+      inactiveBackground: string;
+      inactiveForeground: string;
     };
     activityBar: {
       activeIcon: string;

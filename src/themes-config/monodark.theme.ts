@@ -4,6 +4,7 @@ import { Theme } from "../models/theme";
 
 const background1 = "#1f1f1f";
 const background1Bright = Color(background1).lighten(0.4).hexa();
+const foreground = "#b8b8b8";
 const color1 = "#22c0f0";
 const color1Alpha = Color(color1).alpha(0.3).hexa();
 const color2 = "#eb5493";
@@ -15,9 +16,11 @@ const transparent = "#00000000";
 export const getTheme = (): Theme => {
   return new Theme("Monodark", ThemeTypes.DARK, {
     ui: {
-      topMenuBar: {
-        background: '#ff0000',
-        foreground: '#ff0000'
+      titleBar: {
+        background: background1,
+        foreground: foreground,
+        inactiveBackground: background1Bright,
+        inactiveForeground: foreground
       },
       activityBar: {
         activeIcon: color1,
@@ -44,7 +47,7 @@ export const getTheme = (): Theme => {
         hoverBackground: color1Alpha,
         inputBackground: background1Bright,
         quickInputListBackground: color1Alpha,
-        text: "#b8b8b8",
+        text: foreground,
       },
       editorPanel: {
         inlineHintBackground: background1Bright,

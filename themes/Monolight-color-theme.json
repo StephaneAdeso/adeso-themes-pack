@@ -55,6 +55,8 @@
     "tab.inactiveBackground": "#d6d6d6",
     "titleBar.activeBackground": "#d6d6d6",
     "titleBar.activeForeground": "#111111",
+    "titleBar.inactiveBackground": "#C1C1C1FF",
+    "titleBar.inactiveForeground": "#111111",
     "tree.indentGuidesStroke": "#00a2d3",
     "focusBorder": "#00a2d3"
   },

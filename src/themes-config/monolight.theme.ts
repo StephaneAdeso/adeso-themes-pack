@@ -11,15 +11,17 @@ const color1Alpha = Color(color1).alpha(0.3).hexa();
 const color2 = "#cf2c70";
 const lineColor1 = "#e7e7e7";
 const color2Alpha = Color(color2).alpha(0.1).hexa();
-const text1 = "#111111";
+const foreground = "#111111";
 const transparent = "#00000000";
 
 export const getTheme = (): Theme => {
   return new Theme("Monolight", ThemeTypes.LIGHT, {
     ui: {
-      topMenuBar: {
-        background: '#ff0000',
-        foreground: '#ff0000'
+      titleBar: {
+        background: background1,
+        foreground: foreground,
+        inactiveBackground: background1Darken,
+        inactiveForeground: foreground
       },
       activityBar: {
         activeIcon: color1,
@@ -48,7 +50,7 @@ export const getTheme = (): Theme => {
         hoverBackground: color1Alpha,
         inputBackground: background1Lighten,
         quickInputListBackground: color1Alpha,
-        text: text1,
+        text: foreground,
       },
       editorPanel: {
         inlineHintBackground: background1Darken2,

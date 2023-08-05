@@ -5,7 +5,7 @@
  */
 import * as fs from "fs";
 import { Theme } from "./models/theme";
-import { getTheme as bananaInTheNight } from "./themes-config/banana-in-the-dark.theme";
+import { getTheme as bananaInTheNight } from "./themes-config/banana-in-the-night.theme";
 import { getTheme as monodark } from "./themes-config/monodark.theme";
 import { getTheme as monolight } from "./themes-config/monolight.theme";
 

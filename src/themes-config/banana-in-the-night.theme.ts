@@ -5,6 +5,7 @@ import { Theme } from "../models/theme";
 const background1 = "#1a1e27";
 const background1Lighten = Color(background1).lighten(0.2).hexa();
 const background1Lighten2 = Color(background1).lighten(0.4).hexa();
+const foreground = "#b4b4b4";
 const color1 = "#FCA311";
 const color1Alpha = Color(color1).alpha(0.3).hexa();
 const color1Alpha2 = Color(color1).alpha(0.15).hexa();
@@ -15,9 +16,11 @@ const transparent = "#00000000";
 export const getTheme = (): Theme => {
   return new Theme("BananaInTheNight", ThemeTypes.DARK, {
     ui: {
-      topMenuBar: {
-        background: '#ff0000',
-        foreground: '#ff0000'
+      titleBar: {
+        background: background1,
+        foreground: foreground,
+        inactiveBackground: background1Lighten2,
+        inactiveForeground: foreground
       },
       activityBar: {
         activeIcon: color1,
@@ -46,7 +49,7 @@ export const getTheme = (): Theme => {
         hoverBackground: color1Alpha,
         inputBackground: background1Lighten2,
         quickInputListBackground: color1Alpha,
-        text: "#b4b4b4",
+        text: foreground,
       },
       editorPanel: {
         inlineHintBackground: background1Lighten,

@@ -58,8 +58,10 @@ export function getColors(palette: Palette): any {
     "tab.activeBorder": palette.ui.tabs.borders,
     "tab.activeBorderTop": palette.ui.tabs.borders,
     "tab.inactiveBackground": palette.ui.general.mainBackground,
-    "titleBar.activeBackground": palette.ui.general.mainBackground,
-    "titleBar.activeForeground": palette.ui.menus.text,
+    "titleBar.activeBackground": palette.ui.titleBar.background,
+    "titleBar.activeForeground": palette.ui.titleBar.foreground,
+    "titleBar.inactiveBackground": palette.ui.titleBar.inactiveBackground,
+    "titleBar.inactiveForeground": palette.ui.titleBar.inactiveForeground,
     "tree.indentGuidesStroke": palette.ui.activityBar.activeIcon,
     focusBorder: palette.ui.activityBar.activeIcon, // the color of the line near the scroll bar when you try to resize a window
   };
