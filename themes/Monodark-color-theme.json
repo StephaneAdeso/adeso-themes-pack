@@ -39,7 +39,7 @@
     "menu.foreground": "#b8b8b8",
     "menu.selectionBackground": "#22C0F04D",
     "panel.border": "#343434",
-    "quickInput.background": "#2B2B2BFF",
+    "quickInput.background": "#1f1f1f",
     "quickInput.foreground": "#b8b8b8",
     "quickInputList.focusBackground": "#22C0F04D",
     "scrollbar.shadow": "#1f1f1f",
@@ -64,7 +64,6 @@
     "tab.inactiveForeground": "#b8b8b8",
     "tab.unfocusedActiveForeground": "#b8b8b8",
     "tab.unfocusedInactiveForeground": "#b8b8b8",
-    tab
     "titleBar.activeBackground": "#1f1f1f",
     "titleBar.activeForeground": "#b8b8b8",
     "titleBar.border": "#1f1f1f",

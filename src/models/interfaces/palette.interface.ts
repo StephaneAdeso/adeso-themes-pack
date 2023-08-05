@@ -22,6 +22,7 @@ export interface Palette {
     sideBar: {
       background: string;
       border: string;
+      indentGuideStroke: string;
       itemsborderLine: string;
       itemsFocusBackground: string;
       itemsForeground: string;
@@ -56,7 +57,19 @@ export interface Palette {
       hoverBackground: string;
       inputBackground: string;
       quickInputListBackground: string;
-      text: string;
+      foreground: string;
+    };
+    /** lists, trees, and quick input */
+    lists: {
+      listActiveSelectionBackground: string;
+      listActiveSelectionForeground: string;
+      listFocusOutline: string;
+      listFocusKeyboardBackground: string;
+      listItemHoverBackground: string;
+      quickInputBackground: string;
+      quickInputForeground: string;
+      QuickInputFocusBackground: string;
+      treesIndentGuideStroke: string;
     };
     editorPanel: {
       inlineHintBackground: string;
@@ -73,6 +86,7 @@ export interface Palette {
       mainBackground: string; // TODO: maybe move this to editorPanel
       windowResizeline: string;
       scrollbarButtonBackground: string;
+      globalForeground: string; // text color for items that dont have a specific configuration
     };
 
 

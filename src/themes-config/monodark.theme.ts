@@ -35,6 +35,7 @@ export const getTheme = (): Theme => {
       sideBar: {
         background: background1,
         border: background1,
+        indentGuideStroke: color1,
         itemsForeground: foreground,
         itemsActiveSelectedForeground: foreground,
         itemsborderLine: color1,
@@ -69,7 +70,18 @@ export const getTheme = (): Theme => {
         hoverBackground: color1Alpha,
         inputBackground: background1Bright,
         quickInputListBackground: color1Alpha,
-        text: foreground,
+        foreground: foreground,
+      },
+      lists: {
+        listActiveSelectionBackground: color1Alpha,
+        listActiveSelectionForeground: foreground,
+        listFocusOutline: color1,
+        listFocusKeyboardBackground: transparent,
+        listItemHoverBackground: color1Alpha,
+        quickInputBackground: background1,
+        quickInputForeground: foreground,
+        QuickInputFocusBackground: color1Alpha,
+        treesIndentGuideStroke: color1
       },
       editorPanel: {
         inlineHintBackground: background1Bright,
@@ -86,6 +98,7 @@ export const getTheme = (): Theme => {
         mainBackground: background1,
         scrollbarButtonBackground: lineColor1,
         windowResizeline: color1,
+        globalForeground: foreground
       },
 
     },

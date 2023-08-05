@@ -30,23 +30,23 @@ export function getColors(palette: Palette): any {
     "editorLineNumber.foreground": palette.ui.editorPanel.lineNumbersRulers,
     "editorOverviewRuler.border": palette.ui.editorPanel.lineSeparator,
     "editorRuler.foreground": palette.ui.editorPanel.lineNumbersRulers,
-    "foreground": palette.ui.menus.text,
+    "foreground": palette.ui.general.globalForeground,
     "input.background": palette.ui.menus.inputBackground,
-    "list.activeSelectionBackground": palette.ui.sideBar.itemsSelectedBackground, // background color of the focused and selected item in the tree view
-    "list.activeSelectionForeground": palette.ui.sideBar.itemsActiveSelectedForeground, // text color of the focused and selected item in the tree view
+    "list.activeSelectionBackground": palette.ui.lists.listActiveSelectionBackground, // background color of the focused and selected item in the tree view
+    "list.activeSelectionForeground": palette.ui.lists.listActiveSelectionForeground, // text color of the focused and selected item in the tree view
 
-    "list.focusOutline": palette.ui.sideBar.itemsborderLine, // border line of selected item without focus. Only keyboard.
-    "list.focusAndSelectionOutline": palette.ui.sideBar.itemsborderLine, // border line of selected item + focus
-    "list.focusBackground": palette.ui.sideBar.itemsFocusBackground, // background of focused tree items only with keyboard.
-    "list.hoverBackground": palette.ui.sideBar.itemsHoverBackground, // background of hovered tree items without selecting anyone.
-    "list.inactiveSelectionBackground": palette.ui.sideBar.itemsSelectedBackground,   // background of previously selected tree item and focus is outside item window.
+    "list.focusOutline": palette.ui.lists.listFocusOutline, // border line of selected item without focus. Only keyboard.
+    "list.focusAndSelectionOutline": palette.ui.lists.listFocusOutline, // border line of selected item + focus
+    "list.focusBackground": palette.ui.lists.listFocusKeyboardBackground, // background of focused tree items only with keyboard.
+    "list.hoverBackground": palette.ui.lists.listItemHoverBackground, // background of hovered tree items without selecting anyone.
+    "list.inactiveSelectionBackground": palette.ui.lists.listActiveSelectionBackground,   // background of previously selected tree item and focus is outside item window.
     "menu.background": palette.ui.menus.background,
-    "menu.foreground": palette.ui.menus.text,
+    "menu.foreground": palette.ui.menus.foreground,
     "menu.selectionBackground": palette.ui.menus.hoverBackground,
     "panel.border": palette.ui.editorPanel.lineSeparator,
-    "quickInput.background": palette.ui.menus.background,// background of window like command palette 
-    "quickInput.foreground": palette.ui.menus.text,
-    "quickInputList.focusBackground": palette.ui.menus.quickInputListBackground, // background of selected item in the list like command palette.ui.
+    "quickInput.background": palette.ui.lists.quickInputBackground,// background of window like command palette 
+    "quickInput.foreground": palette.ui.lists.quickInputForeground,
+    "quickInputList.focusBackground": palette.ui.lists.QuickInputFocusBackground, // background of selected item in the list like command palette.ui.
     "scrollbar.shadow": palette.ui.general.mainBackground,
     "scrollbarSlider.background": palette.ui.general.scrollbarButtonBackground, // color of the scrollbar button
     "sideBar.background": palette.ui.sideBar.background,
@@ -74,7 +74,7 @@ export function getColors(palette: Palette): any {
     "titleBar.border": palette.ui.titleBar.border,
     "titleBar.inactiveBackground": palette.ui.titleBar.inactiveBackground,
     "titleBar.inactiveForeground": palette.ui.titleBar.inactiveForeground,
-    "tree.indentGuidesStroke": palette.ui.activityBar.activeIcon,
+    "tree.indentGuidesStroke": palette.ui.lists.treesIndentGuideStroke,
     focusBorder: palette.ui.activityBar.activeIcon, // the color of the line near the scroll bar when you try to resize a window
   };
 }
