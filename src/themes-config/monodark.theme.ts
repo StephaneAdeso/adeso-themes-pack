@@ -27,6 +27,8 @@ export const getTheme = (): Theme => {
         activeIconBorder: color2,
         background: background1,
         inactiveIcons: "#dbdbdb7c",
+        bottomBadgeBackground: color2,
+        bottomBadgeForeground: background1
       },
       sideBar: {
         background: background1,
@@ -42,8 +44,10 @@ export const getTheme = (): Theme => {
         titleForeground: color1
       },
       statusBar: {
-        barBackground: '#ff0000',
-        barForeground: '#ff0000',
+        background: background1,
+        border: color2,
+        itemsForeground: color1,
+        itemsHoverBackground: background1Bright,
         iconBackground: '#ff0000'
       },
       tabs: {

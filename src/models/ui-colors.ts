@@ -10,8 +10,8 @@ export function getColors(palette: Palette): any {
     "activityBar.background": palette.ui.activityBar.background,
     "activityBar.foreground": palette.ui.activityBar.activeIcon,
     "activityBar.inactiveForeground": palette.ui.activityBar.inactiveIcons, // plugin icons on the left bar
-    "activityBarBadge.background": palette.code.keyword,
-    "activityBarBadge.foreground": palette.ui.menus.text,
+    "activityBarBadge.background": palette.ui.activityBar.bottomBadgeBackground,
+    "activityBarBadge.foreground": palette.ui.activityBar.bottomBadgeForeground,
     "button.background": palette.code.usedProperties,
     "checkbox.background": palette.ui.menus.inputBackground,
     "dropdown.background": palette.ui.menus.inputBackground,
@@ -55,7 +55,10 @@ export function getColors(palette: Palette): any {
     "sideBarSectionHeader.background": palette.ui.sideBar.sectionHeaderBackground,
     "sideBarSectionHeader.border": palette.ui.sideBar.sectionHeaderBorder,
     "sideBarTitle.foreground": palette.ui.sideBar.titleForeground,
-    "statusBar.background": palette.code.usedProperties, // the long bar at the bottom of the main window
+    "statusBar.background": palette.ui.statusBar.background, // the long bar at the bottom of the main window
+    "statusBar.border": palette.ui.statusBar.border,
+    "statusBar.foreground": palette.ui.statusBar.itemsForeground,
+    "statusBarItem.hoverBackground": palette.ui.statusBar.itemsHoverBackground,
     "tab.activeBackground": palette.ui.tabs.background,
     "tab.activeBorder": palette.ui.tabs.borders,
     "tab.activeBorderTop": palette.ui.tabs.borders,

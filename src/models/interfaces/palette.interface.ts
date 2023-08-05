@@ -13,6 +13,8 @@ export interface Palette {
       activeIconBorder: string;
       background: string;
       inactiveIcons: string;
+      bottomBadgeBackground: string;
+      bottomBadgeForeground: string;
     };
     /** trees and list windows */
     sideBar: {
@@ -29,9 +31,11 @@ export interface Palette {
       titleForeground: string;
     };
     statusBar: {
-      barBackground: string;
-      barForeground: string;
+      background: string;
+      itemsForeground: string;
+      border: string;
       iconBackground: string;
+      itemsHoverBackground: string;
     };
     tabs: {
       background: string;
