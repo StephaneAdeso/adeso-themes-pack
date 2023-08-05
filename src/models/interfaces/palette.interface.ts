@@ -22,13 +22,7 @@ export interface Palette {
     sideBar: {
       background: string;
       border: string;
-      indentGuideStroke: string;
-      itemsborderLine: string;
-      itemsFocusBackground: string;
       itemsForeground: string;
-      itemsActiveSelectedForeground: string;
-      itemsHoverBackground: string;
-      itemsSelectedBackground: string;
       sectionHeaderBackground: string;
       sectionHeaderLineBorder: string;
       sectionHeaderForeground: string;
@@ -54,9 +48,9 @@ export interface Palette {
     /** main menus and pop windows like command palette */
     menus: {
       background: string;
+      buttonBackground: string;
       hoverBackground: string;
       inputBackground: string;
-      quickInputListBackground: string;
       foreground: string;
     };
     /** lists, trees, and quick input */
@@ -68,28 +62,35 @@ export interface Palette {
       listItemHoverBackground: string;
       quickInputBackground: string;
       quickInputForeground: string;
-      QuickInputFocusBackground: string;
-      treesIndentGuideStroke: string;
+      quickInputFocusBackground: string;
+      treeIndentGuideStroke: string;
     };
-    editorPanel: {
-      inlineHintBackground: string;
+    editor: {
+      background: string;
+      inlayHintBackground: string;
+      inlayHintForeground: string;
       lineActiveNumber: string;
       lineNumbersRulers: string;
+      lineNumbersColumnBackground: string;
       lineSeparator: string;
       selectedLineBorder: string;
+      groupHeaderTabsBackground: string;
+      indentLineColor: string;
+      foreground: string;
     };
-    terminalPanel: {
+    /** bottom panel used for terminal, debug console, etc */
+    panel: {
       background: string;
-      Foreground: String;
+      border: string;
     }
-    general: {
+    global: {
       mainBackground: string; // TODO: maybe move this to editorPanel
       windowResizeline: string;
-      scrollbarButtonBackground: string;
+      scrollbarButtonColor: string;
+      scrollbarShadow: string;
       globalForeground: string; // text color for items that dont have a specific configuration
+      globalFocusBorder: string; // global focused border color. Used when not overriden.
     };
-
-
   };
 
   /** colors of the text editor */

@@ -36,13 +36,7 @@ export const getTheme = (): Theme => {
       sideBar: {
         background: background1,
         border: background1,
-        indentGuideStroke: color1,
         itemsForeground: foreground,
-        itemsActiveSelectedForeground: foreground,
-        itemsborderLine: color1,
-        itemsFocusBackground: transparent,
-        itemsHoverBackground: color1Alpha,
-        itemsSelectedBackground: color1Alpha,
         sectionHeaderForeground: foreground,
         sectionHeaderBackground: background1,
         sectionHeaderLineBorder: background1,
@@ -70,8 +64,8 @@ export const getTheme = (): Theme => {
         background: background1Lighten2,
         hoverBackground: color1Alpha,
         inputBackground: background1Lighten2,
-        quickInputListBackground: color1Alpha,
         foreground: foreground,
+        buttonBackground: '#ff0000'
       },
       lists: {
         listActiveSelectionBackground: '#ff0000',
@@ -81,25 +75,33 @@ export const getTheme = (): Theme => {
         listItemHoverBackground: '#ff0000',
         quickInputBackground: '#ff0000',
         quickInputForeground: '#ff0000',
-        QuickInputFocusBackground: '#ff0000',
-        treesIndentGuideStroke: '#ff0000'
+        quickInputFocusBackground: '#ff0000',
+        treeIndentGuideStroke: '#ff0000'
       },
-      editorPanel: {
-        inlineHintBackground: background1Lighten,
+      editor: {
+        inlayHintBackground: background1Lighten,
+        inlayHintForeground: '#ff0000',
         lineActiveNumber: color1,
         lineNumbersRulers: line1,
         lineSeparator: line1,
-        selectedLineBorder: color1Alpha2
+        selectedLineBorder: color1Alpha2,
+        background: background1,
+        groupHeaderTabsBackground: '#ff0000',
+        lineNumbersColumnBackground: '#ff0000',
+        indentLineColor: color1,
+        foreground: '#ff0000'
       },
-      terminalPanel: {
+      panel: {
         background: '#ff0000',
-        Foreground: '#ff0000'
+        border: '#ff0000'
       },
-      general: {
+      global: {
         mainBackground: background1,
-        scrollbarButtonBackground: line1,
+        scrollbarButtonColor: line1,
         windowResizeline: color1,
-        globalForeground: '#ff0000'
+        globalForeground: '#ff0000',
+        scrollbarShadow: transparent,
+        globalFocusBorder: '#ff0000'
       }
     },
     code: {
