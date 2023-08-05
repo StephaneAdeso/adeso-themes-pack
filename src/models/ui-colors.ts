@@ -31,14 +31,14 @@ export function getColors(palette: Palette): any {
     "editorRuler.foreground": palette.ui.editorPanel.lineNumbersRulers,
     "foreground": palette.ui.menus.text,
     "input.background": palette.ui.menus.inputBackground,
-    "list.activeSelectionBackground": palette.ui.sideBar.inactiveSelectionBackground, // background color of the focused and selected item in the tree view
-    "list.activeSelectionForeground": palette.ui.menus.text, // text color of the focused and selected item in the tree view
+    "list.activeSelectionBackground": palette.ui.sideBar.itemsSelectedBackground, // background color of the focused and selected item in the tree view
+    "list.activeSelectionForeground": palette.ui.sideBar.itemsActiveSelectedForeground, // text color of the focused and selected item in the tree view
 
-    "list.focusOutline": palette.ui.sideBar.borderLine, // border line of selected item without focus. Only keyboard.
-    "list.focusAndSelectionOutline": palette.ui.sideBar.borderLine, // border line of selected item + focus
-    "list.focusBackground": palette.ui.sideBar.focusItemBackground, // background of focused tree items only with keyboard.
-    "list.hoverBackground": palette.ui.sideBar.hoverItemBackground, // background of hovered tree items without selecting anyone.
-    "list.inactiveSelectionBackground": palette.ui.sideBar.inactiveSelectionBackground,   // background of previously selected tree item and focus is outside item window.
+    "list.focusOutline": palette.ui.sideBar.itemsborderLine, // border line of selected item without focus. Only keyboard.
+    "list.focusAndSelectionOutline": palette.ui.sideBar.itemsborderLine, // border line of selected item + focus
+    "list.focusBackground": palette.ui.sideBar.itemsFocusBackground, // background of focused tree items only with keyboard.
+    "list.hoverBackground": palette.ui.sideBar.itemsHoverBackground, // background of hovered tree items without selecting anyone.
+    "list.inactiveSelectionBackground": palette.ui.sideBar.itemsSelectedBackground,   // background of previously selected tree item and focus is outside item window.
     "menu.background": palette.ui.menus.background,
     "menu.foreground": palette.ui.menus.text,
     "menu.selectionBackground": palette.ui.menus.hoverBackground,
@@ -48,11 +48,13 @@ export function getColors(palette: Palette): any {
     "quickInputList.focusBackground": palette.ui.menus.quickInputListBackground, // background of selected item in the list like command palette.ui.
     "scrollbar.shadow": palette.ui.general.mainBackground,
     "scrollbarSlider.background": palette.ui.general.scrollbarButtonBackground, // color of the scrollbar button
-    "sideBar.background": palette.ui.general.mainBackground,
+    "sideBar.background": palette.ui.sideBar.background,
     "sideBar.border": palette.ui.editorPanel.lineSeparator,
-    "sideBarSectionHeader.background": palette.ui.general.mainBackground,
-    "sideBarSectionHeader.border": palette.ui.editorPanel.lineSeparator,
-    "sideBarTitle.foreground": palette.ui.menus.text,
+    "sideBar.foreground": palette.ui.sideBar.itemsForeground,
+    "sideBarSectionHeader.foreground": palette.ui.sideBar.sectionHeaderForeground,
+    "sideBarSectionHeader.background": palette.ui.sideBar.sectionHeaderBackground,
+    "sideBarSectionHeader.border": palette.ui.sideBar.sectionHeaderBorder,
+    "sideBarTitle.foreground": palette.ui.sideBar.titleForeground,
     "statusBar.background": palette.code.usedProperties, // the long bar at the bottom of the main window
     "tab.activeBackground": palette.ui.tabs.background,
     "tab.activeBorder": palette.ui.tabs.borders,

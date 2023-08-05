@@ -16,11 +16,17 @@ export interface Palette {
     };
     /** trees and list windows */
     sideBar: {
-      activeItem: string;
-      focusItemBackground: string;
-      hoverItemBackground: string;
-      inactiveSelectionBackground: string;
-      borderLine: string;
+      background: string;
+      itemsborderLine: string;
+      itemsFocusBackground: string;
+      itemsForeground: string;
+      itemsActiveSelectedForeground: string;
+      itemsHoverBackground: string;
+      itemsSelectedBackground: string;
+      sectionHeaderBackground: string;
+      sectionHeaderBorder: string;
+      sectionHeaderForeground: string;
+      titleForeground: string;
     };
     statusBar: {
       barBackground: string;

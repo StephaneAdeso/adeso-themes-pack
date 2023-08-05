@@ -29,11 +29,17 @@ export const getTheme = (): Theme => {
         inactiveIcons: "#dbdbdb7c",
       },
       sideBar: {
-        activeItem: color1Alpha,
-        borderLine: color1,
-        focusItemBackground: transparent,
-        hoverItemBackground: color1Alpha,
-        inactiveSelectionBackground: color1Alpha
+        background: background1,
+        itemsForeground: foreground,
+        itemsActiveSelectedForeground: foreground,
+        itemsborderLine: color1,
+        itemsFocusBackground: transparent,
+        itemsHoverBackground: color1Alpha,
+        itemsSelectedBackground: color1Alpha,
+        sectionHeaderForeground: foreground,
+        sectionHeaderBackground: background1,
+        sectionHeaderBorder: background1,
+        titleForeground: color1
       },
       statusBar: {
         barBackground: '#ff0000',
