@@ -18,6 +18,7 @@ export const getTheme = (): Theme => {
     ui: {
       titleBar: {
         background: background1,
+        border: background1,
         foreground: foreground,
         inactiveBackground: background1Bright,
         inactiveForeground: foreground
@@ -26,12 +27,14 @@ export const getTheme = (): Theme => {
         activeIcon: color1,
         activeIconBorder: color2,
         background: background1,
+        border: background1,
         inactiveIcons: "#dbdbdb7c",
         bottomBadgeBackground: color2,
         bottomBadgeForeground: background1
       },
       sideBar: {
         background: background1,
+        border: background1,
         itemsForeground: foreground,
         itemsActiveSelectedForeground: foreground,
         itemsborderLine: color1,
@@ -40,7 +43,7 @@ export const getTheme = (): Theme => {
         itemsSelectedBackground: color1Alpha,
         sectionHeaderForeground: foreground,
         sectionHeaderBackground: background1,
-        sectionHeaderBorder: background1,
+        sectionHeaderLineBorder: background1,
         titleForeground: color1
       },
       statusBar: {

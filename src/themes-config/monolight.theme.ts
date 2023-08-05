@@ -19,6 +19,7 @@ export const getTheme = (): Theme => {
     ui: {
       titleBar: {
         background: background1,
+        border: background1,
         foreground: foreground,
         inactiveBackground: background1Darken,
         inactiveForeground: foreground
@@ -28,12 +29,14 @@ export const getTheme = (): Theme => {
         activeIconBorder: color2,
         background: background1,
         inactiveIcons: "#939393",
+        border: background1,
         bottomBadgeBackground: '#ff0000',
         bottomBadgeForeground: '#ff0000'
       },
       /** trees and list windows */
       sideBar: {
         background: background1,
+        border: background1,
         itemsForeground: foreground,
         itemsActiveSelectedForeground: foreground,
         itemsborderLine: color1,
@@ -42,7 +45,7 @@ export const getTheme = (): Theme => {
         itemsSelectedBackground: color1Alpha,
         sectionHeaderForeground: foreground,
         sectionHeaderBackground: background1,
-        sectionHeaderBorder: background1,
+        sectionHeaderLineBorder: background1,
         titleForeground: color1
       },
       statusBar: {

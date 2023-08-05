@@ -4,6 +4,7 @@ export interface Palette {
     /** top menu bar */
     titleBar: {
       background: string;
+      border: string;
       foreground: string;
       inactiveBackground: string;
       inactiveForeground: string;
@@ -12,6 +13,7 @@ export interface Palette {
       activeIcon: string;
       activeIconBorder: string;
       background: string;
+      border: string;
       inactiveIcons: string;
       bottomBadgeBackground: string;
       bottomBadgeForeground: string;
@@ -19,6 +21,7 @@ export interface Palette {
     /** trees and list windows */
     sideBar: {
       background: string;
+      border: string;
       itemsborderLine: string;
       itemsFocusBackground: string;
       itemsForeground: string;
@@ -26,7 +29,7 @@ export interface Palette {
       itemsHoverBackground: string;
       itemsSelectedBackground: string;
       sectionHeaderBackground: string;
-      sectionHeaderBorder: string;
+      sectionHeaderLineBorder: string;
       sectionHeaderForeground: string;
       titleForeground: string;
     };

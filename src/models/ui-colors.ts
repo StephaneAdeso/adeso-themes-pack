@@ -10,6 +10,7 @@ export function getColors(palette: Palette): any {
     "activityBar.background": palette.ui.activityBar.background,
     "activityBar.foreground": palette.ui.activityBar.activeIcon,
     "activityBar.inactiveForeground": palette.ui.activityBar.inactiveIcons, // plugin icons on the left bar
+    "activityBar.border": palette.ui.activityBar.border,
     "activityBarBadge.background": palette.ui.activityBar.bottomBadgeBackground,
     "activityBarBadge.foreground": palette.ui.activityBar.bottomBadgeForeground,
     "button.background": palette.code.usedProperties,
@@ -49,11 +50,11 @@ export function getColors(palette: Palette): any {
     "scrollbar.shadow": palette.ui.general.mainBackground,
     "scrollbarSlider.background": palette.ui.general.scrollbarButtonBackground, // color of the scrollbar button
     "sideBar.background": palette.ui.sideBar.background,
-    "sideBar.border": palette.ui.editorPanel.lineSeparator,
+    "sideBar.border": palette.ui.sideBar.border,
     "sideBar.foreground": palette.ui.sideBar.itemsForeground,
     "sideBarSectionHeader.foreground": palette.ui.sideBar.sectionHeaderForeground,
     "sideBarSectionHeader.background": palette.ui.sideBar.sectionHeaderBackground,
-    "sideBarSectionHeader.border": palette.ui.sideBar.sectionHeaderBorder,
+    "sideBarSectionHeader.border": palette.ui.sideBar.sectionHeaderLineBorder,
     "sideBarTitle.foreground": palette.ui.sideBar.titleForeground,
     "statusBar.background": palette.ui.statusBar.background, // the long bar at the bottom of the main window
     "statusBar.border": palette.ui.statusBar.border,
@@ -65,6 +66,7 @@ export function getColors(palette: Palette): any {
     "tab.inactiveBackground": palette.ui.general.mainBackground,
     "titleBar.activeBackground": palette.ui.titleBar.background,
     "titleBar.activeForeground": palette.ui.titleBar.foreground,
+    "titleBar.border": palette.ui.titleBar.border,
     "titleBar.inactiveBackground": palette.ui.titleBar.inactiveBackground,
     "titleBar.inactiveForeground": palette.ui.titleBar.inactiveForeground,
     "tree.indentGuidesStroke": palette.ui.activityBar.activeIcon,
