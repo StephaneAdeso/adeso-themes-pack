@@ -55,8 +55,15 @@ export const getTheme = (): Theme => {
         itemsHoverBackground: '#ff0000'
       },
       tabs: {
-        background: color2Alpha,
-        borders: color2,
+        activeBackground: color2Alpha,
+        activeLeftAndRightBorder: "#ff0000",
+        activeBorderTop: color1,
+        activeBorderBottom: color1,
+        activeForeground: "#ff0000",
+        inactiveBackground: background1,
+        inactiveForeground: "#ff0000",
+        unfocusedActiveForeground: "#ff0000",
+        unfocusedInactiveForeground: '#ff0000'
       },
       /** main menus and pop windows like command palette */
       menus: {

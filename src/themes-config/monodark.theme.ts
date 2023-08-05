@@ -54,8 +54,15 @@ export const getTheme = (): Theme => {
 
       },
       tabs: {
-        background: color2Alpha,
-        borders: color2
+        activeBackground: color2Alpha,
+        activeLeftAndRightBorder: transparent,
+        activeBorderTop: color1,
+        activeBorderBottom: color1,
+        activeForeground: foreground,
+        inactiveBackground: background1,
+        inactiveForeground: foreground,
+        unfocusedActiveForeground: foreground,
+        unfocusedInactiveForeground: foreground
       },
       menus: {
         background: background1Bright,

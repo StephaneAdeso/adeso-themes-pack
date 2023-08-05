@@ -40,8 +40,15 @@ export interface Palette {
       itemsHoverBackground: string;
     };
     tabs: {
-      background: string;
-      borders: string;
+      activeBackground: string;
+      activeLeftAndRightBorder: string;
+      activeBorderTop: string;
+      activeBorderBottom: string;
+      activeForeground: string;
+      inactiveBackground: string;
+      inactiveForeground: string;
+      unfocusedActiveForeground: string;
+      unfocusedInactiveForeground: string;
     };
     /** main menus and pop windows like command palette */
     menus: {
