@@ -2,7 +2,7 @@
   "name": "Monolight",
   "type": "light",
   "colors": {
-    "activityBar.activeBorder": "#00a2d3",
+    "activityBar.activeBorder": "#cf2c70",
     "activityBar.background": "#d6d6d6",
     "activityBar.foreground": "#00a2d3",
     "activityBar.inactiveForeground": "#939393",

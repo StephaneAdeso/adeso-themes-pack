@@ -24,6 +24,8 @@ export const getTheme = (): Theme => {
       },
       activityBar: {
         activeIcon: color1,
+        activeIconBorder: color2,
+        background: background1,
         inactiveIcons: "#dbdbdb7c",
       },
       sideBar: {

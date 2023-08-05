@@ -25,6 +25,8 @@ export const getTheme = (): Theme => {
       },
       activityBar: {
         activeIcon: color1,
+        activeIconBorder: color2,
+        background: background1,
         inactiveIcons: "#939393",
       },
       /** trees and list windows */

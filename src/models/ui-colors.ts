@@ -6,8 +6,8 @@ import { Palette } from "./interfaces/palette.interface";
  */
 export function getColors(palette: Palette): any {
   return {
-    "activityBar.activeBorder": palette.code.type,
-    "activityBar.background": palette.ui.general.mainBackground,
+    "activityBar.activeBorder": palette.ui.activityBar.activeIconBorder,
+    "activityBar.background": palette.ui.activityBar.background,
     "activityBar.foreground": palette.ui.activityBar.activeIcon,
     "activityBar.inactiveForeground": palette.ui.activityBar.inactiveIcons, // plugin icons on the left bar
     "activityBarBadge.background": palette.code.keyword,

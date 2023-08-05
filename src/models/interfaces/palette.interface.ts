@@ -10,6 +10,8 @@ export interface Palette {
     };
     activityBar: {
       activeIcon: string;
+      activeIconBorder: string;
+      background: string;
       inactiveIcons: string;
     };
     /** trees and list windows */

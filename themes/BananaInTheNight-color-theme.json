@@ -2,7 +2,7 @@
   "name": "BananaInTheNight",
   "type": "dark",
   "colors": {
-    "activityBar.activeBorder": "#b8dbd9",
+    "activityBar.activeBorder": "#FCA311",
     "activityBar.background": "#1a1e27",
     "activityBar.foreground": "#FCA311",
     "activityBar.inactiveForeground": "#666666",
