@@ -34,7 +34,6 @@ export interface Palette {
       background: string;
       itemsForeground: string;
       border: string;
-      iconBackground: string;
       itemsHoverBackground: string;
     };
     tabs: {

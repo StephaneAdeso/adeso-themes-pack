@@ -49,8 +49,7 @@ export const getTheme = (): Theme => {
         background: '#ff0000',
         itemsForeground: '#ff0000',
         border: '#ff0000',
-        itemsHoverBackground: '#ff0000',
-        iconBackground: '#ff0000'
+        itemsHoverBackground: '#ff0000'
       },
       tabs: {
         background: color2Alpha,
