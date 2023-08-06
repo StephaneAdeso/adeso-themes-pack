@@ -49,4 +49,3 @@ themesList.forEach((theme) => {
 //TODO: Update Readme
 // TODO: Review # and . css selector color
 // TODO: Review @ decorator in ts files
-// TODO: check themes with extensions and indent lines off

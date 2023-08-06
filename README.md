@@ -14,17 +14,17 @@ This dark theme for [Visual Studio Code](http://code.visualstudio.com) is based 
 In this theme pack, you can find normal themes and others prepared for colorblind people.
 
 
-
+> Note: Colors may change over time.
 
 ### Monodark
 
 Theme based on the famous Monokai. Use bright colors without disturbing the eye.
 
-<span style="background:#252525;" class="color" >&shy;</span> 
+<span style="background:#1f1f1f;" class="color" >&shy;</span> 
 <span style="background:#22c0f0;" class="color" >&shy;</span>
 <span style="background:#437fff;" class="color" >&shy;</span>
 <span style="background:#56cc1f;" class="color" >&shy;</span> 
-<span style="background:#f1438c;" class="color" >&shy;</span>
+<span style="background:#eb5493;" class="color" >&shy;</span>
 <span style="background:#f69608;" class="color" >&shy;</span>
 <span style="background:#ae5dff;" class="color" >&shy;</span>
 
@@ -33,24 +33,24 @@ Theme based on the famous Monokai. Use bright colors without disturbing the eye.
 This theme tries to bring the colors of Monokai to the light side. If you like light themes, try this one.
 
 <span style="background:#F4F2F2;" class="color" >&shy;</span> 
-<span style="background:#00AFE4;" class="color" >&shy;</span>
+<span style="background:#00a2d3;" class="color" >&shy;</span>
 <span style="background:#0048E2;" class="color" >&shy;</span>
-<span style="background:#50b81f;" class="color" >&shy;</span> 
-<span style="background:#f1438c;" class="color" >&shy;</span>
-<span style="background:#e58800;" class="color" >&shy;</span>
-<span style="background:#ae5dff;" class="color" >&shy;</span>
+<span style="background:#389e08;" class="color" >&shy;</span> 
+<span style="background:#cf2c70;" class="color" >&shy;</span>
+<span style="background:#ca7900;" class="color" >&shy;</span>
+<span style="background:#9b36ff;" class="color" >&shy;</span>
 
-### Universal Dark
+### Banana in the night
 
-This theme is specially designed for people with color perception problems. It is based on the color palette of **Paul Tol**. Protanopia  (people that don't see red colors)  , deuteranopia (people that don't see green colors), and tritanopia (people that don't see blue colors)compatible. 
+Vivid and warm theme in orange and blue tones.
 
-<span style="background:#313131;" class="color" >&shy;</span> 
-<span style="background:#FBBED4;" class="color" >&shy;</span>
-<span style="background:#C1AF35;" class="color" >&shy;</span>
-<span style="background:#BEE7FB;" class="color" >&shy;</span> 
-<span style="background:#FBE7BE;" class="color" >&shy;</span>
-<span style="background:#7676ED;" class="color" >&shy;</span>
-<span style="background:#BEC5FB;" class="color" >&shy;</span>
+<span style="background:#1a1e27;" class="color" >&shy;</span> 
+<span style="background:#FCA311;" class="color" >&shy;</span>
+<span style="background:#666666;" class="color" >&shy;</span>
+<span style="background:#00cecb;" class="color" >&shy;</span> 
+<span style="background:#eb5e28;" class="color" >&shy;</span>
+<span style="background:#ffed66;" class="color" >&shy;</span>
+<span style="background:#E5E5E5;" class="color" >&shy;</span>
 
 ## Maintainers
 
