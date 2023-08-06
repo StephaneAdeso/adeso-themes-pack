@@ -1,7 +1,7 @@
 {
   "name": "adeso-themes-pack",
   "displayName": "Adeso Themes Pack",
-  "description": "Pack of various dark and light themes. Including some for people with visual problems.",
+  "description": "Pack of various dark and light themes.",
   "publisher": "StephaneAdeso",
   "version": "0.7.1",
   "repository": {
@@ -18,11 +18,7 @@
     "pack",
     "monokai",
     "free",
-    "adeso",
-    "Color blind",
-    "Protanopia",
-    "tritanopia",
-    "deuteranopia"
+    "adeso"
   ],
   "icon": "assets/icon/adeso_themepack_logo.png",
   "galleryBanner": {
