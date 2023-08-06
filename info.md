@@ -3,13 +3,7 @@
 If you want to use this repository to develop your own theme, you will find this information useful.
 
 
-When I started developing this theme, I discovered that working directly on the JSON file was very annoying and not very effective.
-
-
-I also discovered that you use the same colors in a lot of theme configurations.
-
-
-So I decided to create an automatic TypeScript theme generation system.
+In VSCode, themes are simply JSON files with the list of colors you want to use. Although I love JSON (much more than [YAML](https://noyaml.com/)), there are many things that cannot be done. So I decided to create a structure in TypeScript to generate those JSON more easily. If I had to start over, I would surely change some things knowing what I know now, but since this is just a hobby and it works well, it has stayed that way. I hope you enjoy it and have fun creating your own themes.
 
 ## Package.json scripts
 
