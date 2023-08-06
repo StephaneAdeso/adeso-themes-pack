@@ -5,6 +5,8 @@ If you want to use this repository to develop your own theme, you will find this
 
 In VSCode, themes are simply JSON files with the list of colors you want to use. Although I love JSON (much more than [YAML](https://noyaml.com/)), there are many things that cannot be done. So I decided to create a structure in TypeScript to generate those JSON more easily. If I had to start over, I would surely change some things knowing what I know now, but since this is just a hobby and it works well, it has stayed that way. I hope you enjoy it and have fun creating your own themes.
 
+To use this repository you only have to install the dependencies with `npm i`, execute the command `npm run watch` and press **F5** to see how your Theme is turning out.
+
 ## Package.json scripts
 
 In `package.json`, you will find two useful scripts:
@@ -18,7 +20,7 @@ If you want to add a color theme, just add a copy one of the theme files in the 
 
 After adding your theme, remember to register it also in the `package.json`.
 
-## Editing this project
+## Tips
 
 If you decide to edit this project, I will give you tips that may help you.
 
