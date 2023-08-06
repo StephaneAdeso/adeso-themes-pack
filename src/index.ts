@@ -45,7 +45,3 @@ themesList.forEach((theme) => {
   );
 });
 
-//TODO: Change documentation and colors
-//TODO: Update Readme
-// TODO: Review # and . css selector color
-// TODO: Review @ decorator in ts files
