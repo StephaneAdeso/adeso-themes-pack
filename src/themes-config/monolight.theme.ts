@@ -2,121 +2,122 @@ import Color from "color";
 import { ThemeTypes } from "../models/enums/themeTypes.enum";
 import { Theme } from "../models/theme";
 
-const background1 = "#d6d6d6";
-const background1Darken = Color(background1).darken(0.1).hexa();
+const foreground = "#111111";
+const background1 = "#e0e0e0";
+const menuBackground = Color(background1).darken(0.1).hexa();
+const menuBackground2 = Color(background1).darken(0.2).hexa();
 const background1Darken2 = Color(background1).darken(0.03).hexa();
+const comments = Color(background1).darken(0.3).hexa();
 const background1Lighten = Color(background1).lighten(0.1).hexa();
 const color1 = "#00a2d3";
 const color1Alpha = Color(color1).alpha(0.3).hexa();
 const color2 = "#cf2c70";
-const lineColor1 = "#e7e7e7";
 const color2Alpha = Color(color2).alpha(0.1).hexa();
-const foreground = "#111111";
 const transparent = "#00000000";
+
 
 export const getTheme = (): Theme => {
   return new Theme("Monolight", ThemeTypes.LIGHT, {
     ui: {
       titleBar: {
-        background: background1,
-        border: background1,
+        background: menuBackground,
+        border: menuBackground,
         foreground: foreground,
-        inactiveBackground: background1Darken,
+        inactiveBackground: background1,
         inactiveForeground: foreground
       },
       activityBar: {
         activeIcon: color1,
         activeIconBorder: color2,
-        background: background1,
+        background: menuBackground,
+        border: menuBackground,
+        bottomBadgeBackground: color2,
+        bottomBadgeForeground: foreground,
         inactiveIcons: "#939393",
-        border: background1,
-        bottomBadgeBackground: '#ff0000',
-        bottomBadgeForeground: '#ff0000'
       },
       breadcrumbs: {
-        background: '#ff0000',
-        foreground: '#ff0000'
+        background: background1,
+        foreground: foreground
       },
       minimap: {
-        background: "#ff0000"
+        background: background1
       },
       /** trees and list windows */
       sideBar: {
-        background: background1,
+        background: menuBackground,
         border: background1,
         itemsForeground: foreground,
+        sectionHeaderBackground: menuBackground,
         sectionHeaderForeground: foreground,
-        sectionHeaderBackground: background1,
-        sectionHeaderLineBorder: background1,
+        sectionHeaderLineBorder: menuBackground,
         titleForeground: color1
       },
       statusBar: {
-        background: '#ff0000',
-        itemsForeground: '#ff0000',
-        border: '#ff0000',
-        itemsHoverBackground: '#ff0000'
+        background: background1,
+        border: color2,
+        itemsForeground: foreground,
+        itemsHoverBackground: color1Alpha
       },
       tabs: {
         activeBackground: color2Alpha,
-        activeLeftAndRightBorder: "#ff0000",
-        activeBorderTop: color1,
         activeBorderBottom: color1,
-        activeForeground: "#ff0000",
+        activeBorderTop: color1,
+        activeForeground: foreground,
+        activeLeftAndRightBorder: transparent,
         inactiveBackground: background1,
-        inactiveForeground: "#ff0000",
-        unfocusedActiveForeground: "#ff0000",
-        unfocusedInactiveForeground: '#ff0000'
+        inactiveForeground: foreground,
+        unfocusedActiveForeground: foreground,
+        unfocusedInactiveForeground: foreground
       },
       /** main menus and pop windows like command palette */
       menus: {
-        background: background1Darken,
+        background: menuBackground2,
+        buttonBackground: color1Alpha,
+        foreground: foreground,
         hoverBackground: color1Alpha,
         inputBackground: background1Lighten,
-        foreground: foreground,
-        buttonBackground: '#ff0000'
       },
       lists: {
-        listActiveSelectionBackground: '#ff0000',
-        listActiveSelectionForeground: '#ff0000',
-        listFocusOutline: '#ff0000',
-        listFocusKeyboardBackground: '#ff0000',
-        listItemHoverBackground: '#ff0000',
-        quickInputBackground: '#ff0000',
-        quickInputForeground: '#ff0000',
-        quickInputFocusBackground: '#ff0000',
-        treeIndentGuideStroke: '#ff0000'
+        listActiveSelectionBackground: color1Alpha,
+        listActiveSelectionForeground: foreground,
+        listFocusKeyboardBackground: transparent,
+        listFocusOutline: color1,
+        listItemHoverBackground: color1Alpha,
+        quickInputBackground: menuBackground,
+        quickInputFocusBackground: color1Alpha,
+        quickInputForeground: foreground,
+        treeIndentGuideStroke: color1
       },
       editor: {
-        inlayHintBackground: background1Darken2,
-        lineActiveNumber: color2,
-        lineNumbersRulers: "#f7f7f7",
-        scrollbarLineSeparator: lineColor1,
-        selectedLineBorder: lineColor1,
-        background: '#ff0000',
-        groupHeaderTabsBackground: '#ff0000',
-        lineNumbersColumnBackground: '#ff0000',
-        inlayHintForeground: '#ff0000',
         activeIndentGuideColor: color1,
-        foreground: '#ff0000',
-        indentGuideColor: "#ff0000"
-
+        background: background1,
+        foreground: foreground,
+        groupHeaderTabsBackground: background1,
+        indentGuideColor: color1,
+        inlayHintBackground: background1Darken2,
+        inlayHintForeground: comments,
+        lineActiveNumber: color2,
+        lineNumbersColumnBackground: background1,
+        lineRulersNumbers: "#bdbdbd",
+        scrollbarLineSeparator: background1,
+        selectedLineBorder: background1Darken2,
+        groupBorder: menuBackground
       }
       ,
       panel: {
-        background: '#ff0000',
-        border: '#ff0000'
+        background: menuBackground,
+        border: menuBackground
       },
       global: {
-        scrollbarButtonColor: lineColor1,
-        windowResizeline: color1,
-        globalForeground: '#ff0000',
-        scrollbarShadow: '#ff0000',
-        globalFocusBorder: '#ff0000'
+        globalFocusBorder: color1,
+        globalForeground: foreground,
+        scrollbarButtonColor: menuBackground,
+        scrollbarShadow: transparent
       },
     },
     code: {
       boolean: "#0091A6",
-      comment: "#868686",
+      comment: comments,
       func: "#389e08",
       keyword: color2,
       numeric: "#9C00A6",
@@ -125,21 +126,8 @@ export const getTheme = (): Theme => {
       type: color1,
       typePrimitive: "#0048E2",
       usedProperties: "#9b36ff",
-      variable: "#2D2D2D",
+      variable: foreground,
     }
-
-
-
-
-
-
-
-    /* -----------------------------
-        -       Exclusive UI Colors    -
-        ----------------------------- */
-
-
-
 
   });
 };

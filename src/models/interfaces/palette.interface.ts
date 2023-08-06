@@ -14,9 +14,9 @@ export interface Palette {
       activeIconBorder: string;
       background: string;
       border: string;
-      inactiveIcons: string;
       bottomBadgeBackground: string;
       bottomBadgeForeground: string;
+      inactiveIcons: string;
     };
     breadcrumbs: {
       background: string;
@@ -31,22 +31,22 @@ export interface Palette {
       border: string;
       itemsForeground: string;
       sectionHeaderBackground: string;
-      sectionHeaderLineBorder: string;
       sectionHeaderForeground: string;
+      sectionHeaderLineBorder: string;
       titleForeground: string;
     };
     statusBar: {
       background: string;
-      itemsForeground: string;
       border: string;
+      itemsForeground: string;
       itemsHoverBackground: string;
     };
     tabs: {
       activeBackground: string;
-      activeLeftAndRightBorder: string;
-      activeBorderTop: string;
       activeBorderBottom: string;
+      activeBorderTop: string;
       activeForeground: string;
+      activeLeftAndRightBorder: string;
       inactiveBackground: string;
       inactiveForeground: string;
       unfocusedActiveForeground: string;
@@ -56,35 +56,36 @@ export interface Palette {
     menus: {
       background: string;
       buttonBackground: string;
+      foreground: string;
       hoverBackground: string;
       inputBackground: string;
-      foreground: string;
     };
     /** lists, trees, and quick input */
     lists: {
       listActiveSelectionBackground: string;
       listActiveSelectionForeground: string;
-      listFocusOutline: string;
       listFocusKeyboardBackground: string;
+      listFocusOutline: string;
       listItemHoverBackground: string;
       quickInputBackground: string;
-      quickInputForeground: string;
       quickInputFocusBackground: string;
+      quickInputForeground: string;
       treeIndentGuideStroke: string;
     };
     editor: {
+      activeIndentGuideColor: string;
       background: string;
+      foreground: string;
+      groupBorder: string;
+      groupHeaderTabsBackground: string;
+      indentGuideColor: string;
       inlayHintBackground: string;
       inlayHintForeground: string;
       lineActiveNumber: string;
-      lineNumbersRulers: string;
       lineNumbersColumnBackground: string;
+      lineRulersNumbers: string;
       scrollbarLineSeparator: string;
       selectedLineBorder: string;
-      groupHeaderTabsBackground: string;
-      activeIndentGuideColor: string;
-      indentGuideColor: string;
-      foreground: string;
     };
     /** bottom panel used for terminal, debug console, etc */
     panel: {
@@ -92,11 +93,10 @@ export interface Palette {
       border: string;
     }
     global: {
-      windowResizeline: string;
+      globalFocusBorder: string; // global focused border color. Used when not overriden.
+      globalForeground: string; // text color for items that dont have a specific configuration
       scrollbarButtonColor: string;
       scrollbarShadow: string;
-      globalForeground: string; // text color for items that dont have a specific configuration
-      globalFocusBorder: string; // global focused border color. Used when not overriden.
     };
   };
 

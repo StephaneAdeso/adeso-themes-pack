@@ -12,6 +12,7 @@ const color2Alpha = Color(color2).alpha(0.1).hexa();
 const lineColor1 = "#343434";
 const lineColor1Bright = Color(lineColor1).lighten(0.3).hexa();
 const transparent = "#00000000";
+const color3 = "#6e6e6e";
 
 export const getTheme = (): Theme => {
   return new Theme("Monodark", ThemeTypes.DARK, {
@@ -41,7 +42,7 @@ export const getTheme = (): Theme => {
       },
       sideBar: {
         background: background1,
-        border: background1,
+        border: lineColor1,
         itemsForeground: foreground,
         sectionHeaderForeground: foreground,
         sectionHeaderBackground: background1,
@@ -87,16 +88,17 @@ export const getTheme = (): Theme => {
       editor: {
         inlayHintBackground: background1Bright,
         lineActiveNumber: "#ae5dff",
-        lineNumbersRulers: lineColor1Bright,
+        lineRulersNumbers: lineColor1Bright,
         scrollbarLineSeparator: background1,
         selectedLineBorder: lineColor1,
         background: background1,
         groupHeaderTabsBackground: background1,
         lineNumbersColumnBackground: background1,
-        inlayHintForeground: "#6e6e6e",
+        inlayHintForeground: color3,
         activeIndentGuideColor: color1,
         foreground: "#cfcfcf",
-        indentGuideColor: "#6e6e6e"
+        indentGuideColor: color3,
+        groupBorder: lineColor1
       },
       panel: {
         background: background1,
@@ -104,7 +106,6 @@ export const getTheme = (): Theme => {
       },
       global: {
         scrollbarButtonColor: lineColor1,
-        windowResizeline: color1,
         globalForeground: foreground,
         globalFocusBorder: color1,
         scrollbarShadow: transparent
@@ -113,7 +114,7 @@ export const getTheme = (): Theme => {
     },
     code: {
       boolean: "#c09ad9",
-      comment: "#6e6e6e",
+      comment: color3,
       func: "#56cc1f",
       keyword: color2,
       numeric: "#a9dff0",

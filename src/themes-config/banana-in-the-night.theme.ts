@@ -29,15 +29,15 @@ export const getTheme = (): Theme => {
         background: background1,
         inactiveIcons: color2,
         border: background1,
-        bottomBadgeBackground: '#ff0000',
-        bottomBadgeForeground: '#ff0000'
+        bottomBadgeBackground: color1,
+        bottomBadgeForeground: background1
       },
       breadcrumbs: {
-        background: '#ff0000',
-        foreground: '#ff0000'
+        background: background1,
+        foreground: color2
       },
       minimap: {
-        background: "#ff0000"
+        background: background1
       },
       /** trees and list windows */
       sideBar: {
@@ -50,21 +50,21 @@ export const getTheme = (): Theme => {
         titleForeground: color1
       },
       statusBar: {
-        background: '#ff0000',
-        itemsForeground: '#ff0000',
-        border: '#ff0000',
-        itemsHoverBackground: '#ff0000'
+        background: background1,
+        itemsForeground: color1,
+        border: color1,
+        itemsHoverBackground: color1Alpha
       },
       tabs: {
         activeBackground: "#BEE7FB17",
-        activeLeftAndRightBorder: "#ff0000",
+        activeLeftAndRightBorder: transparent,
         activeBorderTop: color1,
         activeBorderBottom: color1,
-        activeForeground: "#ff0000",
+        activeForeground: foreground,
         inactiveBackground: background1,
-        inactiveForeground: "#ff0000",
-        unfocusedActiveForeground: "#ff0000",
-        unfocusedInactiveForeground: '#ff0000'
+        inactiveForeground: foreground,
+        unfocusedActiveForeground: foreground,
+        unfocusedInactiveForeground: foreground
       },
       /** main menus and pop windows like command palette */
       menus: {
@@ -72,43 +72,43 @@ export const getTheme = (): Theme => {
         hoverBackground: color1Alpha,
         inputBackground: background1Lighten2,
         foreground: foreground,
-        buttonBackground: '#ff0000'
+        buttonBackground: color1Alpha
       },
       lists: {
-        listActiveSelectionBackground: '#ff0000',
-        listActiveSelectionForeground: '#ff0000',
-        listFocusOutline: '#ff0000',
-        listFocusKeyboardBackground: '#ff0000',
-        listItemHoverBackground: '#ff0000',
-        quickInputBackground: '#ff0000',
-        quickInputForeground: '#ff0000',
-        quickInputFocusBackground: '#ff0000',
-        treeIndentGuideStroke: '#ff0000'
+        listActiveSelectionBackground: color1Alpha,
+        listActiveSelectionForeground: foreground,
+        listFocusOutline: color1,
+        listFocusKeyboardBackground: transparent,
+        listItemHoverBackground: color1Alpha,
+        quickInputBackground: background1Lighten2,
+        quickInputForeground: foreground,
+        quickInputFocusBackground: color1Alpha,
+        treeIndentGuideStroke: color1
       },
       editor: {
         inlayHintBackground: background1Lighten,
-        inlayHintForeground: '#ff0000',
+        inlayHintForeground: color2,
         lineActiveNumber: color1,
-        lineNumbersRulers: line1,
-        scrollbarLineSeparator: line1,
+        lineRulersNumbers: line1,
+        scrollbarLineSeparator: transparent,
         selectedLineBorder: color1Alpha2,
         background: background1,
-        groupHeaderTabsBackground: '#ff0000',
-        lineNumbersColumnBackground: '#ff0000',
+        groupHeaderTabsBackground: background1,
+        lineNumbersColumnBackground: background1,
         activeIndentGuideColor: color1,
-        foreground: '#ff0000',
-        indentGuideColor: "#ff0000"
+        foreground: foreground,
+        indentGuideColor: color2,
+        groupBorder: line1
       },
       panel: {
-        background: '#ff0000',
-        border: '#ff0000'
+        background: background1,
+        border: line1
       },
       global: {
         scrollbarButtonColor: line1,
-        windowResizeline: color1,
-        globalForeground: '#ff0000',
+        globalForeground: foreground,
         scrollbarShadow: transparent,
-        globalFocusBorder: '#ff0000'
+        globalFocusBorder: color1
       }
     },
     code: {
