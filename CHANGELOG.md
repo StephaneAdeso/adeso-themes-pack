@@ -6,13 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
-## [1.0.0] - 15-10-2022
+## [1.0.0] - 07-08-2023
 
 ### Changed
 - Migrated project from pure Json to Typescript.
-- Dimmed editor indent guides
-- Darkened background
-- Lightened softtened pink and green colors
+- A lot of changes and customizations
 ---
 
 ## [0.7.1] - 15-10-2022

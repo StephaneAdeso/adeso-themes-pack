@@ -3,115 +3,123 @@ export interface Palette {
   ui: {
     /** top menu bar */
     titleBar: {
-      background: string;
-      border: string;
-      foreground: string;
-      inactiveBackground: string;
-      inactiveForeground: string;
+      background: string | null;
+      border: string | null;
+      foreground: string | null;
+      inactiveBackground: string | null;
+      inactiveForeground: string | null;
     };
     activityBar: {
-      activeIcon: string;
-      activeIconBorder: string;
-      background: string;
-      border: string;
-      bottomBadgeBackground: string;
-      bottomBadgeForeground: string;
-      inactiveIcons: string;
+      activeIcon: string | null;
+      activeIconBorder: string | null;
+      background: string | null;
+      border: string | null;
+      bottomBadgeBackground: string | null;
+      bottomBadgeForeground: string | null;
+      inactiveIcons: string | null;
     };
     breadcrumbs: {
-      background: string;
-      foreground: string;
+      background: string | null;
+      foreground: string | null;
     };
     minimap: {
-      background: string;
+      background: string | null;
     };
     /** trees and list windows */
     sideBar: {
-      background: string;
-      border: string;
-      itemsForeground: string;
-      sectionHeaderBackground: string;
-      sectionHeaderForeground: string;
-      sectionHeaderLineBorder: string;
-      titleForeground: string;
+      background: string | null;
+      border: string | null;
+      itemsForeground: string | null;
+      sectionHeaderBackground: string | null;
+      sectionHeaderForeground: string | null;
+      sectionHeaderLineBorder: string | null;
+      titleForeground: string | null;
     };
     statusBar: {
-      background: string;
-      border: string;
-      itemsForeground: string;
-      itemsHoverBackground: string;
+      background: string | null;
+      border: string | null;
+      debuggingBackground: string | null;
+      debuggingBorder: string | null;
+      debuggingForeground: string | null;
+      itemsForeground: string | null;
+      itemsHoverBackground: string | null;
+      noFolderBackground: string | null;
+      noFolderBorder: string | null;
+      noFolderForeground: string | null;
+      offlineBackground: string | null;
+      offlineForeground: string | null;
     };
     tabs: {
-      activeBackground: string;
-      activeBorderBottom: string;
-      activeBorderTop: string;
-      activeForeground: string;
-      activeLeftAndRightBorder: string;
-      inactiveBackground: string;
-      inactiveForeground: string;
-      unfocusedActiveForeground: string;
-      unfocusedInactiveForeground: string;
+      activeBackground: string | null;
+      activeBorderBottom: string | null;
+      activeBorderTop: string | null;
+      activeForeground: string | null;
+      activeLeftAndRightBorder: string | null;
+      inactiveBackground: string | null;
+      inactiveForeground: string | null;
+      unfocusedActiveForeground: string | null;
+      unfocusedInactiveForeground: string | null;
     };
     /** main menus and pop windows like command palette */
     menus: {
-      background: string;
-      buttonBackground: string;
-      foreground: string;
-      hoverBackground: string;
-      inputBackground: string;
+      background: string | null;
+      buttonBackground: string | null;
+      foreground: string | null;
+      hoverBackground: string | null;
+      inputBackground: string | null;
     };
     /** lists, trees, and quick input */
     lists: {
-      listActiveSelectionBackground: string;
-      listActiveSelectionForeground: string;
-      listFocusKeyboardBackground: string;
-      listFocusOutline: string;
-      listItemHoverBackground: string;
-      quickInputBackground: string;
-      quickInputFocusBackground: string;
-      quickInputForeground: string;
-      treeIndentGuideStroke: string;
+      listActiveSelectionBackground: string | null;
+      listActiveSelectionForeground: string | null;
+      listFocusKeyboardBackground: string | null;
+      listFocusOutline: string | null;
+      listItemHoverBackground: string | null;
+      quickInputBackground: string | null;
+      quickInputFocusBackground: string | null;
+      quickInputForeground: string | null;
+      treeIndentGuideStroke: string | null;
     };
     editor: {
-      activeIndentGuideColor: string;
-      background: string;
-      foreground: string;
-      groupBorder: string;
-      groupHeaderTabsBackground: string;
-      indentGuideColor: string;
-      inlayHintBackground: string;
-      inlayHintForeground: string;
-      lineActiveNumber: string;
-      lineNumbersColumnBackground: string;
-      lineRulersNumbers: string;
-      scrollbarLineSeparator: string;
-      selectedLineBorder: string;
+      activeIndentGuideColor: string | null;
+      background: string | null;
+      foreground: string | null;
+      groupBorder: string | null;
+      groupHeaderTabsBackground: string | null;
+      indentGuideColor: string | null;
+      inlayHintBackground: string | null;
+      inlayHintForeground: string | null;
+      lineActiveNumber: string | null;
+      lineNumbersColumnBackground: string | null;
+      lineRulersNumbers: string | null;
+      scrollbarLineSeparator: string | null;
+      selectedLineBorder: string | null;
     };
     /** bottom panel used for terminal, debug console, etc */
     panel: {
-      background: string;
-      border: string;
+      background: string | null;
+      border: string | null;
     }
     global: {
-      globalFocusBorder: string; // global focused border color. Used when not overriden.
-      globalForeground: string; // text color for items that dont have a specific configuration
-      scrollbarButtonColor: string;
-      scrollbarShadow: string;
+      globalFocusBorder: string | null; // global focused border color. Used when not overriden.
+      globalForeground: string | null; // text color for items that dont have a specific configuration
+      scrollbarButtonColor: string | null;
+      scrollbarShadow: string | null;
     };
   };
 
   /** colors of the text editor */
   code: {
-    boolean: string;
-    comment: string;
-    func: string;
-    keyword: string;
-    numeric: string;
-    punctuation: string;
-    string: string;
-    type: string;
-    typePrimitive: string;
-    usedProperties: string;
-    variable: string;
+    boolean: string | null;
+    comment: string | null;
+    func: string | null;
+    keyword: string | null;
+    numeric: string | null;
+    punctuation: string | null;
+    string: string | null;
+    type: string | null;
+    typePrimitive: string | null;
+    usedProperties: string | null;
+    variable: string | null;
   };
 }

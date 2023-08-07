@@ -53,7 +53,15 @@ export const getTheme = (): Theme => {
         background: background1,
         itemsForeground: color1,
         border: color1,
-        itemsHoverBackground: color1Alpha
+        itemsHoverBackground: color1Alpha,
+        debuggingBackground: null,
+        debuggingBorder: null,
+        debuggingForeground: '#ffffff',
+        noFolderBackground: null,
+        noFolderBorder: null,
+        noFolderForeground: '#ffffff',
+        offlineBackground: null,
+        offlineForeground: '#ffffff',
       },
       tabs: {
         activeBackground: "#BEE7FB17",
