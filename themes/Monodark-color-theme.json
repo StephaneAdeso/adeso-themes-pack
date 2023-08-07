@@ -71,7 +71,7 @@
     "statusBarItem.errorBackground": null,
     "statusBarItem.errorForeground": null,
     "statusBarItem.focusBorder": null,
-    "statusBarItem.hoverBackground": "#2B2B2BFF",
+    "statusBarItem.hoverBackground": null,
     "statusBarItem.remoteBackground": "#eb5493",
     "statusBarItem.remoteForeground": "#ffffff",
     "statusBarItem.warningBackground": null,

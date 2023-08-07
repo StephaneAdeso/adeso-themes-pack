@@ -62,7 +62,7 @@ export const getTheme = (): Theme => {
         itemRemoteBackground: color2,
         ItemRemoteForeground: '#ffffff',
         itemsForeground: color1,
-        itemsHoverBackground: background1Bright,
+        itemsHoverBackground: null,
         itemWarningBackground: null,
         itemWarningForeground: null,
         noFolderBackground: null,
