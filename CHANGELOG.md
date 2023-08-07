@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
-## [1.0.3] -07-08-2023
+## [1.1.0] -07-08-2023
 
 ### Changed
 - Added statusbar and activitybar customization
