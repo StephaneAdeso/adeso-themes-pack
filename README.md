@@ -1,15 +1,13 @@
-# Monodark
+# Adeso Themes pack
 
 
-This dark theme for [Visual Studio Code](http://code.visualstudio.com) is based on the monokai color palette. It aims to give the user a colorful clean interface without so many lines.
+This is a pack of free themes. Below you can read a short description of each one of them. That you enjoy it.
 
-
-## Snapshot
 
 ![code samples](./assets/screenshot.png)
 
 
-## Color Themes
+## Themes
 
 In this theme pack, you can find normal themes and others prepared for colorblind people.
 
@@ -59,10 +57,6 @@ This theme is maintained by [Stephane Margini](https://www.linkedin.com/in/steph
 ## Special thanks
 
 To [Darcula theme](https://draculatheme.com/) for inspiring and sharing your sample project.
-
-To [David Nichols](https://davidmathlogic.com/) for his colorblind [online tool](https://davidmathlogic.com/colorblind/).
-
-To [Paul Tol](https://personal.sron.nl/~pault/) for his work on color blind palette.
 
 To Microsoft for making and maintaining the best free open source editor.
 
