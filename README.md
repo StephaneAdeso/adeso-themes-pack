@@ -1,7 +1,7 @@
 # Adeso Themes pack
 
 
-This is a pack of free themes. Below you can read a short description of each one of them. That you enjoy it.
+This is a pack of free themes. Below you can read a short description of each one of them. Enjoy it.
 
 
 ![code samples](./assets/screenshot.png)
