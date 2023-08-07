@@ -11,5 +11,4 @@ To review:
 - Add border customization on some elements.
 - Check # and . css selector color
 - @ decorator in ts files
-- check if activitybarbadge is not the same as the statusbar
-- check status bar icon color when hovered.
+
