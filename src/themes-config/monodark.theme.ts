@@ -30,8 +30,8 @@ export const getTheme = (): Theme => {
         background: background1,
         border: background1,
         inactiveIcons: "#dbdbdb7c",
-        bottomBadgeBackground: color2,
-        bottomBadgeForeground: background1
+        iconBadgeBackground: color2,
+        iconBadgeForeground: background1
       },
       breadcrumbs: {
         background: background1,
@@ -52,11 +52,19 @@ export const getTheme = (): Theme => {
       statusBar: {
         background: background1,
         border: color2,
-        itemsForeground: color1,
-        itemsHoverBackground: background1Bright,
         debuggingBackground: null,
         debuggingBorder: null,
         debuggingForeground: '#ffffff',
+        itemActiveBackground: null,
+        itemErrorBackground: null,
+        itemErrorForeground: null,
+        itemFocusBorder: null,
+        itemRemoteBackground: color2,
+        ItemRemoteForeground: '#ffffff',
+        itemsForeground: color1,
+        itemsHoverBackground: background1Bright,
+        itemWarningBackground: null,
+        itemWarningForeground: null,
         noFolderBackground: null,
         noFolderBorder: null,
         noFolderForeground: '#ffffff',

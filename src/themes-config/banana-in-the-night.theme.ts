@@ -29,8 +29,8 @@ export const getTheme = (): Theme => {
         background: background1,
         inactiveIcons: color2,
         border: background1,
-        bottomBadgeBackground: color1,
-        bottomBadgeForeground: background1
+        iconBadgeBackground: color1,
+        iconBadgeForeground: background1
       },
       breadcrumbs: {
         background: background1,
@@ -62,6 +62,14 @@ export const getTheme = (): Theme => {
         noFolderForeground: '#ffffff',
         offlineBackground: null,
         offlineForeground: '#ffffff',
+        itemRemoteBackground: null,
+        ItemRemoteForeground: background1,
+        itemErrorBackground: null,
+        itemErrorForeground: null,
+        itemWarningBackground: null,
+        itemWarningForeground: null,
+        itemActiveBackground: null,
+        itemFocusBorder: null,
       },
       tabs: {
         activeBackground: "#BEE7FB17",

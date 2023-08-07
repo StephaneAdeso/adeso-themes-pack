@@ -14,8 +14,8 @@ export interface Palette {
       activeIconBorder: string | null;
       background: string | null;
       border: string | null;
-      bottomBadgeBackground: string | null;
-      bottomBadgeForeground: string | null;
+      iconBadgeBackground: string | null;
+      iconBadgeForeground: string | null;
       inactiveIcons: string | null;
     };
     breadcrumbs: {
@@ -48,6 +48,16 @@ export interface Palette {
       noFolderForeground: string | null;
       offlineBackground: string | null;
       offlineForeground: string | null;
+
+      itemRemoteBackground: string | null;
+      ItemRemoteForeground: string | null;
+      itemErrorBackground: string | null;
+      itemErrorForeground: string | null;
+      itemWarningBackground: string | null;
+      itemWarningForeground: string | null;
+      itemActiveBackground: string | null;
+      itemFocusBorder: string | null;
+
     };
     tabs: {
       activeBackground: string | null;
