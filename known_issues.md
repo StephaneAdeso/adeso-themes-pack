@@ -8,7 +8,6 @@ To review:
 - css. media queries variables and functions (**lenguaje engine issue**)
 - dart. Some punctuations (**lenguaje engine issue**)
 - Active Indent line color
-- Add border customization on some elements.
 - Check # and . css selector color
 - @ decorator in ts files
 
