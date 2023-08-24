@@ -1,8 +1,5 @@
 import { Palette } from "../interfaces/palette.interface";
 
-/** SASS files inherit 99% of CSS configs. So check this file before
- * altering the sass-colors.ts file
- */
 export function getTypescriptColors(palette: Palette) {
   return [
     {
@@ -10,6 +7,13 @@ export function getTypescriptColors(palette: Palette) {
       scope: ["variable.language.super.ts"],
       settings: {
         foreground: palette.code.func,
+      },
+    },
+    {
+      name: "const, let, etc keywords",
+      scope: ["storage.type.ts"],
+      settings: {
+        foreground: palette.code.keyword,
       },
     },
   ];
