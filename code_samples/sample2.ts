@@ -119,6 +119,11 @@ export interface IntStations {
   uicStationCode: string;
 }
 
+export enum EnumEntityType {
+  PERSON = "person",
+  COMPANY = "company"
+}
+
 export const myObj = {
   age: 17,
   adult: false,
@@ -127,6 +132,10 @@ export const myObj = {
 
 @Decorator()
 class CreateFileDropProvider implements vscode.DocumentDropEditProvider {
+
+  myenum: typeof EnumEntityType = EnumEntityType;
+  myString: typeof string = "hello";
+
   constructor() {
     super();
 
