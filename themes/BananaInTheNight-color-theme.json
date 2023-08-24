@@ -685,6 +685,15 @@
       "settings": {
         "foreground": "#94d1be"
       }
+    },
+    {
+      "name": "const, let, etc keywords",
+      "scope": [
+        "storage.type.ts"
+      ],
+      "settings": {
+        "foreground": "#eb5e28"
+      }
     }
   ]
 }

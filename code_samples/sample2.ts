@@ -136,6 +136,21 @@ class CreateFileDropProvider implements vscode.DocumentDropEditProvider {
   myenum: typeof EnumEntityType = EnumEntityType;
   myString: typeof string = "hello";
 
+  doSomething() {
+
+    const invoiceData = {
+      name: "filip",
+      id: 233212
+    }
+
+    var myLovin = "lailolailolaaaai";
+
+    for (let prop in invoiceData) {
+      console.log(prop);
+    }
+  }
+
+
   constructor() {
     super();
 
