@@ -6,6 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
+## [1.1.1] 24-08-2023
+
+### Added
+- Typescript samples
+### Fixed
+- Typescript storage keywords
+
+
 ## [1.1.0] -07-08-2023
 
 ### Changed
